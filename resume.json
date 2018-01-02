@@ -192,7 +192,7 @@
     "education": [
         {
             "institution": "Faculty of Computer and Information Science",
-            "studyType": "The College Dropout",
+            "studyType": "Dropout",
             "startDate": "1994-10",
             "endDate": "1999-07"
         },
@@ -270,6 +270,7 @@
         {
             "name": "Learning",
             "keywords": [
+                "Go (golang)",
                 "Big Data",
                 "Red Hat Linux",
                 "Red Hat OpenShift",
@@ -277,7 +278,7 @@
             ]
         },
         {
-            "name": "Plan to learn",
+            "name": "Want to learn",
             "keywords": [
                 "ElasticSearch, LogStash, Kibana (ELK)",
                 "Apache Spark",
