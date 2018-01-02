@@ -1,0 +1,322 @@
+{
+    "basics": {
+        "name": "Ales Loncar",
+        "label": "Daytime maker of code, midnight baker / cook | Slovenian expat",
+        "picture": "avatar.png",
+        "email": "ales@loncar.net",
+        "phone": "+4917657625493",
+        "website": "http://loncar.net",
+        "summary": "I’m a Software Engineer with two decades of experience spanning various client, server and cloud infrastructure technologies. These days I work with:\n- Perl\n- Go (golang)\n- Infrastructure as Code ala Ansible\n- Containers (Docker, rkt) and container orchestration (Kubernetes)\n- Microservice Architectures\n- Modernizing legacy monoliths and infrastructures",
+        "location": {
+            "address": "Karl-Witthalm-Str. 32",
+            "postalCode": "81375",
+            "city": "München",
+            "countryCode": "DE",
+            "region": "Bayern"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "alesl",
+                "url": "https://www.linkedin.com/in/alesl/"
+            },
+            {
+                "network": "Instagram",
+                "username": "loncarales",
+                "url": "https://www.instagram.com/loncarales/"
+            },
+            {
+                "network": "Twitter",
+                "username": "loncarales",
+                "url": "https://twitter.com/loncarales"
+            },
+            {
+                "network": "GitHub",
+                "username": "loncarales",
+                "url": "https://github.com/loncarales"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Etkon GmbH/Straumann Group",
+            "position": "Software Engineer CAD/CAM",
+            "website": "http://www.straumann.com/",
+            "startDate": "2016-02",
+            "current": true,
+            "summary": "I am part of a Software Development Team in CAD/CAM department which is responsible for: * software solutions to automate CAD/CAM production processes * software solutions for mass processing data in 3D * database-driven production logistics processes * development of interfaces to various IT systems (web services and other protocols) and CNC machines for manufacturing * development of intranet applications to support the production workflow",
+            "keywords": [
+                "Perl",
+                "Ansible",
+                "GitLab",
+                "GitLab CI",
+                "Docker",
+                "Kubernetes",
+                "Go (golang)",
+                "MySQL",
+                "Redis",
+                "Microservices"
+            ],
+            "highlights": [
+                "Develop new functionality and refactoring of existing functionality",
+                "Processes implementation and improvement (optimization)",
+                "Proactively learn and utilize new technologies, concepts, and procedures as appropriate to project requirements",
+                "Code reviews",
+                "Perceived mentor: training other developers, pair programming"
+            ]
+        },
+        {
+            "company": "Travian Games GmbH",
+            "position": "Senior Developer",
+            "website": "http://www.traviangames.com",
+            "startDate": "2013-03",
+            "endDate": "2016-01",
+            "summary": "Acting as game / software developer in the Travian 5 Games department. Mostly involved in development of tools for Travian 5 game and building communication layers between Travian 5 game and 3rd party tools. Supported team migration from Gitorious to Stash.",
+            "keywords": [
+                "Agile",
+                "PHP",
+                "Zend Framework",
+                "JavaScript",
+                "AngularJS",
+                "Node.js",
+                "Git",
+                "MySQL",
+                "MongoDB",
+                "Redis",
+                "Jira",
+                "Confluence",
+                "Stash",
+                "Bamboo"
+            ],
+            "highlights": [
+                "Agile software development process: sprint planning, user story estimations, retrospectives and daily scrum meetings",
+                "Daily usage of Atlassian tools for more efficient development process",
+                "Develop new functionality and refactoring of existing functionality",
+                "Proactively learn and utilize new technologies, concepts, and procedures as appropriate to project requirements",
+                "Processes implementation and improvement (optimisation)",
+                "Code reviews",
+                "Perceived mentor: training other developers, pair programming"
+            ]
+        },
+        {
+            "company": "Central European Media Enterprises",
+            "position": "Senior Developer",
+            "website": "http://www.cetv-net.com",
+            "startDate": "2011-01",
+            "endDate": "2013-02",
+            "summary": "Developer on numerous projects: Voyo, Common Content Platform, Smart TV development. Working closely with central and local teams developing, integrating and coordinating deployment of new features",
+            "keywords": [
+                "PHP",
+                "Zend Framework",
+                "JavaScript",
+                "jQuery",
+                "Android",
+                "Widevine",
+                "MySQL",
+                "Doctrine"
+            ],
+            "highlights": [
+                "Voyo - Video On Demand Platform (TVOD, AVOD, SVOD, EST, PPV, LIVE Streaming)",
+                "CME Common Content Platform (Zend Framework)",
+                "API's for connected Mobile, Smart TV and STB devices (JSON-RPC, REST)",
+                "Android development (Phone, Tablet, STB)",
+                "Modules for Wowza Media Server",
+                "Video trans-coding workflow implementing Google Widevine DRM"
+            ]
+        },
+        {
+            "company": "Kitio d.o.o.",
+            "position": "Web / Mobile Developer",
+            "website": "http://www.kitio.com",
+            "startDate": "2008-12",
+            "endDate": "2010-12",
+            "summary": "Developer on multiple web & mobile projects including creating socile mobile portal called iSPACE.",
+            "keywords": [
+                "PHP",
+                "Zend Framework",
+                "JavaScript",
+                "jQuery",
+                "ExtJS",
+                "XHTML",
+                "CSS",
+                "MySQL"
+            ],
+            "highlights": [
+                "Web & mobile application development (using PHP with Zend Framework, jQuery & Ajax UI, XHTML, CSS",
+                "SMS publisher for iSpace portal (http://sms.ispace.si)",
+                "Real-time SMS chat web interface"
+            ]
+        },
+        {
+            "company": "AV studio d.o.o.",
+            "position": "Web Developer",
+            "website": "http://www.av-studio.si",
+            "startDate": "2000-09",
+            "endDate": "2008-11",
+            "summary": "Developer on multiple web projects build on AV SiteKit (Content management system).",
+            "keywords": [
+                "ASP",
+                "MSSQL",
+                "JavaScript",
+                "XHTML",
+                "CSS"
+            ],
+            "highlights": [
+                "Programming in ASP with Microsoft solutions",
+                "Network and systems administration",
+                "development and integration of AV SiteKit"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "RockOnNet",
+            "position": "Developer/Administrator/Editor",
+            "website": "http://www.rockonnet.com",
+            "startDate": "2002-09",
+            "endDate": "2013-09",
+            "summary": "RockOnNet is an online magazine for music enthusiasts. I've developed it in 2002 and it soon became an online think tank for young photographers and writers who wanted to share their thoughts about music. It is still alive and kicking to this day.",
+            "keywords": [
+                "PHP",
+                "JavaScript",
+                "MySQL",
+                "Photography",
+                "Apache",
+                "Linux"
+            ],
+            "highlights": [
+                "Proactively working as developer, administrator and editor of RockOnNet web magazine."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Faculty of Computer and Information Science",
+            "studyType": "The College Dropout",
+            "startDate": "1994-10",
+            "endDate": "1999-07"
+        },
+        {
+            "institution": "Gimnazija Murska Sobota",
+            "studyType": "High school diploma",
+            "startDate": "1990-09",
+            "endDate": "1994-06"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Honorable Mention @ Izzivamo Ideje",
+            "date": "2010-09",
+            "awarder": "Si.mobil",
+            "summary": "4 - 10 place with Android application: KjeSeRoka. The results of the event 'Izzivamo Ideje' http://slo-android.si/prispevki/sponzorske-objave/item/521-rezultati-razpisa-izzivamo-ideje.html"
+        }
+    ],
+    "skills": [
+        {
+            "name": "@Work",
+            "keywords": [
+                "Perl",
+                "Ansible",
+                "GitLab",
+                "GitLab CI",
+                "Docker",
+                "Kubernetes",
+                "Go (golang)",
+                "MySQL",
+                "Redis",
+                "Debian",
+                "CoreOS",
+                "Bash",
+                "Microservices"
+            ]
+        },
+        {
+            "name": "@Home",
+            "keywords": [
+                "Ansible",
+                "Docker",
+                "Kubernetes",
+                "Go (golang)",
+                "Node.js",
+                "MySQL",
+                "MongoDB",
+                "Confluence",
+                "Jira",
+                "BitBucket",
+                "GitHub",
+                "Debian",
+                "CoreOS",
+                "Arch Linux",
+                "Bash"
+            ]
+        },
+        {
+            "name": "Past",
+            "keywords": [
+                "PHP",
+                "Javascript",
+                "Java",
+                "Android",
+                "Vue.js",
+                "jQuery",
+                "Zend Framework",
+                "Silex",
+                "Symfony",
+                "Doctrine ORM",
+                "Bamboo",
+                "Ext JS"
+            ]
+        },
+        {
+            "name": "Learning",
+            "keywords": [
+                "Big Data",
+                "Red Hat Linux",
+                "Red Hat OpenShift",
+                "Apache Hadoop"
+            ]
+        },
+        {
+            "name": "Plan to learn",
+            "keywords": [
+                "ElasticSearch, LogStash, Kibana (ELK)",
+                "Apache Spark",
+                "Scala",
+                "Apache Kafka"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Slovenian",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Full professional proficiency"
+        },
+        {
+            "language": "German",
+            "fluency": "Professional working proficiency"
+        }
+
+    ],
+    "interests": [
+        {
+            "name": "reading",
+            "summary": "I am a fan of epic fantasy novels especially from R. A. Salvatore.",
+            "keywords": [
+                "Epic Fantasy",
+                "R. A. Salvatore",
+                "Drizzt Do'Urden"
+            ]
+        },
+        {
+            "name": "photography",
+            "summary": "My obsessesion with photography gave a birth of an online magazine RockOnNet - htpp://www.rockonnet.com"
+        },
+        {
+            "name": "cooking/baking"
+        }
+    ]
+}
