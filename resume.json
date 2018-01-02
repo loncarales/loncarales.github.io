@@ -143,7 +143,7 @@
             ],
             "highlights": [
                 "Web & mobile application development (using PHP with Zend Framework, jQuery & Ajax UI, XHTML, CSS",
-                "SMS publisher for iSpace portal (http://sms.ispace.si)",
+                "SMS publisher for <a href='http://sms.ispace.si'>iSpace</a> portal",
                 "Real-time SMS chat web interface"
             ]
         },
@@ -208,7 +208,7 @@
             "title": "Honorable Mention @ Izzivamo Ideje",
             "date": "2010-09",
             "awarder": "Si.mobil",
-            "summary": "4 - 10 place with Android application: KjeSeRoka. The results of the event 'Izzivamo Ideje' http://slo-android.si/prispevki/sponzorske-objave/item/521-rezultati-razpisa-izzivamo-ideje.html"
+            "summary": "4 - 10 place with Android application: KjeSeRoka. The results of the event 'Izzivamo Ideje' <a href='http://slo-android.si/prispevki/sponzorske-objave/item/521-rezultati-razpisa-izzivamo-ideje.html'>Results</a>"
         }
     ],
     "skills": [
@@ -293,13 +293,12 @@
         },
         {
             "language": "English",
-            "fluency": "Full professional proficiency"
+            "fluency": "Fluent"
         },
         {
             "language": "German",
-            "fluency": "Professional working proficiency"
+            "fluency": "Fluent"
         }
-
     ],
     "interests": [
         {
