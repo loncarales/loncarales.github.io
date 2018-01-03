@@ -233,6 +233,7 @@
                 "Docker",
                 "Kubernetes",
                 "Go (golang)",
+                "Python",
                 "Node.js",
                 "MySQL",
                 "MongoDB",
@@ -250,9 +251,11 @@
             "name": "Past",
             "keywords": [
                 "PHP",
+                "Python",
                 "Javascript",
                 "Java",
-                "Android",
+                "C#",
+                "C/C++",
                 "Vue.js",
                 "jQuery",
                 "Zend Framework",
@@ -270,7 +273,9 @@
                 "Big Data",
                 "Red Hat Linux",
                 "Red Hat OpenShift",
-                "Apache Hadoop"
+                "Apache Hadoop",
+                "AWS",
+                "Azure"
             ]
         },
         {
