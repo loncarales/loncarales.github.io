@@ -3,13 +3,9 @@
         "name": "Ales Loncar",
         "label": "Daytime maker of code, midnight baker / cook | Slovenian expat",
         "picture": "avatar.png",
-        "email": "ales@loncar.net",
-        "phone": "+4917657625493",
         "website": "http://loncar.net",
         "summary": "I’m a Software Engineer with two decades of experience spanning various client, server and cloud infrastructure technologies. These days I work with:\n- Perl\n- Go (golang)\n- Infrastructure as Code ala Ansible\n- Containers (Docker, rkt) and container orchestration (Kubernetes)\n- Microservice Architectures\n- Modernizing legacy monoliths and infrastructures",
         "location": {
-            "address": "Karl-Witthalm-Str. 32",
-            "postalCode": "81375",
             "city": "München",
             "countryCode": "DE",
             "region": "Bayern"
