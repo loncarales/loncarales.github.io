@@ -4,7 +4,7 @@
         "label": "Daytime maker of code, midnight baker / cook | Slovenian expat",
         "picture": "avatar.png",
         "website": "http://loncar.net",
-        "summary": "I’m a Software Engineer with two decades of experience spanning various client, server and cloud infrastructure technologies. These days I work with:\n- Perl\n- Go (golang)\n- Infrastructure as Code ala Ansible\n- Containers (Docker, rkt) and container orchestration (Kubernetes)\n- Microservice Architectures\n- Modernizing legacy monoliths and infrastructures",
+        "summary": "With the strong technical background and two decades of experience spanning various client, server and cloud infrastructure technologies. I'm a Software Engineer first and foremost who is never shy to reach out for a terminal. I always leave code and processes in better shape than when I first encountered them (Boy Scout Rule). Proactive problem solver.  A team player and passionate about working with talented teammates.  I like to learn, experiment and utilise new technologies, concepts and procedures as appropriate to project requirements. I embrace DevOps culture, Cloud Native and I like to build software in a “You build it, you run it” manner.\nThese days I work with:\n- Java, Spring Boot, Gradle\n- Go (golang)\n- Ansible, Jenkins, Nexus, SonarQube\n- Docker and container orchestration solutions (Kubernetes, RedHat OpenShift)\n- Microservice Architectures\n- Modernising legacy monoliths and infrastructures",
         "location": {
             "city": "München",
             "countryCode": "DE",
@@ -35,11 +35,37 @@
     },
     "work": [
         {
+            "company": "Catenate",
+            "position": "Senior Software Engineer",
+            "website": "https://catenate.com/",
+            "startDate": "2018-07",
+            "current": true,
+            "summary": "Being a part of the self-organises agile squad (Team Cup O' Code) where continual learning and experimentation in our daily work enable us to achieve the organisation's goals. Acting as a Team Lead/Agile Coach/Developer. My task spawns from leading technical discussions and debate issues with the engineering team and also get my hands a little dirty cutting code. From writing User Stories based on business requirements, doing code reviews, daily standups, meetings with clients, weekly retrospectives, coordination and collaboration to inspiring the team and taking care of that there are no impediments in the project. We are actively managing our technical debt by ensuring that we invest at least 20% of all cycles for non-functional requirements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.",
+            "keywords": [
+                "Java",
+                "Gradle",
+                "Spring Boot",
+                "Jenkins",
+                "Docker",
+                "Kubernetes",
+                "Red Hat OpenShift",
+                "Prometheus",
+                "Nexus",
+                "SonarQube"
+            ],
+            "highlights": [
+                "Team Lead of a small agile team",
+                "Processes implementation and improvement (optimization)",
+                "Perceived mentor: training other developers, pair programming",
+                "Tech talks: Cloud Computing, Containers and Container orchestration, DevOps Myths and Misconceptions, Vagrant, OpenShift, ..."
+            ]
+        },
+        {
             "company": "Etkon GmbH/Straumann Group",
             "position": "Software Engineer CAD/CAM",
             "website": "http://www.straumann.com/",
             "startDate": "2016-02",
-            "current": true,
+            "endDate": "2018-06",
             "summary": "I am part of a Software Development Team in CAD/CAM department which is responsible for: * software solutions to automate CAD/CAM production processes * software solutions for mass processing data in 3D * database-driven production logistics processes * development of interfaces to various IT systems (web services and other protocols) and CNC machines for manufacturing * development of intranet applications to support the production workflow",
             "keywords": [
                 "Perl",
@@ -211,17 +237,14 @@
         {
             "name": "@Work",
             "keywords": [
-                "Perl",
+                "Java",
+                "Gradle",
+                "Spring Boot",
                 "Ansible",
-                "GitLab",
-                "GitLab CI",
                 "Docker",
                 "Kubernetes",
                 "Go (golang)",
-                "MySQL",
-                "Redis",
-                "Debian",
-                "CoreOS",
+                "Red Hat OpenShift",
                 "Bash",
                 "Microservices"
             ]
@@ -229,10 +252,6 @@
         {
             "name": "@Home",
             "keywords": [
-                "Ansible",
-                "Docker",
-                "Kubernetes",
-                "Go (golang)",
                 "Python",
                 "Node.js",
                 "MySQL",
@@ -243,13 +262,13 @@
                 "GitHub",
                 "Debian",
                 "CoreOS",
-                "Arch Linux",
-                "Bash"
+                "Arch Linux"
             ]
         },
         {
             "name": "Past",
             "keywords": [
+                "Perl",
                 "PHP",
                 "Python",
                 "Javascript",
@@ -271,9 +290,7 @@
             "keywords": [
                 "Go (golang)",
                 "Big Data",
-                "Red Hat Linux",
-                "Red Hat OpenShift",
-                "Apache Hadoop",
+                "Serverles",
                 "AWS",
                 "Azure"
             ]
@@ -284,7 +301,8 @@
                 "ElasticSearch, LogStash, Kibana (ELK)",
                 "Apache Spark",
                 "Scala",
-                "Apache Kafka"
+                "Apache Kafka",
+                "Machine Learning"
             ]
         }
     ],
