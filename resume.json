@@ -4,7 +4,7 @@
         "label": "Daytime maker of code, midnight baker / cook | Slovenian expat",
         "picture": "avatar.png",
         "website": "http://loncar.net",
-        "summary": "With the strong technical background and two decades of experience spanning various client, server and cloud infrastructure technologies. I'm a Software Engineer first and foremost who is never shy to reach out for a terminal. I always leave code and processes in better shape than when I first encountered them (Boy Scout Rule). Proactive problem solver. A team player and passionate about working with talented teammates. I like to learn, experiment and utilise new technologies, concepts and procedures as appropriate to project requirements. I embrace DevOps culture, Cloud Native and I like to build software in a “You build it, you run it” manner.\nActing as:\n- Software Development  Lead: Working closely with our client's technical leads and management to align software project and plan the work with the software development team. I actively teach, advise, mentor and train during pair programming, code reviews, tech talks, conference calls.\n- Software Engineer: Solving day to day problems, mostly not related to business requirements but instead focus on non-functional elements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.\n- DevOps: I am utilising my knowledge of systems and software engineering as well as the IT automation of complex software systems in designing and setting up full CI/CD integration platform which runs on OpenShift. Collaborating closely with the product development team and addressing identified issues in software design, bottlenecks or/and manual configuration steps. Helping the team with the challenges which come when running containers at scale: service health, monitoring, logging and tracing.\nCurrent Tools of Trade:\n- Java, Spring Boot, Gradle, Maven\n- Go (own CLI applications  to help me with my daily CI/CD work)\n- Ansible, Jenkins, Nexus, SonarQube, Artifactory\n- Prometheus, Grafana\n- Docker, Kubernetes, RedHat OpenShift",
+        "summary": "With the strong technical background and two decades of experience spanning various client, server and cloud infrastructure technologies. I'm a Software Engineer first and foremost who is never shy to reach out for a terminal. I always leave code and processes in better shape than when I first encountered them (Boy Scout Rule). Proactive problem solver. A team player and passionate about working with talented teammates. I like to learn, experiment and utilise new technologies, concepts and procedures as appropriate to project requirements. I embrace DevOps culture, Cloud Native and I like to build software in a “You build it, you run it” manner.\nActing as:\n- Software Development  Lead: Working closely with our client's technical leads and management to align software project and plan the work with the software development team. I actively teach, advise, mentor and train during pair programming, code reviews, tech talks, conference calls.\n- Software Engineer: Solving day to day problems, mostly not related to business requirements but instead focus on non-functional elements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.\n- DevOps: I am utilising my knowledge of systems and software engineering as well as the IT automation of complex software systems in designing and setting up full CI/CD integration platform which runs on OpenShift. Collaborating closely with the product development team and addressing identified issues in software design, bottlenecks or/and manual configuration steps. Helping the team with the challenges which come when running containers at scale: service health, monitoring, logging and tracing.\nCurrent Tools of Trade:\n- Linux (Debian, CentOS, Archlinux) Bash, Zsh\n- Go (own CLI applications  to help me with my daily CI/CD work)\n- Docker, Kubernetes, RedHat OpenShift, Helm\n- Ansible, Jenkins, Nexus, SonarQube, Artifactory\n- Prometheus, Grafana",
         "location": {
             "city": "München",
             "countryCode": "DE",
@@ -42,16 +42,17 @@
             "current": true,
             "summary": "Being a part of the self-organises agile squad (Team Cup O' Code) where continual learning and experimentation in our daily work enable us to achieve the organisation's goals. Acting as a Acting as a Software Development Lead. My task spawns from leading technical discussions and debate issues with the engineering team and also get my hands a little dirty cutting code. From writing User Stories based on business requirements, doing code reviews, daily standups, meetings with clients, weekly retrospectives, coordination and collaboration to inspiring the team and taking care of that there are no impediments in the project. We are actively managing our technical debt by ensuring that we invest at least 20% of all cycles for non-functional requirements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.",
             "keywords": [
-                "Java",
-                "Gradle",
-                "Spring Boot",
                 "Jenkins",
                 "Docker",
                 "Kubernetes",
                 "RedHat OpenShift",
+                "Helm",
                 "Prometheus",
                 "Nexus",
-                "SonarQube"
+                "SonarQube",
+                "Linux",
+                "Go",
+                "Bash"
             ],
             "highlights": [
                 "Software Development Lead of a small agile team",
@@ -237,18 +238,18 @@
         {
             "name": "@Work",
             "keywords": [
-                "Java",
-                "Gradle",
-                "Spring Boot",
-                "Maven",
                 "Go",
                 "Ansible",
                 "Docker",
                 "Kubernetes",
                 "RedHat OpenShift",
+                "Helm",
+                "Jenkins",
                 "Prometheus",
                 "Grafana",
                 "Bash",
+                "Zsh",
+                "Linux",
                 "Microservices"
             ]
         },
@@ -264,7 +265,7 @@
                 "BitBucket",
                 "GitHub",
                 "Debian",
-                "Arch Linux"
+                "Archlinux"
             ]
         },
         {
