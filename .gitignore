@@ -1,4 +1,2 @@
-.nenv
-.venv
 node_modules
-package-lock.json
+jsonresume-theme-stackoverflow/

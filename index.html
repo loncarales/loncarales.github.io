@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <title>Ales Loncar</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
   <style>
   /********************************************
 * 	reset from
@@ -412,6 +412,7 @@ ul.courses li:hover {
 }
 
 .item {
+    overflow: hidden;
     padding: .5em 0;
 }
 
@@ -485,6 +486,14 @@ ul.courses li:hover {
 
 .flickr {
     color: #ff0084;
+}
+
+.reddit {
+    color: #ff4500;
+}
+
+.hacker-news {
+    color: #ff6600;
 }
 
 .stack-overflow::after {
@@ -627,10 +636,9 @@ ul.courses li:hover {
     }
     .toggle-item+label {
         display: block;
-        margin-top: -16px;
     }
     .toggle-item:checked+label:after {
-        content: '\f0d7';
+        content: "\f0d7";
     }
     .toggle-item+label:after {
         float: left;
@@ -638,8 +646,9 @@ ul.courses li:hover {
         margin-left: -20px;
         color: #aaa;
         font-size: 16px;
-        content: '\f0da';
-        font-family: Fontawesome;
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+        content: "\f0da";
     }
     .toggle-item~.item {
         height: 0;
@@ -777,10 +786,10 @@ ul.courses li:hover {
   
   <div id="resume">
     	<header id="header" class="clear">
-    		<img class="picture" src="avatar.png" alt="Ales Loncar" />
+    		<img class="picture" src="picture.png" alt="Ales Loncar" />
     		<div class="middle">
     			<h1 class="name">Ales Loncar</h1>
-    			<h2 class="label">Daytime maker of code, midnight baker / cook | Slovenian expat</h2>
+    			<h2 class="label">Software Engineer / DevOps Practitioner | Docker, Kubernetes, OpenShift, Helm, Ansible, Jenkins, GitLab</h2>
     		</div>
     		
     		<span class="location">
@@ -792,7 +801,7 @@ ul.courses li:hover {
     
     		<div id="contact">
     			<div class="website">
-    				<span class="fa fa-external-link"></span>
+    				<span class="fas fa-external-link-alt"></span>
     				<a target="_blank" target="_blank" href="http://loncar.net">http://loncar.net</a>
     			</div>
     		</div>
@@ -800,7 +809,7 @@ ul.courses li:hover {
     		<div id="profiles">
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-linkedin linkedin social"></span>
+    					<span class="fab fa-linkedin linkedin social"></span>
     					<span class="url">
     						<a target="_blank" href="https://www.linkedin.com/in/loncarales/">loncarales</a>
     					</span> 
@@ -808,7 +817,7 @@ ul.courses li:hover {
     			</div>
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-instagram instagram social"></span>
+    					<span class="fab fa-instagram instagram social"></span>
     					<span class="url">
     						<a target="_blank" href="https://www.instagram.com/loncarales/">loncarales</a>
     					</span> 
@@ -816,7 +825,7 @@ ul.courses li:hover {
     			</div>
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-twitter twitter social"></span>
+    					<span class="fab fa-twitter twitter social"></span>
     					<span class="url">
     						<a target="_blank" href="https://twitter.com/loncarales">loncarales</a>
     					</span> 
@@ -824,7 +833,7 @@ ul.courses li:hover {
     			</div>
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-github github social"></span>
+    					<span class="fab fa-github github social"></span>
     					<span class="url">
     						<a target="_blank" href="https://github.com/loncarales">loncarales</a>
     					</span> 
@@ -835,7 +844,7 @@ ul.courses li:hover {
     
     	<section class="section main-summary">
     		<section>
-    			<div><p>With the strong technical background and two decades of experience spanning various client, server and cloud infrastructure technologies. I'm a Software Engineer first and foremost who is never shy to reach out for a terminal. I always leave code and processes in better shape than when I first encountered them (Boy Scout Rule). Proactive problem solver. A team player and passionate about working with talented teammates. I like to learn, experiment and utilise new technologies, concepts and procedures as appropriate to project requirements. I embrace DevOps culture, Cloud Native and I like to build software in a “You build it, you run it” manner.</p><p>Acting as:</p><p>- Software Development  Lead: Working closely with our client's technical leads and management to align software project and plan the work with the software development team. I actively teach, advise, mentor and train during pair programming, code reviews, tech talks, conference calls.</p><p>- Software Engineer: Solving day to day problems, mostly not related to business requirements but instead focus on non-functional elements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.</p><p>- DevOps: I am utilising my knowledge of systems and software engineering as well as the IT automation of complex software systems in designing and setting up full CI/CD integration platform which runs on OpenShift. Collaborating closely with the product development team and addressing identified issues in software design, bottlenecks or/and manual configuration steps. Helping the team with the challenges which come when running containers at scale: service health, monitoring, logging and tracing.</p><p>Current Tools of Trade:</p><p>- Linux (Debian, CentOS, Archlinux) Bash, Zsh</p><p>- Go (own CLI applications  to help me with my daily CI/CD work)</p><p>- Docker, Kubernetes, RedHat OpenShift, Helm</p><p>- Ansible, Jenkins, Nexus, SonarQube, Artifactory</p><p>- Prometheus, Grafana</p></div>
+    			<div><p>With a strong technical background and two decades of experience spanning various client, server and cloud infrastructure technologies. I'm a Developer in the heart with DevOps in mind. I always leave code and processes in better shape than when I first encountered them (Boy Scout Rule). Proactive problem solver. A team player and passionate about working with talented teammates. I like to learn, experiment and utilise new technologies, concepts and procedures as appropriate to project requirements. I embrace Cloud Native, and I like to build software in a “You build it, you run it” manner.</p><p>Full time employed @ Catenate GmbH while supporting 50% of the work time PDM team @ Accenture</p></div>
     		</section>
     	</section>
     
@@ -849,6 +858,8 @@ ul.courses li:hover {
     				@Work
     			</h3>
     			 			<ul class="keywords">
+    				<li>Java</li>
+    				<li>Gradle</li>
     				<li>Go</li>
     				<li>Ansible</li>
     				<li>Docker</li>
@@ -856,6 +867,9 @@ ul.courses li:hover {
     				<li>RedHat OpenShift</li>
     				<li>Helm</li>
     				<li>Jenkins</li>
+    				<li>Nexus</li>
+    				<li>SonarQube</li>
+    				<li>Artifactory</li>
     				<li>Prometheus</li>
     				<li>Grafana</li>
     				<li>Bash</li>
@@ -869,6 +883,8 @@ ul.courses li:hover {
     				@Home
     			</h3>
     			 			<ul class="keywords">
+    				<li>AWS</li>
+    				<li>Azure</li>
     				<li>Python</li>
     				<li>Node.js</li>
     				<li>MySQL</li>
@@ -931,7 +947,7 @@ ul.courses li:hover {
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Work Experience <span class="item-count">(6)</span></h2>
+        <h2 class='section-title'>Work Experience <span class="item-count">(7)</span></h2>
       </header>
     
       <section id="work">
@@ -941,7 +957,51 @@ ul.courses li:hover {
             <label for="work-item-0"></label>
     
     			<header>
-    				<div class="position">Senior Software Engineer</div>
+    				<div class="position">Infrastructure Engineer / DevOps Practitioner</div>
+    				<div class="company">Accenture</div>
+    				<div class="date">
+    				  <span class="startDate">September 2018</span> 
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://www.accenture.com/">https://www.accenture.com/</a>
+        	</span>  
+        	<ul class="keywords">
+          	<li>Linux/Unix environment and scripting languages (Bash, Perl)</li>
+          	<li>Go</li>
+          	<li>Docker</li>
+          	<li>Kubernetes</li>
+          	<li>RedHat OpenShift</li>
+          	<li>Helm</li>
+          	<li>Ansible</li>
+          	<li>Jenkins</li>
+          	<li>Nexus</li>
+          	<li>SonarQube</li>
+          	<li>Artifactory</li>
+          	<li>Prometheus</li>
+          	<li>Grafana</li>
+        	</ul>
+        	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>With my prior knowledge of software engineering and systems, I am providing infrastructure expertise on a team to improve throughput and stability of applications which are running on OpenShift Container platform.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Maintaining existing and future software services code and configuration</p></li>
+                <li><p>Helping to implement and improving development CI/CD software pipeline</p></li>
+                <li><p>Helping implement new technologies in development for future deployments</p></li>
+                <li><p>Providing technical guidance, knowledge transfers and mentorship to peers as required</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-1" type="checkbox" class="toggle-item" />
+            <label for="work-item-1"></label>
+    
+    			<header>
+    				<div class="position">Senior Software Engineer / Software Development Lead</div>
     				<div class="company">Catenate</div>
     				<div class="date">
     				  <span class="startDate">July 2018</span> 
@@ -953,34 +1013,31 @@ ul.courses li:hover {
         		<a target="_blank" href="https://catenate.com/">https://catenate.com/</a>
         	</span>  
         	<ul class="keywords">
+          	<li>Java</li>
+          	<li>Gradle</li>
+          	<li>Confluence / Jira Cloud</li>
+          	<li>GitLab</li>
+          	<li>Jenkins</li>
+          	<li>Ansible</li>
           	<li>Jenkins</li>
           	<li>Docker</li>
-          	<li>Kubernetes</li>
-          	<li>RedHat OpenShift</li>
-          	<li>Helm</li>
-          	<li>Prometheus</li>
-          	<li>Nexus</li>
-          	<li>SonarQube</li>
-          	<li>Linux</li>
-          	<li>Go</li>
-          	<li>Bash</li>
         	</ul>
         	<div class="item" id="work-item">
             <div class="summary">
-              <p><p>Being a part of the self-organises agile squad (Team Cup O' Code) where continual learning and experimentation in our daily work enable us to achieve the organisation's goals. Acting as a Acting as a Software Development Lead. My task spawns from leading technical discussions and debate issues with the engineering team and also get my hands a little dirty cutting code. From writing User Stories based on business requirements, doing code reviews, daily standups, meetings with clients, weekly retrospectives, coordination and collaboration to inspiring the team and taking care of that there are no impediments in the project. We are actively managing our technical debt by ensuring that we invest at least 20% of all cycles for non-functional requirements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.</p></p>
+              <p><p>Working closely with our client's technical leads and management to align software project and plan the work with the software development team. I actively teach, advise, mentor and train during pair programming, code reviews, tech talks, conference calls. Solving day to day problems, mostly not related to business requirements but instead focus on non-functional elements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.</p></p>
             </div>
             <ul class="highlights">
-                <li><p>Software Development Lead of a small agile team</p></li>
-                <li><p>Processes implementation and improvement (optimization)</p></li>
-                <li><p>Perceived mentor: training other developers, pair programming</p></li>
-                <li><p>Tech talks: Cloud Computing, Containers and Container orchestration, DevOps Myths and Misconceptions, Vagrant, OpenShift, ...</p></li>
+                <li><p>Leading technical discussions and debate issues with the engineering team</p></li>
+                <li><p>I also get my hands dirty cutting code and doing code reviews, meeting with clients, coordination and collaboration to inspiring the team and taking care of that there are no impediments in the projects</p></li>
+                <li><p>Mentoring and training, pair programming</p></li>
+                <li><p>Tech talks: Cloud Computing, Containers and Container orchestration, DevOps Myths and Misconceptions, Vagrant, OpenShift</p></li>
             </ul>
         	</div>
         </section>
         <section class="work-item">
     
-            <input id="work-item-1" type="checkbox" class="toggle-item" />
-            <label for="work-item-1"></label>
+            <input id="work-item-2" type="checkbox" class="toggle-item" />
+            <label for="work-item-2"></label>
     
     			<header>
     				<div class="position">Software Engineer CAD/CAM</div>
@@ -1021,8 +1078,8 @@ ul.courses li:hover {
         </section>
         <section class="work-item">
     
-            <input id="work-item-2" type="checkbox" class="toggle-item" />
-            <label for="work-item-2"></label>
+            <input id="work-item-3" type="checkbox" class="toggle-item" />
+            <label for="work-item-3"></label>
     
     			<header>
     				<div class="position">Senior Developer</div>
@@ -1069,8 +1126,8 @@ ul.courses li:hover {
         </section>
         <section class="work-item">
     
-            <input id="work-item-3" type="checkbox" class="toggle-item" />
-            <label for="work-item-3"></label>
+            <input id="work-item-4" type="checkbox" class="toggle-item" />
+            <label for="work-item-4"></label>
     
     			<header>
     				<div class="position">Senior Developer</div>
@@ -1110,8 +1167,8 @@ ul.courses li:hover {
         </section>
         <section class="work-item">
     
-            <input id="work-item-4" type="checkbox" class="toggle-item" />
-            <label for="work-item-4"></label>
+            <input id="work-item-5" type="checkbox" class="toggle-item" />
+            <label for="work-item-5"></label>
     
     			<header>
     				<div class="position">Web / Mobile Developer</div>
@@ -1148,8 +1205,8 @@ ul.courses li:hover {
         </section>
         <section class="work-item">
     
-            <input id="work-item-5" type="checkbox" class="toggle-item" />
-            <label for="work-item-5"></label>
+            <input id="work-item-6" type="checkbox" class="toggle-item" />
+            <label for="work-item-6"></label>
     
     			<header>
     				<div class="position">Web Developer</div>
@@ -1240,7 +1297,7 @@ ul.courses li:hover {
     
       <section id="education">
         <section class="education-item">
-          <header>
+          <header class="clear">
             <div class="header-left">
               <div class="studyType">
                 Dropout
@@ -1265,7 +1322,7 @@ ul.courses li:hover {
           </div>
         </section>
         <section class="education-item">
-          <header>
+          <header class="clear">
             <div class="header-left">
               <div class="studyType">
                 High school diploma

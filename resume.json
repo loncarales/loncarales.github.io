@@ -1,10 +1,10 @@
 {
     "basics": {
         "name": "Ales Loncar",
-        "label": "Daytime maker of code, midnight baker / cook | Slovenian expat",
-        "picture": "avatar.png",
+        "label": "Software Engineer / DevOps Practitioner | Docker, Kubernetes, OpenShift, Helm, Ansible, Jenkins, GitLab",
+        "picture": "picture.png",
         "website": "http://loncar.net",
-        "summary": "With the strong technical background and two decades of experience spanning various client, server and cloud infrastructure technologies. I'm a Software Engineer first and foremost who is never shy to reach out for a terminal. I always leave code and processes in better shape than when I first encountered them (Boy Scout Rule). Proactive problem solver. A team player and passionate about working with talented teammates. I like to learn, experiment and utilise new technologies, concepts and procedures as appropriate to project requirements. I embrace DevOps culture, Cloud Native and I like to build software in a “You build it, you run it” manner.\nActing as:\n- Software Development  Lead: Working closely with our client's technical leads and management to align software project and plan the work with the software development team. I actively teach, advise, mentor and train during pair programming, code reviews, tech talks, conference calls.\n- Software Engineer: Solving day to day problems, mostly not related to business requirements but instead focus on non-functional elements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.\n- DevOps: I am utilising my knowledge of systems and software engineering as well as the IT automation of complex software systems in designing and setting up full CI/CD integration platform which runs on OpenShift. Collaborating closely with the product development team and addressing identified issues in software design, bottlenecks or/and manual configuration steps. Helping the team with the challenges which come when running containers at scale: service health, monitoring, logging and tracing.\nCurrent Tools of Trade:\n- Linux (Debian, CentOS, Archlinux) Bash, Zsh\n- Go (own CLI applications  to help me with my daily CI/CD work)\n- Docker, Kubernetes, RedHat OpenShift, Helm\n- Ansible, Jenkins, Nexus, SonarQube, Artifactory\n- Prometheus, Grafana",
+        "summary": "With a strong technical background and two decades of experience spanning various client, server and cloud infrastructure technologies. I'm a Developer in the heart with DevOps in mind. I always leave code and processes in better shape than when I first encountered them (Boy Scout Rule). Proactive problem solver. A team player and passionate about working with talented teammates. I like to learn, experiment and utilise new technologies, concepts and procedures as appropriate to project requirements. I embrace Cloud Native, and I like to build software in a “You build it, you run it” manner.\n\nFull time employed @ Catenate GmbH while supporting 50% of the work time PDM team @ Accenture",
         "location": {
             "city": "München",
             "countryCode": "DE",
@@ -35,30 +35,56 @@
     },
     "work": [
         {
+            "company": "Accenture",
+            "position": "Infrastructure Engineer / DevOps Practitioner",
+            "website": "https://www.accenture.com/",
+            "startDate": "2018-09",
+            "current": true,
+            "summary": "With my prior knowledge of software engineering and systems, I am providing infrastructure expertise on a team to improve throughput and stability of applications which are running on OpenShift Container platform.",
+            "keywords": [
+                "Linux/Unix environment and scripting languages (Bash, Perl)", 
+                "Go", 
+                "Docker", 
+                "Kubernetes", 
+                "RedHat OpenShift", 
+                "Helm", 
+                "Ansible", 
+                "Jenkins", 
+                "Nexus", 
+                "SonarQube", 
+                "Artifactory", 
+                "Prometheus", 
+                "Grafana"
+            ],
+            "highlights": [
+                "Maintaining existing and future software services code and configuration",
+                "Helping to implement and improving development CI/CD software pipeline",
+                "Helping implement new technologies in development for future deployments",
+                "Providing technical guidance, knowledge transfers and mentorship to peers as required"
+            ]
+        },
+        {
             "company": "Catenate",
-            "position": "Senior Software Engineer",
+            "position": "Senior Software Engineer / Software Development Lead",
             "website": "https://catenate.com/",
             "startDate": "2018-07",
             "current": true,
-            "summary": "Being a part of the self-organises agile squad (Team Cup O' Code) where continual learning and experimentation in our daily work enable us to achieve the organisation's goals. Acting as a Acting as a Software Development Lead. My task spawns from leading technical discussions and debate issues with the engineering team and also get my hands a little dirty cutting code. From writing User Stories based on business requirements, doing code reviews, daily standups, meetings with clients, weekly retrospectives, coordination and collaboration to inspiring the team and taking care of that there are no impediments in the project. We are actively managing our technical debt by ensuring that we invest at least 20% of all cycles for non-functional requirements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.",
+            "summary": "Working closely with our client's technical leads and management to align software project and plan the work with the software development team. I actively teach, advise, mentor and train during pair programming, code reviews, tech talks, conference calls. Solving day to day problems, mostly not related to business requirements but instead focus on non-functional elements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.",
             "keywords": [
+                "Java",
+                "Gradle", 
+                "Confluence / Jira Cloud",
+                "GitLab",
                 "Jenkins",
-                "Docker",
-                "Kubernetes",
-                "RedHat OpenShift",
-                "Helm",
-                "Prometheus",
-                "Nexus",
-                "SonarQube",
-                "Linux",
-                "Go",
-                "Bash"
+                "Ansible",
+                "Jenkins",
+                "Docker"
             ],
             "highlights": [
-                "Software Development Lead of a small agile team",
-                "Processes implementation and improvement (optimization)",
-                "Perceived mentor: training other developers, pair programming",
-                "Tech talks: Cloud Computing, Containers and Container orchestration, DevOps Myths and Misconceptions, Vagrant, OpenShift, ..."
+                "Leading technical discussions and debate issues with the engineering team",
+                "I also get my hands dirty cutting code and doing code reviews, meeting with clients, coordination and collaboration to inspiring the team and taking care of that there are no impediments in the projects",
+                "Mentoring and training, pair programming",
+                "Tech talks: Cloud Computing, Containers and Container orchestration, DevOps Myths and Misconceptions, Vagrant, OpenShift"
             ]
         },
         {
@@ -238,6 +264,8 @@
         {
             "name": "@Work",
             "keywords": [
+                "Java",
+                "Gradle",
                 "Go",
                 "Ansible",
                 "Docker",
@@ -245,6 +273,9 @@
                 "RedHat OpenShift",
                 "Helm",
                 "Jenkins",
+                "Nexus",
+                "SonarQube",
+                "Artifactory",
                 "Prometheus",
                 "Grafana",
                 "Bash",
@@ -256,6 +287,8 @@
         {
             "name": "@Home",
             "keywords": [
+                "AWS",
+                "Azure",
                 "Python",
                 "Node.js",
                 "MySQL",
