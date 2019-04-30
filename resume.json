@@ -1,10 +1,10 @@
 {
     "basics": {
         "name": "Ales Loncar",
-        "label": "Software Engineer / DevOps Practitioner | Docker, Kubernetes, OpenShift, Helm, Ansible, Jenkins, GitLab",
+        "label": "Software Engineer / DevOps Practitioner | Docker, Kubernetes, OpenShift, Helm, Ansible, Terraform, Jenkins, GitLab CI/CD",
         "picture": "picture.png",
         "website": "http://loncar.net",
-        "summary": "With a strong technical background and two decades of experience spanning various client, server and cloud infrastructure technologies. I'm a Developer in the heart with DevOps in mind. I always leave code and processes in better shape than when I first encountered them (Boy Scout Rule). Proactive problem solver. A team player and passionate about working with talented teammates. I like to learn, experiment and utilise new technologies, concepts and procedures as appropriate to project requirements. I embrace Cloud Native, and I like to build software in a “You build it, you run it” manner.\n\nFull time employed @ Catenate GmbH while supporting 50% of the work time PDM team @ Accenture",
+        "summary": "With a strong technical background and two decades of experience spanning various client, server and cloud infrastructure technologies. I'm a Developer in the heart with DevOps in mind. I always leave code and processes in better shape than when I first encountered them (Boy Scout Rule). Proactive problem solver. A team player and passionate about working with talented teammates. I like to learn, experiment and utilise new technologies, concepts and procedures as appropriate to project requirements. I embrace Cloud Native, and I like to build software in a “You build it, you run it” manner.",
         "location": {
             "city": "München",
             "countryCode": "DE",
@@ -42,19 +42,22 @@
             "current": true,
             "summary": "With my prior knowledge of software engineering and systems, I am providing infrastructure expertise on a team to improve throughput and stability of applications which are running on OpenShift Container platform.",
             "keywords": [
-                "Linux/Unix environment and scripting languages (Bash, Perl)", 
-                "Go", 
-                "Docker", 
-                "Kubernetes", 
-                "RedHat OpenShift", 
-                "Helm", 
-                "Ansible", 
-                "Jenkins", 
-                "Nexus", 
-                "SonarQube", 
-                "Artifactory", 
-                "Prometheus", 
-                "Grafana"
+                "Linux/Unix environment and scripting languages (Bash, Perl)",
+                "Go",
+                "Docker",
+                "Kubernetes",
+                "RedHat OpenShift",
+                "Helm",
+                "Ansible",
+                "Jenkins",
+                "Nexus",
+                "SonarQube",
+                "Artifactory",
+                "Prometheus",
+                "Grafana",
+                "Terraform",
+                "Confluence / Jira / BitBucket",
+                "OpenStack"
             ],
             "highlights": [
                 "Maintaining existing and future software services code and configuration",
@@ -72,8 +75,8 @@
             "summary": "Working closely with our client's technical leads and management to align software project and plan the work with the software development team. I actively teach, advise, mentor and train during pair programming, code reviews, tech talks, conference calls. Solving day to day problems, mostly not related to business requirements but instead focus on non-functional elements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.",
             "keywords": [
                 "Java",
-                "Gradle", 
-                "Confluence / Jira Cloud",
+                "Gradle",
+                "Confluence / Jira / BitBucket",
                 "GitLab",
                 "Jenkins",
                 "Ansible",
@@ -268,6 +271,7 @@
                 "Gradle",
                 "Go",
                 "Ansible",
+                "Terraform",
                 "Docker",
                 "Kubernetes",
                 "RedHat OpenShift",
@@ -281,7 +285,8 @@
                 "Bash",
                 "Zsh",
                 "Linux",
-                "Microservices"
+                "Microservices",
+                "OpenStack"
             ]
         },
         {

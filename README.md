@@ -13,3 +13,21 @@ The official resume-cli to run the development server.
 ```bash 
 npm install -g resume-cli
 ```
+
+#### Install and serve theme
+
+Clone the repository
+
+```bash
+git clone https://github.com/francescoes/jsonresume-theme-stackoverflow.git jsonresume-theme-stackoverflow
+```
+
+Navigate to the folder `/jsonresume-theme-stackoverflow` and simply run:
+
+```bash
+npm install
+```
+
+```bash
+resume serve
+```
