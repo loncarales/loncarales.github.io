@@ -1,382 +1,398 @@
 {
-    "basics": {
-        "name": "Ales Loncar",
-        "label": "Software Engineer / DevOps Practitioner | Docker, Kubernetes, OpenShift, Helm, Ansible, Terraform, Jenkins, GitLab CI/CD",
-        "picture": "picture.png",
-        "website": "http://loncar.net",
-        "summary": "With a strong technical background and two decades of experience spanning various client, server and cloud infrastructure technologies. I'm a Developer in the heart with DevOps in mind. I always leave code and processes in better shape than when I first encountered them (Boy Scout Rule). Proactive problem solver. A team player and passionate about working with talented teammates. I like to learn, experiment and utilise new technologies, concepts and procedures as appropriate to project requirements. I embrace Cloud Native, and I like to build software in a “You build it, you run it” manner.",
-        "location": {
-            "city": "München",
-            "countryCode": "DE",
-            "region": "Bayern"
-        },
-        "profiles": [
-            {
-                "network": "LinkedIn",
-                "username": "loncarales",
-                "url": "https://www.linkedin.com/in/loncarales/"
-            },
-            {
-                "network": "Instagram",
-                "username": "loncarales",
-                "url": "https://www.instagram.com/loncarales/"
-            },
-            {
-                "network": "Twitter",
-                "username": "loncarales",
-                "url": "https://twitter.com/loncarales"
-            },
-            {
-                "network": "GitHub",
-                "username": "loncarales",
-                "url": "https://github.com/loncarales"
-            }
-        ]
+  "basics": {
+    "name": "Ales Loncar",
+    "picture": "picture.png",
+    "label": "Software Engineering / DevOps / Cloud Computing Specialist",
+    "headline": "Daytime maker of code | Midnight baker / cook | Analog photography enthusiast | Wine sipper & Beer lover | Slovenian expat",
+    "summary": "Specialities:\n- \"The Right Tools for the Job\" development philosophy.\n- \"Boy Scout Rule\" - When we make changes to the code base, we should make sure we are leaving it (checking in to repository) cleaner.\n- Encouraging \"Run What You Build\" tenet for improving IT delivery using a DevOps model.\n- Advanced research, problem-solving and improvisational skills.\n- A passionate team player. I am always eager to work with talented teammates.\n- Able to quickly adapt and learn in different environments.\n- Like to learn, experiment and utilize new technologies.",
+    "website": "https://loncar.net/",
+    "blog": null,
+    "yearsOfExperience": 20,
+    "id": "c3dd9d7f-955a-45b8-b8ce-d74a2e20a57e",
+    "username": "loncarales",
+    "email": "ales.loncar@gmail.com",
+    "region": "Munich",
+    "location": {
+      "city": "München",
+      "countryCode": "DE",
+      "region": "Bayern"
     },
-    "work": [
-        {
-            "company": "Accenture",
-            "position": "Infrastructure Engineer / DevOps Practitioner",
-            "website": "https://www.accenture.com/",
-            "startDate": "2018-09",
-            "current": true,
-            "summary": "With my prior knowledge of software engineering and systems, I am providing infrastructure expertise on a team to improve throughput and stability of applications which are running on OpenShift Container platform.",
-            "keywords": [
-                "Linux/Unix environment and scripting languages (Bash, Perl)",
-                "Go",
-                "Docker",
-                "Kubernetes",
-                "RedHat OpenShift",
-                "Helm",
-                "Ansible",
-                "Jenkins",
-                "Nexus",
-                "SonarQube",
-                "Artifactory",
-                "Prometheus",
-                "Grafana",
-                "Terraform",
-                "Confluence / Jira / BitBucket",
-                "OpenStack"
-            ],
-            "highlights": [
-                "Maintaining existing and future software services code and configuration",
-                "Helping to implement and improving development CI/CD software pipeline",
-                "Helping implement new technologies in development for future deployments",
-                "Providing technical guidance, knowledge transfers and mentorship to peers as required"
-            ]
-        },
-        {
-            "company": "Catenate",
-            "position": "Senior Software Engineer / Software Development Lead",
-            "website": "https://catenate.com/",
-            "startDate": "2018-07",
-            "current": true,
-            "summary": "Working closely with our client's technical leads and management to align software project and plan the work with the software development team. I actively teach, advise, mentor and train during pair programming, code reviews, tech talks, conference calls. Solving day to day problems, mostly not related to business requirements but instead focus on non-functional elements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.",
-            "keywords": [
-                "Java",
-                "Gradle",
-                "Confluence / Jira / BitBucket",
-                "GitLab",
-                "Jenkins",
-                "Ansible",
-                "Jenkins",
-                "Docker"
-            ],
-            "highlights": [
-                "Leading technical discussions and debate issues with the engineering team",
-                "I also get my hands dirty cutting code and doing code reviews, meeting with clients, coordination and collaboration to inspiring the team and taking care of that there are no impediments in the projects",
-                "Mentoring and training, pair programming",
-                "Tech talks: Cloud Computing, Containers and Container orchestration, DevOps Myths and Misconceptions, Vagrant, OpenShift"
-            ]
-        },
-        {
-            "company": "Etkon GmbH/Straumann Group",
-            "position": "Software Engineer CAD/CAM",
-            "website": "http://www.straumann.com/",
-            "startDate": "2016-02",
-            "endDate": "2018-06",
-            "summary": "I am part of a Software Development Team in CAD/CAM department which is responsible for: * software solutions to automate CAD/CAM production processes * software solutions for mass processing data in 3D * database-driven production logistics processes * development of interfaces to various IT systems (web services and other protocols) and CNC machines for manufacturing * development of intranet applications to support the production workflow",
-            "keywords": [
-                "Perl",
-                "Ansible",
-                "GitLab",
-                "GitLab CI",
-                "Docker",
-                "Kubernetes",
-                "Go (golang)",
-                "MySQL",
-                "Redis",
-                "Microservices"
-            ],
-            "highlights": [
-                "Develop new functionality and refactoring of existing functionality",
-                "Processes implementation and improvement (optimization)",
-                "Proactively learn and utilize new technologies, concepts, and procedures as appropriate to project requirements",
-                "Code reviews",
-                "Perceived mentor: training other developers, pair programming"
-            ]
-        },
-        {
-            "company": "Travian Games GmbH",
-            "position": "Senior Developer",
-            "website": "http://www.traviangames.com",
-            "startDate": "2013-03",
-            "endDate": "2016-01",
-            "summary": "Acting as game / software developer in the Travian 5 Games department. Mostly involved in development of tools for Travian 5 game and building communication layers between Travian 5 game and 3rd party tools. Supported team migration from Gitorious to Stash.",
-            "keywords": [
-                "Agile",
-                "PHP",
-                "Zend Framework",
-                "JavaScript",
-                "AngularJS",
-                "Node.js",
-                "Git",
-                "MySQL",
-                "MongoDB",
-                "Redis",
-                "Jira",
-                "Confluence",
-                "Stash",
-                "Bamboo"
-            ],
-            "highlights": [
-                "Agile software development process: sprint planning, user story estimations, retrospectives and daily scrum meetings",
-                "Daily usage of Atlassian tools for more efficient development process",
-                "Develop new functionality and refactoring of existing functionality",
-                "Proactively learn and utilize new technologies, concepts, and procedures as appropriate to project requirements",
-                "Processes implementation and improvement (optimisation)",
-                "Code reviews",
-                "Perceived mentor: training other developers, pair programming"
-            ]
-        },
-        {
-            "company": "Central European Media Enterprises",
-            "position": "Senior Developer",
-            "website": "http://www.cetv-net.com",
-            "startDate": "2011-01",
-            "endDate": "2013-02",
-            "summary": "Developer on numerous projects: Voyo, Common Content Platform, Smart TV development. Working closely with central and local teams developing, integrating and coordinating deployment of new features",
-            "keywords": [
-                "PHP",
-                "Zend Framework",
-                "JavaScript",
-                "jQuery",
-                "Android",
-                "Widevine",
-                "MySQL",
-                "Doctrine"
-            ],
-            "highlights": [
-                "Voyo - Video On Demand Platform (TVOD, AVOD, SVOD, EST, PPV, LIVE Streaming)",
-                "CME Common Content Platform (Zend Framework)",
-                "API's for connected Mobile, Smart TV and STB devices (JSON-RPC, REST)",
-                "Android development (Phone, Tablet, STB)",
-                "Modules for Wowza Media Server",
-                "Video trans-coding workflow implementing Google Widevine DRM"
-            ]
-        },
-        {
-            "company": "Kitio d.o.o.",
-            "position": "Web / Mobile Developer",
-            "website": "http://www.kitio.com",
-            "startDate": "2008-12",
-            "endDate": "2010-12",
-            "summary": "Developer on multiple web & mobile projects including creating socile mobile portal called iSPACE.",
-            "keywords": [
-                "PHP",
-                "Zend Framework",
-                "JavaScript",
-                "jQuery",
-                "ExtJS",
-                "XHTML",
-                "CSS",
-                "MySQL"
-            ],
-            "highlights": [
-                "Web & mobile application development (using PHP with Zend Framework, jQuery & Ajax UI, XHTML, CSS",
-                "SMS publisher for <a href='http://sms.ispace.si'>iSpace</a> portal",
-                "Real-time SMS chat web interface"
-            ]
-        },
-        {
-            "company": "AV studio d.o.o.",
-            "position": "Web Developer",
-            "website": "http://www.av-studio.si",
-            "startDate": "2000-09",
-            "endDate": "2008-11",
-            "summary": "Developer on multiple web projects build on AV SiteKit (Content management system).",
-            "keywords": [
-                "ASP",
-                "MSSQL",
-                "JavaScript",
-                "XHTML",
-                "CSS"
-            ],
-            "highlights": [
-                "Programming in ASP with Microsoft solutions",
-                "Network and systems administration",
-                "development and integration of AV SiteKit"
-            ]
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "RockOnNet",
-            "position": "Developer/Administrator/Editor",
-            "website": "http://www.rockonnet.com",
-            "startDate": "2002-09",
-            "endDate": "2013-09",
-            "summary": "RockOnNet is an online magazine for music enthusiasts. I've developed it in 2002 and it soon became an online think tank for young photographers and writers who wanted to share their thoughts about music. It is still alive and kicking to this day.",
-            "keywords": [
-                "PHP",
-                "JavaScript",
-                "MySQL",
-                "Photography",
-                "Apache",
-                "Linux"
-            ],
-            "highlights": [
-                "Proactively working as developer, administrator and editor of RockOnNet web magazine."
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "Faculty of Computer and Information Science",
-            "studyType": "Dropout",
-            "startDate": "1994-10",
-            "endDate": "1999-07"
-        },
-        {
-            "institution": "Gimnazija Murska Sobota",
-            "studyType": "High school diploma",
-            "startDate": "1990-09",
-            "endDate": "1994-06"
-        }
-    ],
-    "awards": [
-        {
-            "title": "Honorable Mention @ Izzivamo Ideje",
-            "date": "2010-09",
-            "awarder": "Si.mobil",
-            "summary": "4 - 10 place with Android application: KjeSeRoka. The results of the event 'Izzivamo Ideje' <a href='http://slo-android.si/prispevki/sponzorske-objave/item/521-rezultati-razpisa-izzivamo-ideje.html'>Results</a>"
-        }
-    ],
-    "skills": [
-        {
-            "name": "@Work",
-            "keywords": [
-                "Java",
-                "Gradle",
-                "Go",
-                "Ansible",
-                "Terraform",
-                "Docker",
-                "Kubernetes",
-                "RedHat OpenShift",
-                "Helm",
-                "Jenkins",
-                "Nexus",
-                "SonarQube",
-                "Artifactory",
-                "Prometheus",
-                "Grafana",
-                "Bash",
-                "Zsh",
-                "Linux",
-                "Microservices",
-                "OpenStack"
-            ]
-        },
-        {
-            "name": "@Home",
-            "keywords": [
-                "AWS",
-                "Azure",
-                "Python",
-                "Node.js",
-                "MySQL",
-                "MongoDB",
-                "Confluence",
-                "Jira",
-                "BitBucket",
-                "GitHub",
-                "Debian",
-                "Archlinux"
-            ]
-        },
-        {
-            "name": "Past",
-            "keywords": [
-                "Perl",
-                "PHP",
-                "Python",
-                "Javascript",
-                "Java",
-                "C#",
-                "C/C++",
-                "Vue.js",
-                "jQuery",
-                "Zend Framework",
-                "Silex",
-                "Symfony",
-                "Doctrine ORM",
-                "Bamboo",
-                "Ext JS"
-            ]
-        },
-        {
-            "name": "Learning",
-            "keywords": [
-                "Go",
-                "Cloud Computing",
-                "Serverles",
-                "AWS",
-                "Azure"
-            ]
-        },
-        {
-            "name": "Want to learn",
-            "keywords": [
-                "ElasticSearch, LogStash, Kibana (ELK)",
-                "Apache Spark",
-                "Scala",
-                "Apache Kafka",
-                "Machine Learning"
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "language": "Slovenian",
-            "fluency": "Native speaker"
-        },
-        {
-            "language": "English",
-            "fluency": "Fluent"
-        },
-        {
-            "language": "German",
-            "fluency": "Fluent"
-        }
-    ],
-    "interests": [
-        {
-            "name": "reading",
-            "summary": "I am a fan of epic fantasy novels especially from R. A. Salvatore.",
-            "keywords": [
-                "Epic Fantasy",
-                "R. A. Salvatore",
-                "Drizzt Do'Urden"
-            ]
-        },
-        {
-            "name": "photography",
-            "summary": "My obsessesion with photography gave a birth of an online magazine <a href='htpp://www.rockonnet.com'>RockOnNet</a>"
-        },
-        {
-            "name": "cooking/baking"
-        }
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "loncarales",
+        "url": "https://www.linkedin.com/in/loncarales/"
+      },
+      {
+        "network": "GitHub",
+        "username": "loncarales",
+        "url": "https://github.com/loncarales"
+      }
     ]
+  },
+  "work": [
+    {
+      "company": "Eigenes Gewerbe / Self employed",
+      "position": "Software Engineering / DevOps / Cloud Computing Specialist",
+      "website": "https://loncar.net/",
+      "location": "Munich",
+      "summary": "Always eager to help companies create smart, orchestrated and adaptive customer experience.\n\nIn the past, I've worked in various roles as Web/Mobile/Backend Developer, System Integrator, Project Manager, Development Lead, DevOps & Cloud Specialist. During these two decades, I've gathered much experience while working with different clients in various industries.\n\nSome of the clients I've worked with:\n- Home appliances (for Gorenje @ AV Studio)\n- Pharmaceutical (for GlaxoSmithKline @Pangaea)\n- Media (@Central European Media Enterprises)\n- Gaming (@Travian)\n- Digital Dentistry (@Etkon/Straumann)\n- Automotive (for BMW @ Accenture)\n- Financial services (for Allianz @ Catenate)\n- Logistics (for DHL @ Publicis Sapient) ",
+      "isCurrentRole": true,
+      "startDate": "2019-11-01",
+      "endDate": "",
+      "start": {
+        "year": 2019,
+        "month": 11
+      },
+      "end": {},
+      "highlights": []
+    },
+    {
+      "company": "Publicis Sapient",
+      "position": "Senior DevOps Engineer",
+      "website": "https://www.publicissapient.com/",
+      "location": "Munich",
+      "summary": "Working closely with the client's logistics team to align software project and plan the work with\nthe development/infrastructure team. Helping streamline teams, speed development, increase agility and accelerate software releases. \n\nThe tools we were using are these days buzzwords:\n- Running containerize apps with Docker and OpenShift\n- Cloud Computing With Azure\n- IaC with Ansible, Packer and Terraform\n- Automation, automation, automation",
+      "keywords": [
+        "Ansible",
+        "Terraform",
+        "Jenkins",
+        "Bash/Shell",
+        "Docker",
+        "OpenShift",
+        "Azure"
+      ],
+      "isCurrentRole": false,
+      "startDate": "2019-11-01",
+      "endDate": "2020-06-01",
+      "start": {
+        "year": 2019,
+        "month": 11
+      },
+      "end": {
+        "year": 2020,
+        "month": 6
+      },
+      "highlights": [
+        "Helping to implement and improving development CI/CD software pipeline",
+        "Helping implement new technologies in development for future deployments",
+        "Providing technical guidance, knowledge transfers and mentorship to peers as required"
+      ]
+    },
+    {
+      "company": "Accenture",
+      "position": "Infrastructure Engineer / DevOps Practitioner",
+      "website": "https://www.accenture.com/",
+      "location": "Munich",
+      "startDate": "2018-09-01",
+      "endDate": "2019-10-01",
+      "start": {
+        "year": 2018,
+        "month": 9
+      },
+      "end": {
+        "year": 2019,
+        "month": 10
+      },
+      "isCurrentRole": false,
+      "summary": "With my prior knowledge of software engineering and systems, I am providing infrastructure expertise on a team to improve throughput and stability of applications which are running on OpenShift Container Platform.",
+      "keywords": [
+        "Linux/Unix environment and scripting languages (Bash, Perl)",
+        "Go",
+        "Docker",
+        "Kubernetes",
+        "RedHat OpenShift Container Platform",
+        "Helm",
+        "Ansible",
+        "Jenkins",
+        "Nexus",
+        "SonarQube",
+        "Artifactory",
+        "Prometheus",
+        "Grafana",
+        "Terraform",
+        "Confluence / Jira / BitBucket",
+        "OpenStack"
+      ],
+      "highlights": [
+        "OpenShift Container Platform: Migration of existing applications from traditional server world to the world of containers",
+        "OpenShift Container Platform: Implementing CI/CD, testing and monitoring infrastructure in the cluster: Jenkins, SonarQube, Fitnesse, Prometheus, Microservices",
+        "OpenShift Container Platform: Applications and persistent volumes migration from different cluster versions (from 3.6 to 3.9)",
+        "OpenShift Container Platform: Implementing a complete monitoring suite (Prometheus, Pushgateway, Alert Manager) inside the whole cluster"
+      ]
+    },
+    {
+      "company": "Catenate",
+      "position": "Senior Software Engineer / Software Development Lead",
+      "website": "https://catenate.com/",
+      "startDate": "2018-07-01",
+      "endDate": "2019-10-01",
+      "start": {
+        "year": 2018,
+        "month": 7
+      },
+      "end": {
+        "year": 2019,
+        "month": 10
+      },
+      "isCurrentRole": false,
+      "summary": "Working closely with our client's technical leads and management to align software project and plan the work with the software development team. I actively teach, advise, mentor and train during pair programming, code reviews, tech talks, conference calls. Solving day to day problems, mostly not related to business requirements but instead focus on non-functional elements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.",
+      "keywords": [
+        "Java",
+        "Gradle",
+        "Confluence / Jira / BitBucket",
+        "GitLab",
+        "Jenkins",
+        "Ansible",
+        "Jenkins",
+        "Docker"
+      ],
+      "highlights": [
+        "Leading technical discussions and debate issues with the engineering team",
+        "I also get my hands dirty cutting code and doing code reviews, meeting with clients, coordination and collaboration to inspiring the team and taking care of that there are no impediments in the projects",
+        "Mentoring and training, pair programming",
+        "Tech talks: Cloud Computing, Containers and Container orchestration, DevOps Myths and Misconceptions, Vagrant, OpenShift"
+      ]
+    },
+    {
+      "company": "Etkon GmbH/Straumann Group",
+      "position": "Software Engineer CAD/CAM",
+      "website": "http://www.straumann.com/",
+      "startDate": "2016-02",
+      "endDate": "2018-06",
+      "summary": "I am part of a Software Development Team in CAD/CAM department which is responsible for: * software solutions to automate CAD/CAM production processes * software solutions for mass processing data in 3D * database-driven production logistics processes * development of interfaces to various IT systems (web services and other protocols) and CNC machines for manufacturing * development of intranet applications to support the production workflow",
+      "keywords": [
+        "Perl",
+        "Ansible",
+        "GitLab",
+        "GitLab CI",
+        "Docker",
+        "Kubernetes",
+        "Go (golang)",
+        "MySQL",
+        "Redis",
+        "Microservices"
+      ],
+      "highlights": [
+        "Develop new functionality and refactoring of existing functionality",
+        "Processes implementation and improvement (optimization)",
+        "Proactively learn and utilize new technologies, concepts, and procedures as appropriate to project requirements",
+        "Code reviews",
+        "Perceived mentor: training other developers, pair programming"
+      ]
+    },
+    {
+      "company": "Travian Games GmbH",
+      "position": "Senior Developer",
+      "website": "http://www.traviangames.com",
+      "startDate": "2013-03",
+      "endDate": "2016-01",
+      "summary": "Acting as game / software developer in the Travian 5 Games department. Mostly involved in development of tools for Travian 5 game and building communication layers between Travian 5 game and 3rd party tools. Supported team migration from Gitorious to Stash.",
+      "keywords": [
+        "Agile",
+        "PHP",
+        "Zend Framework",
+        "JavaScript",
+        "AngularJS",
+        "Node.js",
+        "Git",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Jira",
+        "Confluence",
+        "Stash",
+        "Bamboo"
+      ],
+      "highlights": [
+        "Agile software development process: sprint planning, user story estimations, retrospectives and daily scrum meetings",
+        "Daily usage of Atlassian tools for more efficient development process",
+        "Develop new functionality and refactoring of existing functionality",
+        "Proactively learn and utilize new technologies, concepts, and procedures as appropriate to project requirements",
+        "Processes implementation and improvement (optimisation)",
+        "Code reviews",
+        "Perceived mentor: training other developers, pair programming"
+      ]
+    },
+    {
+      "company": "Central European Media Enterprises",
+      "position": "Senior Developer",
+      "website": "http://www.cetv-net.com",
+      "startDate": "2011-01",
+      "endDate": "2013-02",
+      "summary": "Developer on numerous projects: Voyo, Common Content Platform, Smart TV development. Working closely with central and local teams developing, integrating and coordinating deployment of new features",
+      "keywords": [
+        "PHP",
+        "Zend Framework",
+        "JavaScript",
+        "jQuery",
+        "Android",
+        "Widevine",
+        "MySQL",
+        "Doctrine"
+      ],
+      "highlights": [
+        "Voyo - Video On Demand Platform (TVOD, AVOD, SVOD, EST, PPV, LIVE Streaming)",
+        "CME Common Content Platform (Zend Framework)",
+        "API's for connected Mobile, Smart TV and STB devices (JSON-RPC, REST)",
+        "Android development (Phone, Tablet, STB)",
+        "Modules for Wowza Media Server",
+        "Video trans-coding workflow implementing Google Widevine DRM"
+      ]
+    },
+    {
+      "company": "Kitio d.o.o.",
+      "position": "Web / Mobile Developer",
+      "website": "http://www.kitio.com",
+      "startDate": "2008-12",
+      "endDate": "2010-12",
+      "summary": "Developer on multiple web & mobile projects including creating socile mobile portal called iSPACE.",
+      "keywords": [
+        "PHP",
+        "Zend Framework",
+        "JavaScript",
+        "jQuery",
+        "ExtJS",
+        "XHTML",
+        "CSS",
+        "MySQL"
+      ],
+      "highlights": [
+        "Web & mobile application development (using PHP with Zend Framework, jQuery & Ajax UI, XHTML, CSS",
+        "SMS publisher for <a href='http://sms.ispace.si'>iSpace</a> portal",
+        "Real-time SMS chat web interface"
+      ]
+    },
+    {
+      "company": "AV studio d.o.o.",
+      "position": "Web Developer",
+      "website": "http://www.av-studio.si",
+      "startDate": "2000-09",
+      "endDate": "2008-11",
+      "summary": "Developer on multiple web projects build on AV SiteKit (Content management system).",
+      "keywords": ["ASP", "MSSQL", "JavaScript", "XHTML", "CSS"],
+      "highlights": [
+        "Programming in ASP with Microsoft solutions",
+        "Network and systems administration",
+        "development and integration of AV SiteKit"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "RockOnNet",
+      "position": "Developer/Administrator/Editor",
+      "website": "http://www.rockonnet.com",
+      "startDate": "2002-09",
+      "endDate": "2013-09",
+      "summary": "RockOnNet is an online magazine for music enthusiasts. I've developed it in 2002 and it soon became an online think tank for young photographers and writers who wanted to share their thoughts about music. It is still alive and kicking to this day.",
+      "keywords": [
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "Photography",
+        "Apache",
+        "Linux"
+      ],
+      "highlights": [
+        "Proactively working as developer, administrator and editor of RockOnNet web magazine."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Faculty of Computer and Information Science",
+      "studyType": "Dropout",
+      "startDate": "1994-10",
+      "endDate": "1999-07"
+    },
+    {
+      "institution": "Gimnazija Murska Sobota",
+      "studyType": "High school diploma",
+      "startDate": "1990-09",
+      "endDate": "1994-06"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Honorable Mention @ Izzivamo Ideje",
+      "date": "2010-09",
+      "awarder": "Si.mobil",
+      "summary": "4 - 10 place with Android application: KjeSeRoka. The results of the event 'Izzivamo Ideje' <a href='http://slo-android.si/prispevki/sponzorske-objave/item/521-rezultati-razpisa-izzivamo-ideje.html'>Results</a>"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Bash/Shell",
+        "PHP",
+        "Perl",
+        "Python",
+        "Java",
+        "Go (golang)",
+        "JavaScript",
+        "C#"
+      ]
+    },
+    {
+      "name": "DevOps Toolset & Technologies",
+      "keywords": [
+        "Source Control Managment: GitLab, Bitbucket, GitHub, ...",
+        "Database Automation: Flyway, Liquibase",
+        "Continuous Integration (CI): Jenkins, GitLab CI, Bamboo",
+        "Configuration: Ansible, Vagrant, Terraform, Packer",
+        "Testing: JUnit, Selenium, PHPUnit",
+        "Deployment: GitLab CI",
+        "Containers: Docker, Kubernetes, Helm, OpenShift, Rancher",
+        "Cloud: AWS, Azure, Google Cloud, OpenStack",
+        "AI Ops: Prometheus, Grafana,",
+        "Analytics: ElasticSearch, LogStash, Kibana (ELK)",
+        "Monitoring: Nagios",
+        "Security: SonarQube, Ansible Vault",
+        "Repository managers: Sonatype Nexus, JFrog Artifactory",
+        "Collaboration: Jira, Confluence, Slack, Trello"
+      ]
+    },
+    {
+      "name": "Database",
+      "keywords": ["MySQL", "MSSQL", "PostgreSQL", "Redis", "MongoDB"]
+    },
+    {
+      "name": "Operating Systems",
+      "keywords": ["Linux", "Unix", "MacOS", "BSD", "Windows"]
+    },
+    {
+      "name": "Networking",
+      "keywords": ["TCP / IP", "VPN", "RPC", "HTTP", "Security"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Slovenian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "reading",
+      "summary": "I am a fan of epic fantasy novels especially from R. A. Salvatore.",
+      "keywords": ["Epic Fantasy", "R. A. Salvatore", "Drizzt Do'Urden"]
+    },
+    {
+      "name": "photography",
+      "summary": "My obsessesion with photography gave a birth of an online magazine <a href='htpp://www.rockonnet.com'>RockOnNet</a>"
+    },
+    {
+      "name": "cooking/baking"
+    }
+  ]
 }
