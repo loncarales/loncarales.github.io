@@ -32,22 +32,6 @@
   },
   "work": [
     {
-      "company": "Eigenes Gewerbe / Self employed",
-      "position": "Software Engineering / DevOps / Cloud Computing Specialist",
-      "website": "https://loncar.net/",
-      "location": "Munich",
-      "summary": "Always eager to help companies create smart, orchestrated and adaptive customer experience.\n\nIn the past, I've worked in various roles as Web/Mobile/Backend Developer, System Integrator, Project Manager, Development Lead, DevOps & Cloud Specialist. During these two decades, I've gathered much experience while working with different clients in various industries.\n\nSome of the clients I've worked with:\n- Home appliances (for Gorenje @ AV Studio)\n- Pharmaceutical (for GlaxoSmithKline @Pangaea)\n- Media (@Central European Media Enterprises)\n- Gaming (@Travian)\n- Digital Dentistry (@Etkon/Straumann)\n- Automotive (for BMW @ Accenture)\n- Financial services (for Allianz @ Catenate)\n- Logistics (for DHL @ Publicis Sapient) ",
-      "isCurrentRole": true,
-      "startDate": "2019-11-01",
-      "endDate": "",
-      "start": {
-        "year": 2019,
-        "month": 11
-      },
-      "end": {},
-      "highlights": []
-    },
-    {
       "company": "Publicis Sapient",
       "position": "Senior DevOps Engineer",
       "website": "https://www.publicissapient.com/",
@@ -238,29 +222,6 @@
         "Android development (Phone, Tablet, STB)",
         "Modules for Wowza Media Server",
         "Video trans-coding workflow implementing Google Widevine DRM"
-      ]
-    },
-    {
-      "company": "Kitio d.o.o.",
-      "position": "Web / Mobile Developer",
-      "website": "http://www.kitio.com",
-      "startDate": "2008-12",
-      "endDate": "2010-12",
-      "summary": "Developer on multiple web & mobile projects including creating socile mobile portal called iSPACE.",
-      "keywords": [
-        "PHP",
-        "Zend Framework",
-        "JavaScript",
-        "jQuery",
-        "ExtJS",
-        "XHTML",
-        "CSS",
-        "MySQL"
-      ],
-      "highlights": [
-        "Web & mobile application development (using PHP with Zend Framework, jQuery & Ajax UI, XHTML, CSS",
-        "SMS publisher for <a href='http://sms.ispace.si'>iSpace</a> portal",
-        "Real-time SMS chat web interface"
       ]
     },
     {
