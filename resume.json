@@ -32,6 +32,71 @@
   },
   "work": [
     {
+      "company": "Graylog",
+      "position": "Cloud Engineer",
+      "website": "https://www.graylog.org/",
+      "location": "Munich",
+      "summary": "I am a member of the international Cloud Engineering team. We are working to elevate Graylog into a cloud offering and make it the product customers have wanted for years.",
+      "keywords": [
+        "Terraform + Ansible (Infrastructure as Code)",
+        "AWS Toolset",
+        "Distributed System Architecture",
+        "Python",
+        "Bash/Shell"
+      ],
+      "isCurrentRole": true,
+      "startDate": "2021-10-01",
+      "endDate": "2022-03-31",
+      "start": {
+        "year": 2021,
+        "month": 10
+      },
+      "end": {
+        "year": 2022,
+        "month": 3
+      },
+      "highlights": [
+        "Creating and designing infrastructure architecture and deciding the best design choice between different options",
+        "Troubleshooting design flaws and system bottlenecks",
+        "Improving existing CI/CD pipelines with GitHub Actions",
+        "Automate and improve development and release processes"
+      ]
+    },
+    {
+      "company": "Publicis Sapient",
+      "position": "Java Architect",
+      "website": "https://www.publicissapient.com/",
+      "location": "Munich",
+      "summary": "I am working closely with the PS FS team. Together we help the client with digital business transformation, product discovery, increasing agility and accelerating software releases. As part of the backend team, I am deeply involved in Java (Spring Boot) and Cloud-Native Architecture on Microsoft Azure.",
+      "keywords": [
+        "Spring Boot",
+        "Microservices",
+        "Bash/Shell",
+        "Docker",
+        "K8s",
+        "Azure"
+      ],
+      "isCurrentRole": false,
+      "startDate": "2020-11-01",
+      "endDate": "2021-09-01",
+      "start": {
+        "year": 2020,
+        "month": 11
+      },
+      "end": {
+        "year": 2021,
+        "month": 9
+      },
+      "highlights": [
+        "Creating and designing software architecture and deciding the best design choice between different options",
+        "Troubleshooting design flaws and system bottlenecks",
+        "Designing and implementing microservice architecture on Azure Kubernetes Service (AKS)",
+        "Improving existing Spring Boot microservices using programming paradigms like Aspect-oriented programming, asynchronous behaviour, Domain-driven design (DDD) and hexagonal architecture, Application Events ...",
+        "Improving existing CI/CD pipelines in Azure DevOps",
+        "Creating software architecture documents and documenting API's programmatically"
+      ]
+    },
+    {
       "company": "Publicis Sapient",
       "position": "Senior DevOps Engineer",
       "website": "https://www.publicissapient.com/",
@@ -263,7 +328,7 @@
   "education": [
     {
       "institution": "Faculty of Computer and Information Science",
-      "studyType": "Dropout",
+      "studyType": "Software Engineering (incomplete)",
       "startDate": "1994-10",
       "endDate": "1999-07"
     },
