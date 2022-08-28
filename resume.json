@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Ales Loncar",
-    "picture": "picture.png",
+    "image": "picture.png",
     "label": "Software Engineering / DevOps / Cloud Computing Specialist",
     "headline": "Daytime maker of code | Midnight baker / cook | Analog photography enthusiast | Wine sipper & Beer lover | Slovenian expat",
     "summary": "Specialities:\n- \"The Right Tools for the Job\" development philosophy.\n- \"Boy Scout Rule\" - When we make changes to the code base, we should make sure we are leaving it (checking in to repository) cleaner.\n- Encouraging \"Run What You Build\" tenet for improving IT delivery using a DevOps model.\n- Advanced research, problem-solving and improvisational skills.\n- A passionate team player. I am always eager to work with talented teammates.\n- Able to quickly adapt and learn in different environments.\n- Like to learn, experiment and utilize new technologies.",
