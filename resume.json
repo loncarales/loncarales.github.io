@@ -32,13 +32,15 @@
   },
   "work": [
     {
-      "company": "Graylog",
+      "name": "Graylog",
       "position": "Cloud Engineer",
       "website": "https://www.graylog.org/",
       "location": "Munich",
-      "summary": "I am a member of the international Cloud Engineering team. We are working to elevate Graylog into a cloud offering and make it the product customers have wanted for years.",
+      "summary": "I am a member of the international Cloud Engineering team. We are working to elevate Graylog into a cloud offering and make it the product customers have wanted for years. Some of the mine responsibilities:",
       "keywords": [
         "Terraform + Ansible (Infrastructure as Code)",
+        "Prometheus",
+        "Grafana",
         "AWS Toolset",
         "Distributed System Architecture",
         "Python",
@@ -46,24 +48,19 @@
       ],
       "isCurrentRole": true,
       "startDate": "2021-10-01",
-      "endDate": "2022-03-31",
-      "start": {
-        "year": 2021,
-        "month": 10
-      },
-      "end": {
-        "year": 2022,
-        "month": 3
-      },
+      "endDate": "2022-09-30",
       "highlights": [
         "Creating and designing infrastructure architecture and deciding the best design choice between different options",
         "Troubleshooting design flaws and system bottlenecks",
-        "Improving existing CI/CD pipelines with GitHub Actions",
-        "Automate and improve development and release processes"
+        "Automate/Improve all DevOps/Development/Release processes",
+        "Implementation/Development of internal services for monitoring/alerting",
+        "Documenting implemented designs and solutions",
+        "Proposing, planning and implementing further improvements",
+        "Implement best security practices on a cloud infrastructure"
       ]
     },
     {
-      "company": "Publicis Sapient",
+      "name": "Publicis Sapient",
       "position": "Java Architect",
       "website": "https://www.publicissapient.com/",
       "location": "Munich",
@@ -79,14 +76,6 @@
       "isCurrentRole": false,
       "startDate": "2020-11-01",
       "endDate": "2021-09-01",
-      "start": {
-        "year": 2020,
-        "month": 11
-      },
-      "end": {
-        "year": 2021,
-        "month": 9
-      },
       "highlights": [
         "Creating and designing software architecture and deciding the best design choice between different options",
         "Troubleshooting design flaws and system bottlenecks",
@@ -97,7 +86,7 @@
       ]
     },
     {
-      "company": "Publicis Sapient",
+      "name": "Publicis Sapient",
       "position": "Senior DevOps Engineer",
       "website": "https://www.publicissapient.com/",
       "location": "Munich",
@@ -114,14 +103,6 @@
       "isCurrentRole": false,
       "startDate": "2019-11-01",
       "endDate": "2020-06-01",
-      "start": {
-        "year": 2019,
-        "month": 11
-      },
-      "end": {
-        "year": 2020,
-        "month": 6
-      },
       "highlights": [
         "Helping to implement and improving development CI/CD software pipeline",
         "Helping implement new technologies in development for future deployments",
@@ -129,20 +110,12 @@
       ]
     },
     {
-      "company": "Accenture",
+      "name": "Accenture",
       "position": "Infrastructure Engineer / DevOps Practitioner",
       "website": "https://www.accenture.com/",
       "location": "Munich",
       "startDate": "2018-09-01",
       "endDate": "2019-10-01",
-      "start": {
-        "year": 2018,
-        "month": 9
-      },
-      "end": {
-        "year": 2019,
-        "month": 10
-      },
       "isCurrentRole": false,
       "summary": "With my prior knowledge of software engineering and systems, I am providing infrastructure expertise on a team to improve throughput and stability of applications which are running on OpenShift Container Platform.",
       "keywords": [
@@ -171,19 +144,11 @@
       ]
     },
     {
-      "company": "Catenate",
+      "name": "Catenate",
       "position": "Senior Software Engineer / Software Development Lead",
       "website": "https://catenate.com/",
       "startDate": "2018-07-01",
       "endDate": "2019-10-01",
-      "start": {
-        "year": 2018,
-        "month": 7
-      },
-      "end": {
-        "year": 2019,
-        "month": 10
-      },
       "isCurrentRole": false,
       "summary": "Working closely with our client's technical leads and management to align software project and plan the work with the software development team. I actively teach, advise, mentor and train during pair programming, code reviews, tech talks, conference calls. Solving day to day problems, mostly not related to business requirements but instead focus on non-functional elements such as maintainability, manageability, scalability, reliability, testability, deployability, and security.",
       "keywords": [
@@ -204,7 +169,7 @@
       ]
     },
     {
-      "company": "Etkon GmbH/Straumann Group",
+      "name": "Etkon GmbH/Straumann Group",
       "position": "Software Engineer CAD/CAM",
       "website": "http://www.straumann.com/",
       "startDate": "2016-02",
@@ -231,7 +196,7 @@
       ]
     },
     {
-      "company": "Travian Games GmbH",
+      "name": "Travian Games GmbH",
       "position": "Senior Developer",
       "website": "http://www.traviangames.com",
       "startDate": "2013-03",
@@ -264,7 +229,7 @@
       ]
     },
     {
-      "company": "Central European Media Enterprises",
+      "name": "Central European Media Enterprises",
       "position": "Senior Developer",
       "website": "http://www.cetv-net.com",
       "startDate": "2011-01",
@@ -290,7 +255,7 @@
       ]
     },
     {
-      "company": "AV studio d.o.o.",
+      "name": "AV studio d.o.o.",
       "position": "Web Developer",
       "website": "http://www.av-studio.si",
       "startDate": "2000-09",
@@ -407,6 +372,31 @@
       "fluency": "Fluent"
     }
   ],
+  "certificates": [
+  {
+    "name": "Cloud DevOps Engineer",
+    "date": "2021-03-25",
+    "issuer": "Udacity",
+    "url": "https://graduation.udacity.com/confirm/YP6JRDKY"
+  },
+  {
+    "name": "CKAD: Certified Kubernetes Application Developer",
+    "date": "2020-09-17",
+    "issuer": "The Linux Foundation",
+    "url": "https://www.credly.com/badges/8da32134-2aad-428d-a1e7-27034885c7f5?source=linked_in_profile"
+  },
+  {
+    "name": "CKA: Certified Kubernetes Administrator",
+    "date": "2020-08-12",
+    "issuer": "The Linux Foundation",
+    "url": "https://www.credly.com/badges/17e50e2e-6f95-4afe-8204-faccea515805?source=linked_in_profile"
+  },
+  {
+    "name": "Architecting with Google Kubernetes Engine",
+    "date": "2019-07-25",
+    "issuer": "Coursera",
+    "url": "https://www.coursera.org/account/accomplishments/specialization/QX4SJ3STA2U6"
+  }],
   "interests": [
     {
       "name": "reading",
@@ -418,7 +408,8 @@
       "summary": "My obsessesion with photography gave a birth of an online magazine <a href='htpp://www.rockonnet.com'>RockOnNet</a>"
     },
     {
-      "name": "cooking/baking"
+      "name": "cooking/baking",
+      "summary": "The taste, aroma and texture of a homemade product can never be matched by industrial food. The kitchen is my playground. <a href='https://www.facebook.com/groups/homemadeistasty'>Homemade is tasty</a>"
     }
   ]
 }

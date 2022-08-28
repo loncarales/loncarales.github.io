@@ -8,20 +8,20 @@ It is my personal resume writen in [JSON Resume](https://jsonresume.org/). The o
 
 1. Download [JSON Resume CLI](https://jsonresume.org/)
 
-```
+```bash
 npm install -g resume-cli
 ```
 
-2. Download the theme from [npm](https://www.npmjs.com/)
+Simply run
 
-```
-npm install -g jsonresume-theme-macchiato
+```bash
+resume serve --theme .
 ```
 
 3. Use resume cli to build your resume
 
 ```
-resume export resume.html --theme macchiato
+resume export resume.html --theme .
 ```
 
 ### PDF output
