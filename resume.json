@@ -11,9 +11,8 @@
     "id": "c3dd9d7f-955a-45b8-b8ce-d74a2e20a57e",
     "username": "loncarales",
     "email": "ales.loncar@gmail.com",
-    "region": "Munich",
     "location": {
-      "city": "München",
+      "city": "Munich",
       "countryCode": "DE",
       "region": "Bayern"
     },
@@ -35,7 +34,7 @@
       "name": "Graylog",
       "position": "Cloud Engineer",
       "website": "https://www.graylog.org/",
-      "location": "Munich",
+      "location": "Remote",
       "summary": "I am a member of the international Cloud Engineering team. We are working to elevate Graylog into a cloud offering and make it the product customers have wanted for years. Some of the mine responsibilities:",
       "keywords": [
         "Terraform + Ansible (Infrastructure as Code)",
@@ -63,7 +62,7 @@
       "name": "Publicis Sapient",
       "position": "Java Architect",
       "website": "https://www.publicissapient.com/",
-      "location": "Munich",
+      "location": "Remote",
       "summary": "I am working closely with the PS FS team. Together we help the client with digital business transformation, product discovery, increasing agility and accelerating software releases. As part of the backend team, I am deeply involved in Java (Spring Boot) and Cloud-Native Architecture on Microsoft Azure.",
       "keywords": [
         "Spring Boot",
@@ -147,6 +146,7 @@
       "name": "Catenate",
       "position": "Senior Software Engineer / Software Development Lead",
       "website": "https://catenate.com/",
+      "location": "Munich",
       "startDate": "2018-07-01",
       "endDate": "2019-10-01",
       "isCurrentRole": false,
@@ -172,6 +172,7 @@
       "name": "Etkon GmbH/Straumann Group",
       "position": "Software Engineer CAD/CAM",
       "website": "http://www.straumann.com/",
+      "location": "Munich",
       "startDate": "2016-02",
       "endDate": "2018-06",
       "summary": "I am part of a Software Development Team in CAD/CAM department which is responsible for: * software solutions to automate CAD/CAM production processes * software solutions for mass processing data in 3D * database-driven production logistics processes * development of interfaces to various IT systems (web services and other protocols) and CNC machines for manufacturing * development of intranet applications to support the production workflow",
@@ -199,6 +200,7 @@
       "name": "Travian Games GmbH",
       "position": "Senior Developer",
       "website": "http://www.traviangames.com",
+      "location": "Munich",
       "startDate": "2013-03",
       "endDate": "2016-01",
       "summary": "Acting as game / software developer in the Travian 5 Games department. Mostly involved in development of tools for Travian 5 game and building communication layers between Travian 5 game and 3rd party tools. Supported team migration from Gitorious to Stash.",
@@ -232,6 +234,7 @@
       "name": "Central European Media Enterprises",
       "position": "Senior Developer",
       "website": "http://www.cetv-net.com",
+      "location": "Ljubljana",
       "startDate": "2011-01",
       "endDate": "2013-02",
       "summary": "Developer on numerous projects: Voyo, Common Content Platform, Smart TV development. Working closely with central and local teams developing, integrating and coordinating deployment of new features",
@@ -258,6 +261,7 @@
       "name": "AV studio d.o.o.",
       "position": "Web Developer",
       "website": "http://www.av-studio.si",
+      "location": "Ljubljana",
       "startDate": "2000-09",
       "endDate": "2008-11",
       "summary": "Developer on multiple web projects build on AV SiteKit (Content management system).",
@@ -274,6 +278,7 @@
       "organization": "RockOnNet",
       "position": "Developer/Administrator/Editor",
       "website": "http://www.rockonnet.com",
+      "location": "Ljubljana",
       "startDate": "2002-09",
       "endDate": "2013-09",
       "summary": "RockOnNet is an online magazine for music enthusiasts. I've developed it in 2002 and it soon became an online think tank for young photographers and writers who wanted to share their thoughts about music. It is still alive and kicking to this day.",
@@ -293,7 +298,7 @@
   "education": [
     {
       "institution": "Faculty of Computer and Information Science",
-      "studyType": "Software Engineering (incomplete)",
+      "studyType": "Software Engineering",
       "startDate": "1994-10",
       "endDate": "1999-07"
     },
@@ -409,7 +414,58 @@
     },
     {
       "name": "cooking/baking",
-      "summary": "The taste, aroma and texture of a homemade product can never be matched by industrial food. The kitchen is my playground. <a href='https://www.facebook.com/groups/homemadeistasty'>Homemade is tasty</a>"
+      "summary": "The taste, aroma and texture of a homemade product can never be matched by industrial food. The kitchen is my playground. <a href='https://www.facebook.com/groups/homemadeistasty'>Homemade is tasty</a>",
+      "keywords": ["homemade", "madewithlove", "sourdough"]
     }
-  ]
+  ],
+  "projects": [{
+    "name": " Filmido.com",
+    "description": "The best wedding photographers and videographers at affordable prices.",
+    "highlights": [
+      "Startup",
+      "Hire wedding photographers and videographers at affordable prices"
+    ],
+    "keywords": [
+      "Angular 11",
+      "Tailwind CSS",
+      "Microservices",
+      "Java",
+      "Spring Boot",
+      "NodeJs",
+      "Express",
+      "MongDB Cloud"
+    ],
+    "startDate": "2021-05-01",
+    "url": "https://filmido.com/",
+    "roles": [
+      "Head of Development"
+    ],
+    "entity": "Entity",
+    "type": "application"
+  },
+  {
+    "name": " Špajz",
+    "description": "Slovenian specialties | Products | Wines | Homemade Recipes",
+    "highlights": [
+      "Family 👨‍👩‍👦‍👦 run startup",
+      "Led by heart ❤️",
+      "Slovenian 🇸🇮 Traditional & Boutique Products",
+      "From the producer directly to your table",
+      "Homemade Recipes"
+    ],
+    "keywords": [
+      "Wordpress",
+      "Woocomerce",
+      "Kubernetes",
+      "Managed database - MySQL"
+    ],
+    "startDate": "2022-04-01",
+    "url": "https://spajz-feinkost.de/",
+    "roles": [
+      "Founder",
+      "Jack Of All Trades"
+    ],
+    "entity": "Entity",
+    "type": "application"
+  }]
 }
