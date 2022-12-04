@@ -42,6 +42,9 @@
         "Grafana",
         "AWS Toolset",
         "Distributed System Architecture",
+        "K8s",
+        "Argo",
+        "Go (golang)",
         "Python",
         "Bash/Shell"
       ],
