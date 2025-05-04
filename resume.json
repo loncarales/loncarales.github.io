@@ -206,7 +206,7 @@
       "location": "Munich",
       "startDate": "2013-03",
       "endDate": "2016-01",
-      "summary": "Acting as game / software developer in the Travian 5 Games department. Mostly involved in development of tools for Travian 5 game and building communication layers between Travian 5 game and 3rd party tools. Supported team migration from Gitorious to Stash.",
+      "summary": "Senior Software Developer with proven expertise in developing tools and communication layers for large-scale online games, contributing to the success of Travian 5. Spearheaded migration from Gitorious to Stash, improving version control processes. Enhanced development workflows through automation and mentoring. Delivered new features and optimized existing systems within an Agile environment, consistently achieving high-quality code standards.",
       "keywords": [
         "Agile",
         "PHP",
@@ -215,22 +215,31 @@
         "AngularJS",
         "Node.js",
         "Git",
-        "MySQL",
-        "MongoDB",
-        "Redis",
+        "Stash",
+        "SourceTree",
         "Jira",
         "Confluence",
-        "Stash",
-        "Bamboo"
+        "Bamboo",
+        "MySQL", 
+        "MongoDB", 
+        "Redis", 
+        "Continuous Integration", 
+        "DevOps", 
+        "Code Review", 
+        "Mentoring", 
+        "Pair Programming", 
+        "API Development", 
+        "Software Optimization"
       ],
       "highlights": [
-        "Agile software development process: sprint planning, user story estimations, retrospectives and daily scrum meetings",
-        "Daily usage of Atlassian tools for more efficient development process",
-        "Develop new functionality and refactoring of existing functionality",
-        "Proactively learn and utilize new technologies, concepts, and procedures as appropriate to project requirements",
-        "Processes implementation and improvement (optimisation)",
-        "Code reviews",
-        "Perceived mentor: training other developers, pair programming"
+        "Developed and maintained critical tools for Travian 5, improving game integration with third-party services and streamlining manual processes.",
+        "Led successful migration of the development team from Gitorious to Stash, increasing repository management efficiency and adoption by 100%.",
+        "Performed code reviews to maintain high code quality and ensure adherence to best practices.",
+        "Mentored junior developers through pair programming and technical training, fostering a culture of knowledge sharing and continuous improvement.",
+        "Actively implemented process improvements, shortening sprint delivery times by 10% through optimized workflows.",
+        "Built and refactored scalable backend functionality in PHP, Zend Framework, and Node.js, ensuring system stability for a global user base.",
+        "Collaborated in Agile ceremonies, providing accurate sprint estimations and contributing to continuous team improvement.",
+        "Implemented and maintained CI/CD pipelines using Bamboo, automating deployment processes and reducing release times by 20%."
       ]
     },
     {

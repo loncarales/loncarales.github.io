@@ -9,27 +9,17 @@
       {{#if summary}}
         <label for="project-item-{{@index}}"></label>
       {{/if}}
-
       {{#if name}}
       <header class="clear">
+        {{> date startDate=startDate endDate=endDate }}
         {{#if name}}
         <div class="position">{{name}}</div>
-        {{/if}}
-        {{#if startDate}}
-        <div class="date">
-          <span class="startDate">{{MY startDate}}</span>
-          {{#if endDate}}
-          <span class="endDate">- {{MY endDate}}</span>
-          {{else}}
-          <span class="endDate">- Current</span>
-          {{/if}}
-        </div>
         {{/if}}
       </header>
       {{/if}}
       {{#location}}
       <span class="location">
-      <span class="fas fa-map-marker-alt"></span>
+      <span class="fa-solid fa-location-dot"></span>
       {{#if city}}
       <span class="city">{{city}},</span>
       {{/if}}
@@ -45,7 +35,7 @@
       {{/location}}
       {{#if url}}
       <span class="website">
-        <span class="fas fa-external-link-alt"></span>
+        <span class="fa-solid fa-up-right-from-square"></span>
         <a target="_blank" href="{{url}}">{{url}}</a>
       </span>
       {{/if}}
@@ -57,8 +47,8 @@
       </ul>
       {{/if}}
       <div class="item">
-        {{#if summary}}
-          <div class="summary">{{paragraphSplit summary}}</div>
+        {{#if description}}
+          <div class="summary">{{paragraphSplit description}}</div>
         {{/if}}
         {{#if highlights.length}}
         <ul class="highlights">

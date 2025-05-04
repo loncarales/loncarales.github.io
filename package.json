@@ -1,8 +1,12 @@
 {
   "name": "jsonresume-theme-stackoverflow",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Stack Overflow theme for JSON Resume",
   "author": "Francesco Esposito",
+  "scripts": {
+    "serve": "resume serve --theme .",
+    "export": "resume export index.html --theme ."
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/francescoes/jsonresume-theme-stackoverflow"
@@ -11,7 +15,12 @@
   "main": "index.js",
   "dependencies": {
     "handlebars": "^4.7.7",
-    "moment": "^2.29.4"
+    "markdown-it": "^13.0.1",
+    "moment": "^2.29.2"
   },
-  "packageManager": "yarn@3.2.3"
+  "devDependencies": {
+    "html-validate": "^8.28.0",
+    "jest": "^29.7.0",
+    "@jsonresume/schema": "^1.2.1"
+  }
 }
