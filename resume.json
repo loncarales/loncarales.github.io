@@ -1,4 +1,5 @@
 {
+  "language": "en",
   "basics": {
     "name": "Ales Loncar",
     "image": "picture.png",
@@ -172,9 +173,9 @@
       ]
     },
     {
-      "name": "Etkon GmbH/Straumann Group",
+      "name": "Etkon GmbH / Straumann",
       "position": "Software Engineer CAD/CAM",
-      "website": "http://www.straumann.com/",
+      "url": "https://www.straumann.com/",
       "location": "Munich",
       "startDate": "2016-02",
       "endDate": "2018-06",
@@ -202,8 +203,8 @@
     {
       "name": "Travian Games GmbH",
       "position": "Senior Developer",
-      "website": "http://www.traviangames.com",
-      "location": "Munich",
+      "url": "https://www.traviangames.com",
+      "location": "Munich, Germany",
       "startDate": "2013-03",
       "endDate": "2016-01",
       "summary": "Senior Software Developer with proven expertise in developing tools and communication layers for large-scale online games, contributing to the success of Travian 5. Spearheaded migration from Gitorious to Stash, improving version control processes. Enhanced development workflows through automation and mentoring. Delivered new features and optimized existing systems within an Agile environment, consistently achieving high-quality code standards.",
@@ -243,13 +244,13 @@
       ]
     },
     {
-      "name": "Central European Media Enterprises",
+      "name": "Central European Media Enterprises Ltd.",
       "position": "Senior Developer",
-      "website": "http://www.cetv-net.com",
-      "location": "Ljubljana",
+      "url": "https://www.cme.net",
+      "location": "Ljubljana, Slovenia",
       "startDate": "2011-01",
       "endDate": "2013-02",
-      "summary": "Developer on numerous projects: Voyo, Common Content Platform, Smart TV development. Working closely with central and local teams developing, integrating and coordinating deployment of new features",
+      "summary": "Contributed to the development, integration, and deployment of digital media platforms including Voyo, a leading video-on-demand service, and the CME Common Content Platform. Collaborated with cross-functional central and local teams to deliver new features across web, mobile, and Smart TV environments.",
       "keywords": [
         "PHP",
         "Zend Framework",
@@ -258,55 +259,80 @@
         "Android",
         "Widevine",
         "MySQL",
-        "Doctrine"
+        "Doctrine",
+        "Video Streaming",
+        "API Development",
+        "Digital Rights Management"
       ],
       "highlights": [
-        "Voyo - Video On Demand Platform (TVOD, AVOD, SVOD, EST, PPV, LIVE Streaming)",
-        "CME Common Content Platform (Zend Framework)",
-        "API's for connected Mobile, Smart TV and STB devices (JSON-RPC, REST)",
-        "Android development (Phone, Tablet, STB)",
-        "Modules for Wowza Media Server",
-        "Video trans-coding workflow implementing Google Widevine DRM"
+        "Developed and maintained Voyo, a multi-model video-on-demand platform supporting TVOD, AVOD, SVOD, EST, PPV, and live streaming.",
+        "Implemented the CME Common Content Platform using Zend Framework to standardize content management across regions.",
+        "Created RESTful and JSON-RPC APIs enabling integration with mobile apps, Smart TVs, and set-top boxes.",
+        "Built Android applications for phones, tablets, and set-top boxes supporting video playback and content delivery.",
+        "Developed custom modules for Wowza Media Server to support streaming workflows.",
+        "Integrated Google Widevine DRM into video transcoding pipelines to ensure secure content delivery."
       ]
     },
     {
       "name": "AV studio d.o.o.",
       "position": "Web Developer",
-      "website": "http://www.av-studio.si",
-      "location": "Ljubljana",
+      "url": "https://www.av-studio.si",
+      "location": "Ljubljana, Slovenia",
       "startDate": "2000-09",
       "endDate": "2008-11",
-      "summary": "Developer on multiple web projects build on AV SiteKit (Content management system).",
-      "keywords": ["ASP", "MSSQL", "JavaScript", "XHTML", "CSS"],
+      "summary": "Developed custom web applications and maintained AV SiteKit, a proprietary content management system, delivering tailored solutions for diverse clients. Supported network and system administration for internal infrastructure.",
+      "keywords": [
+        "ASP",
+        "MSSQL",
+        "JavaScript",
+        "XHTML",
+        "CSS",
+        "Content Management",
+        "Web Development",
+        "Systems Administration"
+      ],
       "highlights": [
-        "Programming in ASP with Microsoft solutions",
-        "Network and systems administration",
-        "development and integration of AV SiteKit"
+        "Developed dynamic web applications using ASP, MSSQL, JavaScript, XHTML, and CSS within the AV SiteKit CMS platform.",
+        "Maintained and enhanced the AV SiteKit CMS to support client-specific functionality and integrations.",
+        "Provided network and systems administration to ensure platform reliability and security."
       ]
     }
   ],
   "volunteer": [
     {
       "organization": "RockOnNet",
-      "position": "Developer/Administrator/Editor",
-      "website": "http://www.rockonnet.com",
-      "location": "Ljubljana",
-      "startDate": "2002-09",
-      "endDate": "2013-09",
-      "summary": "RockOnNet is an online magazine for music enthusiasts. I've developed it in 2002 and it soon became an online think tank for young photographers and writers who wanted to share their thoughts about music. It is still alive and kicking to this day.",
+      "position": "Developer / Administrator / Editor",
+      "url": "https://web.archive.org/web/*/http://www.rockonnet.com",
+      "location": "Ljubljana, Slovenia",
+      "startDate": "2001-01",
+      "endDate": "2016-01",
+      "summary": "Founded and led RockOnNet, an online music magazine that became a hub for emerging photographers and writers to share music reviews and commentary. Managed full-stack development, site administration, and editorial operations for over a decade. Migrated the platform from a custom CMS to WordPress to improve content management and scalability. Developed a REST API to integrate content with the Android app 'KjeSeRoka,' which ranked 4th–10th in the Si.mobil Izzivamo ideje competition. Although the site is no longer active, archived content is preserved via the Wayback Machine.",
       "keywords": [
         "PHP",
         "JavaScript",
         "MySQL",
-        "Photography",
         "Apache",
-        "Linux"
+        "Linux",
+        "CMS Development",
+        "WordPress Migration",
+        "REST API",
+        "Android Integration",
+        "Content Management",
+        "Editorial Management",
+        "Mobile App Integration",
+        "Photography",
+        "Community Building"
       ],
       "highlights": [
-        "Proactively working as developer, administrator and editor of RockOnNet web magazine."
+        "Developed and maintained a custom CMS using PHP, JavaScript, and MySQL to manage articles, media, and user contributions.",
+        "Successfully migrated the platform from a custom-built CMS to WordPress, enhancing usability, content workflows, and scalability.",
+        "Created a REST API to feed real-time content to the Android app 'KjeSeRoka,' contributing to the app's recognition as a top 4–10 finalist in the Si.mobil Izzivamo ideje competition.",
+        "Administered Linux-based web servers (Apache), ensuring uptime, security, and performance optimization.",
+        "Oversaw editorial processes, coordinating a volunteer team of writers and photographers to publish regular music-related content.",
+        "Built and nurtured an online community platform for music enthusiasts, fostering user engagement and content sharing.",
+        "Managed website redesigns and platform upgrades to enhance user experience and content accessibility."
       ]
-    }
-  ],
+  }],
   "education": [
     {
       "institution": "Faculty of Computer and Information Science",
@@ -323,10 +349,10 @@
   ],
   "awards": [
     {
-      "title": "Honorable Mention @ Izzivamo Ideje",
+      "title": "Top 4–10 Finalist, Izzivamo Ideje Competition",
       "date": "2010-09",
       "awarder": "Si.mobil",
-      "summary": "4 - 10 place with Android application: KjeSeRoka. The results of the event 'Izzivamo Ideje' <a href='http://slo-android.si/prispevki/sponzorske-objave/item/521-rezultati-razpisa-izzivamo-ideje.html'>Results</a>"
+      "summary": "Recognized as a top 4–10 finalist in the national innovation competition 'Izzivamo Ideje' organized by Si.mobil, for developing the Android application 'KjeSeRoka,' designed to connect users with live music events."
     }
   ],
   "skills": [
@@ -416,26 +442,27 @@
   }],
   "interests": [
     {
-      "name": "reading",
-      "summary": "I am a fan of epic fantasy novels especially from R. A. Salvatore.",
-      "keywords": ["Epic Fantasy", "R. A. Salvatore", "Drizzt Do'Urden"]
+      "name": "Reading",
+      "keywords": ["Epic Fantasy", "Science Fiction", "Fantasy"]
     },
     {
-      "name": "photography",
-      "summary": "My obsessesion with photography gave a birth of an online magazine <a href='htpp://www.rockonnet.com'>RockOnNet</a>"
+      "name": "Photography",
+      "keywords": ["Analog", "Concert", "Black & White"]
     },
     {
-      "name": "cooking/baking",
-      "summary": "The taste, aroma and texture of a homemade product can never be matched by industrial food. The kitchen is my playground. <a href='https://www.facebook.com/groups/homemadeistasty'>Homemade is tasty</a>",
-      "keywords": ["homemade", "madewithlove", "sourdough"]
+      "name": "Cooking | Baking",
+      "keywords": ["Homemade", "Made With Love", "Sourdough"]
     }
   ],
   "projects": [{
-    "name": " Filmido.com",
-    "description": "The best wedding photographers and videographers at affordable prices.",
+    "name": "Filmido.com",
+    "description": "An online platform connecting clients with top-tier wedding photographers and videographers at affordable prices.",
     "highlights": [
-      "Startup",
-      "Hire wedding photographers and videographers at affordable prices"
+      "Designed and led the end-to-end architecture for a scalable, containerized microservices platform deployed on Scaleway cloud.",
+      "Implemented Infrastructure as Code (IaC) using Terraform, Ansible, and Packer to automate environment provisioning across development, staging, and production.",
+      "Built a CI/CD pipeline in CircleCI automating build, linting, testing, security scanning (Snyk), containerization, and deployment, reducing manual deployment effort by 80%.",
+      "Configured Traefik as a reverse proxy and load balancer with automatic SSL certificate management via ACME DNS challenge using Cloudflare.",
+      "Integrated Sentry to automate application monitoring and error reporting, enabling faster identification and resolution of production issues."
     ],
     "keywords": [
       "Angular 11",
@@ -443,41 +470,32 @@
       "Microservices",
       "Java",
       "Spring Boot",
-      "NodeJs",
-      "Express",
-      "MongDB Cloud"
+      "Node.js",
+      "Express.js",
+      "MongoDB Atlas",
+      "Docker",
+      "CI/CD",
+      "CircleCI",
+      "Terraform",
+      "Ansible",
+      "Packer",
+      "Infrastructure as Code",
+      "Traefik",
+      "ACME DNS",
+      "Cloudflare",
+      "Sentry",
+      "DevOps",
+      "Reverse Proxy",
+      "Load Balancing",
+      "Monitoring",
+      "Container Security"
     ],
     "startDate": "2021-05-01",
     "url": "https://filmido.com/",
     "roles": [
-      "Head of Development"
-    ],
-    "entity": "Entity",
-    "type": "application"
-  },
-  {
-    "name": " Špajz",
-    "description": "Slovenian specialties | Products | Wines | Homemade Recipes",
-    "highlights": [
-      "Family 👨‍👩‍👦‍👦 run startup",
-      "Led by heart ❤️",
-      "Slovenian 🇸🇮 Traditional & Boutique Products",
-      "From the producer directly to your table",
-      "Homemade Recipes"
-    ],
-    "keywords": [
-      "Wordpress",
-      "Woocomerce",
-      "Kubernetes",
-      "Managed database - MySQL"
-    ],
-    "startDate": "2022-04-01",
-    "url": "https://spajz-feinkost.de/",
-    "roles": [
-      "Founder",
-      "Jack Of All Trades"
-    ],
-    "entity": "Entity",
-    "type": "application"
+      "Software Architect",
+      "Lead Developer",
+      "DevOps Engineer"
+    ]
   }]
 }
