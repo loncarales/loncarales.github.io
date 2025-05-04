@@ -68,14 +68,7 @@
       "website": "https://www.publicissapient.com/",
       "location": "Remote",
       "summary": "I am working closely with the PS FS team. Together we help the client with digital business transformation, product discovery, increasing agility and accelerating software releases. As part of the backend team, I am deeply involved in Java (Spring Boot) and Cloud-Native Architecture on Microsoft Azure.",
-      "keywords": [
-        "Spring Boot",
-        "Microservices",
-        "Bash/Shell",
-        "Docker",
-        "K8s",
-        "Azure"
-      ],
+      "keywords": ["Spring Boot", "Microservices", "Bash/Shell", "Docker", "K8s", "Azure"],
       "isCurrentRole": false,
       "startDate": "2020-11-01",
       "endDate": "2021-09-01",
@@ -94,15 +87,7 @@
       "website": "https://www.publicissapient.com/",
       "location": "Munich",
       "summary": "Working closely with the client's logistics team to align software project and plan the work with\nthe development/infrastructure team. Helping streamline teams, speed development, increase agility and accelerate software releases. \n\nThe tools we were using are these days buzzwords:\n- Running containerize apps with Docker and OpenShift\n- Cloud Computing With Azure\n- IaC with Ansible, Packer and Terraform\n- Automation, automation, automation",
-      "keywords": [
-        "Ansible",
-        "Terraform",
-        "Jenkins",
-        "Bash/Shell",
-        "Docker",
-        "OpenShift",
-        "Azure"
-      ],
+      "keywords": ["Ansible", "Terraform", "Jenkins", "Bash/Shell", "Docker", "OpenShift", "Azure"],
       "isCurrentRole": false,
       "startDate": "2019-11-01",
       "endDate": "2020-06-01",
@@ -174,32 +159,46 @@
     },
     {
       "name": "Etkon GmbH / Straumann",
-      "position": "Software Engineer CAD/CAM",
+      "position": "Software Engineer, CAD/CAM",
       "url": "https://www.straumann.com/",
-      "location": "Munich",
+      "location": "Munich, Germany",
       "startDate": "2016-02",
       "endDate": "2018-06",
-      "summary": "I am part of a Software Development Team in CAD/CAM department which is responsible for: * software solutions to automate CAD/CAM production processes * software solutions for mass processing data in 3D * database-driven production logistics processes * development of interfaces to various IT systems (web services and other protocols) and CNC machines for manufacturing * development of intranet applications to support the production workflow",
+      "summary": "Contributed as a core member of the CAD/CAM software development team at Straumann Group, a global leader in dental prosthetics and implant solutions. Led modernization initiatives to integrate contemporary software development practices, DevOps tooling, and automation into legacy systems supporting dental prosthetics manufacturing and 3D data processing workflows. Collaborated with cross-functional teams to develop internal tools, REST APIs, and scalable infrastructure solutions using containerization and orchestration technologies.",
       "keywords": [
         "Perl",
-        "Ansible",
-        "GitLab",
-        "GitLab CI",
-        "Docker",
-        "Kubernetes",
-        "Go (golang)",
+        "PHP",
+        "Go",
+        "Symfony",
+        "Doctrine DBAL",
         "MySQL",
         "Redis",
-        "Microservices"
+        "Docker",
+        "Kubernetes",
+        "Ansible",
+        "GitLab CI",
+        "Swagger",
+        "Mojolicious",
+        "Flask",
+        "CI/CD",
+        "Microservices",
+        "Infrastructure as Code",
+        "Automation",
+        "DevOps"
       ],
       "highlights": [
-        "Develop new functionality and refactoring of existing functionality",
-        "Processes implementation and improvement (optimization)",
-        "Proactively learn and utilize new technologies, concepts, and procedures as appropriate to project requirements",
-        "Code reviews",
-        "Perceived mentor: training other developers, pair programming"
+        "Introduced and integrated modern development practices including TDD (PHPUnit), automated acceptance testing (Selenium), dependency injection, and Composer/Packagist into legacy PHP systems.",
+        "Refactored legacy PHP codebase to adopt Symfony components and Doctrine DBAL, replacing deprecated PEAR packages and improving maintainability and performance.",
+        "Designed and implemented RESTful APIs using Mojolicious (Perl) and Flask (Python), documented with Swagger (OpenAPI) for integration with CNC machines and internal systems.",
+        "Established GitLab CI pipelines with custom GitLab Runners for automated building, testing, and deployment of REST services, enhancing code quality and release speed.",
+        "Deployed an internal Docker registry via GitLab to streamline container image management and accelerate development workflows.",
+        "Orchestrated infrastructure provisioning using Ansible to automate CI/CD environments on Debian and CoreOS servers, supporting both development and production environments.",
+        "Led the transition toward containerization with Docker and initiated the deployment of Kubernetes clusters (staging and production) to improve scalability and reliability.",
+        "Implemented front-end build automation using Grunt for CSS and JavaScript minification, concatenation, and bundling to optimize client-side performance.",
+        "Delivered internal technical workshops on PHP best practices, automated testing, ACL implementations, and modern DevOps workflows to upskill development team members.",
+        "Acted as a mentor and knowledge leader within the team, fostering adoption of new tools, processes, and engineering standards."
       ]
-    },
+    },    
     {
       "name": "Travian Games GmbH",
       "position": "Senior Developer",
@@ -221,15 +220,15 @@
         "Jira",
         "Confluence",
         "Bamboo",
-        "MySQL", 
-        "MongoDB", 
-        "Redis", 
-        "Continuous Integration", 
-        "DevOps", 
-        "Code Review", 
-        "Mentoring", 
-        "Pair Programming", 
-        "API Development", 
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Continuous Integration",
+        "DevOps",
+        "Code Review",
+        "Mentoring",
+        "Pair Programming",
+        "API Development",
         "Software Optimization"
       ],
       "highlights": [
@@ -332,7 +331,8 @@
         "Built and nurtured an online community platform for music enthusiasts, fostering user engagement and content sharing.",
         "Managed website redesigns and platform upgrades to enhance user experience and content accessibility."
       ]
-  }],
+    }
+  ],
   "education": [
     {
       "institution": "Faculty of Computer and Information Science",
@@ -358,16 +358,7 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": [
-        "Bash/Shell",
-        "PHP",
-        "Perl",
-        "Python",
-        "Java",
-        "Go (golang)",
-        "JavaScript",
-        "C#"
-      ]
+      "keywords": ["Bash/Shell", "PHP", "Perl", "Python", "Java", "Go (golang)", "JavaScript", "C#"]
     },
     {
       "name": "DevOps Toolset & Technologies",
@@ -416,30 +407,31 @@
     }
   ],
   "certificates": [
-  {
-    "name": "Cloud DevOps Engineer",
-    "date": "2021-03-25",
-    "issuer": "Udacity",
-    "url": "https://graduation.udacity.com/confirm/YP6JRDKY"
-  },
-  {
-    "name": "CKAD: Certified Kubernetes Application Developer",
-    "date": "2020-09-17",
-    "issuer": "The Linux Foundation",
-    "url": "https://www.credly.com/badges/8da32134-2aad-428d-a1e7-27034885c7f5?source=linked_in_profile"
-  },
-  {
-    "name": "CKA: Certified Kubernetes Administrator",
-    "date": "2020-08-12",
-    "issuer": "The Linux Foundation",
-    "url": "https://www.credly.com/badges/17e50e2e-6f95-4afe-8204-faccea515805?source=linked_in_profile"
-  },
-  {
-    "name": "Architecting with Google Kubernetes Engine",
-    "date": "2019-07-25",
-    "issuer": "Coursera",
-    "url": "https://www.coursera.org/account/accomplishments/specialization/QX4SJ3STA2U6"
-  }],
+    {
+      "name": "Cloud DevOps Engineer",
+      "date": "2021-03-25",
+      "issuer": "Udacity",
+      "url": "https://graduation.udacity.com/confirm/YP6JRDKY"
+    },
+    {
+      "name": "CKAD: Certified Kubernetes Application Developer",
+      "date": "2020-09-17",
+      "issuer": "The Linux Foundation",
+      "url": "https://www.credly.com/badges/8da32134-2aad-428d-a1e7-27034885c7f5?source=linked_in_profile"
+    },
+    {
+      "name": "CKA: Certified Kubernetes Administrator",
+      "date": "2020-08-12",
+      "issuer": "The Linux Foundation",
+      "url": "https://www.credly.com/badges/17e50e2e-6f95-4afe-8204-faccea515805?source=linked_in_profile"
+    },
+    {
+      "name": "Architecting with Google Kubernetes Engine",
+      "date": "2019-07-25",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/QX4SJ3STA2U6"
+    }
+  ],
   "interests": [
     {
       "name": "Reading",
@@ -454,48 +446,46 @@
       "keywords": ["Homemade", "Made With Love", "Sourdough"]
     }
   ],
-  "projects": [{
-    "name": "Filmido.com",
-    "description": "An online platform connecting clients with top-tier wedding photographers and videographers at affordable prices.",
-    "highlights": [
-      "Designed and led the end-to-end architecture for a scalable, containerized microservices platform deployed on Scaleway cloud.",
-      "Implemented Infrastructure as Code (IaC) using Terraform, Ansible, and Packer to automate environment provisioning across development, staging, and production.",
-      "Built a CI/CD pipeline in CircleCI automating build, linting, testing, security scanning (Snyk), containerization, and deployment, reducing manual deployment effort by 80%.",
-      "Configured Traefik as a reverse proxy and load balancer with automatic SSL certificate management via ACME DNS challenge using Cloudflare.",
-      "Integrated Sentry to automate application monitoring and error reporting, enabling faster identification and resolution of production issues."
-    ],
-    "keywords": [
-      "Angular 11",
-      "Tailwind CSS",
-      "Microservices",
-      "Java",
-      "Spring Boot",
-      "Node.js",
-      "Express.js",
-      "MongoDB Atlas",
-      "Docker",
-      "CI/CD",
-      "CircleCI",
-      "Terraform",
-      "Ansible",
-      "Packer",
-      "Infrastructure as Code",
-      "Traefik",
-      "ACME DNS",
-      "Cloudflare",
-      "Sentry",
-      "DevOps",
-      "Reverse Proxy",
-      "Load Balancing",
-      "Monitoring",
-      "Container Security"
-    ],
-    "startDate": "2021-05-01",
-    "url": "https://filmido.com/",
-    "roles": [
-      "Software Architect",
-      "Lead Developer",
-      "DevOps Engineer"
-    ]
-  }]
+  "projects": [
+    {
+      "name": "Filmido.com",
+      "description": "An online platform connecting clients with top-tier wedding photographers and videographers at affordable prices.",
+      "highlights": [
+        "Designed and led the end-to-end architecture for a scalable, containerized microservices platform deployed on Scaleway cloud.",
+        "Implemented Infrastructure as Code (IaC) using Terraform, Ansible, and Packer to automate environment provisioning across development, staging, and production.",
+        "Built a CI/CD pipeline in CircleCI automating build, linting, testing, security scanning (Snyk), containerization, and deployment, reducing manual deployment effort by 80%.",
+        "Configured Traefik as a reverse proxy and load balancer with automatic SSL certificate management via ACME DNS challenge using Cloudflare.",
+        "Integrated Sentry to automate application monitoring and error reporting, enabling faster identification and resolution of production issues."
+      ],
+      "keywords": [
+        "Angular 11",
+        "Tailwind CSS",
+        "Microservices",
+        "Java",
+        "Spring Boot",
+        "Node.js",
+        "Express.js",
+        "MongoDB Atlas",
+        "Docker",
+        "CI/CD",
+        "CircleCI",
+        "Terraform",
+        "Ansible",
+        "Packer",
+        "Infrastructure as Code",
+        "Traefik",
+        "ACME DNS",
+        "Cloudflare",
+        "Sentry",
+        "DevOps",
+        "Reverse Proxy",
+        "Load Balancing",
+        "Monitoring",
+        "Container Security"
+      ],
+      "startDate": "2021-05-01",
+      "url": "https://filmido.com/",
+      "roles": ["Software Architect", "Lead Developer", "DevOps Engineer"]
+    }
+  ]
 }
