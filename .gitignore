@@ -252,3 +252,6 @@ fabric.properties
 
 # Public files genereated by the build process should be ignored
 public/
+
+# Final resume.json file
+resume.json
