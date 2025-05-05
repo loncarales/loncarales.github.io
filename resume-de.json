@@ -1,0 +1,629 @@
+{
+  "language": "de",
+  "basics": {
+    "name": "Ales Loncar",
+    "image": "picture.png",
+    "label": "Senior Cloud & DevOps Engineer, Platform Engineer, Infrastructure Automation Specialist",
+    "summary": "Erfahrener freiberuflicher Cloud- und DevOps-Engineer mit über 20 Jahren Erfahrung in der Bereitstellung produktionsreifer, cloud-nativer, containerisierter und automatisierter Lösungen. Spezialisiert auf Infrastructure as Code, CI/CD-Pipelines, Platform Engineering und DevSecOps-Praktiken, um Deployment-Prozesse zu optimieren, die Sicherheit zu erhöhen und die Developer Experience zu verbessern. Verbindet Softwareentwickler-Denken mit tiefem DevOps-Fachwissen, um skalierbare, sichere und robuste Plattformen zu entwerfen und zu implementieren. Leidenschaftlich engagiert für Automatisierung, kontinuierliche Verbesserung und Mentoring in modernen Engineering-Methoden.",
+    "headline": "Freiberuflicher Cloud & DevOps Engineer | Platform Engineer | Kubernetes | CI/CD | DevSecOps",
+    "keywords": ["Cloud", "DevOps", "Platform Engineering", "Infrastructure as Code", "CI/CD", "Kubernetes", "AWS", "Azure", "Terraform", "Ansible", "Monitoring", "Automation"],
+    "website": "https://loncar.net/",
+    "blog": null,
+    "yearsOfExperience": 25,
+    "id": "c3dd9d7f-955a-45b8-b8ce-d74a2e20a57e",
+    "username": "loncarales",
+    "email": "ales.loncar@gmail.com",
+    "location": {
+      "city": "München",
+      "countryCode": "DE",
+      "region": "Bayern"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "loncarales",
+        "url": "https://www.linkedin.com/in/loncarales/"
+      },
+      {
+        "network": "GitHub",
+        "username": "loncarales",
+        "url": "https://github.com/loncarales"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "European Union Agency (via IBM)",
+      "position": "Senior DevOps Consultant (Freelance)",
+      "location": "Straßburg, Frankreich",
+      "startDate": "2024-04-01",
+      "endDate": "2025-03-31",
+      "isCurrentRole": false,
+      "summary": "Freiberuflicher Senior DevOps Consultant vor Ort bei IBM für eine Agentur der Europäischen Union. Tätigkeit in einer hochsicheren, abgeschotteten Umgebung mit Verwaltung klassifizierter Systeme. Leitung von Automatisierungs- und DevOps-Initiativen für eine großskalige OpenShift-Plattform (>400 Nodes), Verbesserung der Deployment-Effizienz, Implementierung von GitOps und Automatisierung mit Ansible, Python und Bash unter Einhaltung strenger Sicherheitsvorgaben.",
+      "keywords": ["Ansible", "Ansible Tower", "Ansible Automation Platform (AAP)", "GitOps", "OpenShift", "Red Hat Advanced Cluster Management", "ArgoCD", "Helm", "Kafka", "Bash", "Python", "YAML", "JFrog Artifactory", "Red Hat Enterprise Linux (RHEL)", "Istio", "Air-Gapped Network", "CI/CD", "Infrastructure as Code", "Automation", "DevOps", "Private Cloud", "Configuration as Code", "Security Compliance"],
+      "highlights": [
+        "Automatisierung der Release- und Deployment-Workflows in einer privaten Cloud mit über 400 OpenShift-Nodes, wodurch die Deployment-Geschwindigkeit und Zuverlässigkeit signifikant verbessert wurden.",
+        "Migration bestehender Playbooks, Rollen und Templates von Ansible Tower zur Ansible Automation Platform (AAP), inklusive Umsetzung von Fully-Qualified Collection Names (FQCN) und Erstellung benutzerdefinierter Execution Environments (EE) für containerisierte Automatisierung.",
+        "Implementierung eines GitOps-Agents für die AAP Controller Configuration as Code, um die automatische Synchronisierung (CRUD) von Ansible Controller-Objekten basierend auf Repository-Konfigurationsdateien zu ermöglichen.",
+        "Entwurf und Automatisierung komplexer mehrstufiger Betriebs-Workflows, darunter Environment Cleanup, Wiederherstellung von Helix-Cluster-Komponenten, Kafka-Topic-Management und Verwaltung von OpenShift-Objekten in ca. 100 Umgebungen.",
+        "Reduzierung mehrtägiger manueller Abläufe auf wenige Stunden durch Automatisierungsverbesserungen über mehrere AAP-Cluster und OpenShift-Umgebungen hinweg.",
+        "Integration der Ansible Automation Platform mit Thycotic (Delinea) Secret Server mittels Lookup-Plugin zur sicheren Verwaltung von Zugangsdaten in automatisierten Prozessen.",
+        "Übernahme von Deployment-Aufgaben, Fehlerbehebung in der Plattform und Istio-Netzwerkkonfigurationen unter Einhaltung strenger Sicherheits- und Compliance-Standards der EU PSC.",
+        "Zusammenarbeit mit Infrastruktur- und Applikationsteams zur Optimierung von Deployment-Prozessen, Entwicklung von Namenskonventionen und kontinuierlicher Erweiterung der Automatisierungsabdeckung in einer abgeschotteten, klassifizierten Umgebung."
+      ]
+    },
+    {
+      "name": "The Marcom Engine",
+      "position": "Senior Back End Developer (Freelance)",
+      "url": "https://www.themarcomengine.de/",
+      "location": "München, Deutschland",
+      "startDate": "2023-01-01",
+      "endDate": "2024-01-01",
+      "isCurrentRole": false,
+      "summary": "Freiberuflicher Senior Back End Developer bei The Marcom Engine, verantwortlich für Design, Entwicklung und Wartung skalierbarer Backend-Services mit Node.js, Python und Microservices-Architektur. Aufbau einer Greenfield-Backend-Plattform von Grund auf. Förderung von Software-Qualität, Testing-Best-Practices und sicheren Coding-Standards über mehrere Projekte hinweg. Zusammenarbeit mit DevOps-Teams und Stakeholdern zur Verbesserung von CI/CD-Pipelines, Dokumentation und Code-Review-Prozessen.",
+      "keywords": [
+        "Node.js",
+        "Python",
+        "REST API",
+        "Microservices",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "SonarQube",
+        "Nexus",
+        "CI/CD",
+        "Unit Testing",
+        "End-to-End Testing",
+        "Code Coverage",
+        "Dependency Injection",
+        "Software Documentation",
+        "Code Review",
+        "Mentorship",
+        "Git",
+        "Security"
+      ],
+      "highlights": [
+        "Architektur und Implementierung einer Greenfield-Backend-Applikation mit Node.js und Python, Bereitstellung einer skalierbaren, wartbaren Lösung maßgeschneidert für Geschäftsanforderungen.",
+        "Sicherstellung hoher Performance, Verfügbarkeit und Sicherheit durch robustes REST API-Design, Integration von Sicherheitspraktiken und Einhaltung von API-Standards.",
+        "Implementierung einer Teststrategie, die die Codeabdeckung innerhalb von 3 Monaten auf über 80% steigerte, in Einklang mit Qualitätszielen.",
+        "Leitung von Initiativen zur Entfernung sensibler Daten aus Git-Repositories, inklusive Cleaning der Commit-Historie mit BFG Repo-Cleaner und git filter-repo.",
+        "Etablierung und Durchsetzung von Code-Review-Richtlinien und Best Practices zur Standardisierung der Codequalität und Förderung von Wissensaustausch.",
+        "Zusammenarbeit mit DevOps-Teams zur Optimierung der CI/CD-Pipelines mit Jenkins, SonarQube und Nexus, Gewährleistung kontinuierlicher Qualitätskontrolle und effizienter Deployments.",
+        "Integration von Drittanbieter-Services und APIs in enger Zusammenarbeit mit Partnern für nahtlose Backend-Integration.",
+        "Erstellung und Pflege umfassender technischer Dokumentation zur Unterstützung von Wartung, Troubleshooting und Onboarding.",
+        "Mentoring von Junior-Entwicklern durch Code Reviews, Pair Programming und technische Beratung zur Förderung von Skill-Wachstum und Engineering Excellence.",
+        "Verbesserung der Developer-Umgebung durch Setup-Guides und Empfehlungen zu Tools, Sicherheit und Development-Best-Practices.",
+        "Aktive Mitarbeit an internen Wissensdatenbanken, u.a. Confluence-Dokumentation zu Developer-Prozessen, Code-Standards und Testing-Methoden."
+      ]
+    },
+    {
+      "name": "Graylog",
+      "position": "Cloud Engineer (Freelance)",
+      "url": "https://www.graylog.org/",
+      "location": "Remote",
+      "startDate": "2021-10-01",
+      "endDate": "2022-12-31",
+      "isCurrentRole": false,
+      "summary": "Freiberuflicher Cloud Engineer bei Graylog, mitverantwortlich für die Transformation von Graylog zu einer skalierbaren, cloud-nativen Plattform. Mitglied des internationalen Cloud Engineering Teams mit Fokus auf Design, Automatisierung, Security und Optimierung der Infrastruktur und Operations in AWS, Kubernetes und verteilten Systemen. Leitung von DevOps-Automatisierung, Monitoring-Lösungen und Infrastruktur-Hardening zur Unterstützung eines zuverlässigen, sicheren und effizienten Servicebetriebs.",
+      "keywords": [
+        "AWS",
+        "Terraform",
+        "Ansible",
+        "Infrastructure as Code",
+        "Prometheus",
+        "Grafana",
+        "OpenSearch",
+        "Elasticsearch",
+        "Kubernetes",
+        "Argo Workflows",
+        "Go",
+        "Python",
+        "Bash",
+        "GitHub Actions",
+        "Monitoring",
+        "CI/CD",
+        "DevOps",
+        "Cloud Security",
+        "Distributed Systems",
+        "MongoDB",
+        "Automation",
+        "Okta",
+        "Identity Management"
+      ],
+      "highlights": [
+        "Architektur und Implementierung von Infrastructure-as-Code-Lösungen mit Terraform und Ansible zur Provisionierung und Verwaltung von AWS-Cloud-Ressourcen, um Wiederholbarkeit, Skalierbarkeit und Compliance sicherzustellen.",
+        "Entwicklung von Ansible-Automatisierungen für OpenSearch (Amazon Elasticsearch) Snapshot-Management, Shard-Replication-Monitoring und kritische Datensicherungs-Workflows.",
+        "Entwicklung von Monitoring- und Alerting-Lösungen mit Prometheus und Grafana, inklusive Überwachung von Elasticsearch/OpenSearch-Metriken und automatischer Erkennung kritischer Konfigurationsprobleme.",
+        "Leitung von Maßnahmen zur Behebung von Sicherheitslücken, u.a. Log4j2-Remote-Code-Execution (RCE)-Mitigation und Prüfung potenzieller Exploits.",
+        "Upgrade eines MongoDB (Percona Fork) Replica-Set-Clusters von Version 3.6 auf 4.4 mit einem maßgeschneiderten Ansible-Playbook für gestaffelte, inplace Upgrades mit Zero Downtime.",
+        "Erweiterung der CI/CD-Automatisierung durch Implementierung von GitHub Actions Workflows zur Orchestrierung von Ansible-Deployments, Ablösung der Docker-basierten Ansible-Umgebung durch Poetry-Management.",
+        "Beitrag zur Migration der Graylog Cloud-Infrastruktur von AWS EC2 auf Kubernetes-basierte Deployments mit Argo Workflows zur Verbesserung von Skalierbarkeit und Deployment-Konsistenz.",
+        "Implementierung, Konfiguration und Deployment eines vorhandenen Okta-Terraform-Moduls zur automatischen Provisionierung von Okta OAuth-Applikationen, Benutzergruppen, API-Usern und Initial-Admin-Usern zur Integration von Identity Management in Graylog-Instanzen.",
+        "Vereinfachung der Zugriffskontrolle und Absicherung der Monitoring-Infrastruktur durch Reverse Proxy-Konfiguration, ELB/ALB-Hardening und verbessertes Token-Management mittels GitHub Apps Credentials.",
+        "Reduzierung des Betriebsaufwands durch Ausphasung von Legacy Jenkins und APT-Repositories, Migration zu direkter Deb-Paket-Bereitstellung über AWS S3 und GitHub Assets.",
+        "Automatisierung der Garbage Collection leerer Indizes in nicht genutzten Index-Sets zur Kostensenkung und Verbesserung der Indexverwaltung.",
+        "Implementierung von Alert-Deduplikation und Custom-Alert-Logik in Alertmanager zur Reduzierung von Alarmrauschen und Priorisierung relevanter Incidents.",
+        "Erstellung von Dokumentationen zu Designs, implementierten Lösungen sowie fachlichem Mentoring und Peer Reviews im Engineering Team."
+      ]
+    },
+    {
+      "name": "Publicis Sapient",
+      "position": "Java Architect (Freelance)",
+      "url": "https://www.publicissapient.com/",
+      "location": "Remote",
+      "startDate": "2020-11-01",
+      "endDate": "2021-09-01",
+      "isCurrentRole": false,
+      "summary": "Freiberuflicher Java Architect im DPDHL Freight Solutions (FS)-Projekt via Publicis Sapient, Beitrag zur digitalen Transformation des Kunden durch Modernisierung von Backendsystemen, Verbesserung von Software-Delivery-Pipelines und Stärkung der Observability. Zusammenarbeit mit cross-funktionalen Teams bei Architektur, Implementierung und Optimierung cloud-nativer Microservices auf Azure Kubernetes Service (AKS), Integration von Security, Monitoring und Data-Management Best Practices.",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Azure",
+        "Azure Kubernetes Service (AKS)",
+        "Azure DevOps",
+        "Swagger",
+        "SpringFox",
+        "Splunk",
+        "Docker",
+        "Kubernetes",
+        "Cosmos DB",
+        "CI/CD",
+        "JWT",
+        "Auth0",
+        "Application Security",
+        "API Design",
+        "Observability",
+        "DevOps",
+        "Cloud Native"
+      ],
+      "highlights": [
+        "Entwurf und Implementierung einer Microservices-Architektur auf Azure Kubernetes Service (AKS) mit Spring Boot und cloud-nativen Patterns für Skalierbarkeit und Ausfallsicherheit.",
+        "Optimierung bestehender Spring Boot Microservices unter Einsatz von Domain-Driven Design (DDD), hexagonaler Architektur, asynchroner Verarbeitung, Application Events und Aspekt-orientierter Programmierung.",
+        "Integration von Distributed Tracing mit Spring Cloud Sleuth zur Verfolgung von Correlation IDs über Services hinweg für verbesserte Nachvollziehbarkeit.",
+        "Stärkung der API-Sicherheit durch Implementierung von JWT-basiertem Authentication und Migration von statischer JWT-Konfiguration zu Auth0-Integration; später Exploration eines Wechsels zu Azure Active Directory (AAD).",
+        "Entwicklung und Deployment einer Shared Maven Library zur Auth0 Audience Validation zur Standardisierung der Authentifizierung über Services hinweg.",
+        "Optimierung der CI/CD-Pipelines in Azure DevOps zur Effizienzsteigerung der Build-, Test- und Deployment-Prozesse für Microservices und Shared Libraries.",
+        "Automatisierte API-Dokumentation mit Swagger 2 via SpringFox zur Sicherstellung aktueller und konsistenter API-Spezifikationen.",
+        "Implementierung von Splunk Logging in Backend-Services, Verbesserung der Log-Appender-Konfigurationen und Zusammenarbeit mit Infrastrukturteams zur Abstimmung der Produktions-Loganalyse.",
+        "Entwicklung eines Watchdog-Prozesses zur Sammlung von API-Health-Metriken und automatischen Triggerung von Splunk Alerts zur proaktiven Fehlererkennung.",
+        "Architektur und Implementierung automatisierter Cosmos DB Backup-Pipelines mit Azure Data Factory zur Sicherstellung von Datenhaltung und Disaster Recovery.",
+        "Dokumentation der Softwarearchitektur und API-Designs mittels standardisierter Dokumentationspraktiken zur Unterstützung von Wissenstransfer und Onboarding."
+      ]
+    },
+    {
+      "name": "Publicis Sapient",
+      "position": "Senior DevOps Engineer (Freelance)",
+      "url": "https://www.publicissapient.com/",
+      "location": "München, Deutschland",
+      "startDate": "2019-11-01",
+      "endDate": "2020-06-01",
+      "isCurrentRole": false,
+      "summary": "Freiberuflicher Senior DevOps Engineer im DPDHL Logistics Platform-Projekt, tätig in einer Hybrid-Cloud-Umgebung mit Private Datacenter (Prag) und Microsoft Azure. Fokus auf Automatisierung, Containerisierung und Infrastructure as Code (IaC) zur Optimierung von Infrastruktur- und Entwicklungsprozessen. Zusammenarbeit mit Development- und Infrastrukturteams zur Verbesserung der CI/CD-Pipelines, Deployment containerisierter Anwendungen und Implementierung skalierbarer, wartbarer Infrastruktur-Lösungen.",
+      "keywords": [
+        "OpenShift",
+        "Docker",
+        "Kubernetes",
+        "Azure",
+        "Ansible",
+        "Terraform",
+        "Packer",
+        "Jenkins",
+        "GitLab",
+        "CI/CD",
+        "Infrastructure as Code",
+        "Bash",
+        "Shell",
+        "Hybrid Cloud",
+        "DevOps",
+        "Automation"
+      ],
+      "highlights": [
+        "Design und Implementierung von CI/CD-Pipelines mit Jenkins, ausgeführt in OpenShift-Clustern, zur Verbesserung von Deployment-Geschwindigkeit und Konsistenz über die Hybrid-Cloud-Infrastruktur hinweg.",
+        "Entwicklung von Infrastructure-as-Code-Lösungen mit Ansible und Terraform zur Provisionierung und Verwaltung der Infrastruktur in Azure und dem Private Datacenter.",
+        "Anpassung von Ansible-Automatisierungen für den Betrieb in restriktiven Umgebungen ohne Privilege Escalation, unter Einhaltung von Security- und Operational-Constraints.",
+        "Entwicklung eines Custom Ansible Runners zur Unterstützung arbiträr zugewiesener User-IDs von OpenShift zur nahtlosen Ausführung von Automatisierungs-Tasks in Containern.",
+        "Erstellung und Deployment von Custom Jenkins-Container-Images in OpenShift zur Förderung von Pipeline-Flexibilität und Tooling-Standardisierung.",
+        "Teilen von Expertise durch interne Knowledge-Sharing-Sessions, Pair Programming und Tech Talks, um die DevOps-Reife und Skills des Teams zu stärken.",
+        "Förderung einer DevOps-Kultur mit Fokus auf Zusammenarbeit, kontinuierliche Verbesserung und Automatisierung zur Überbrückung von Dev- und Ops-Silos."
+      ]
+    },
+    {
+      "name": "Accenture (via Catenate GmbH)",
+      "position": "Infrastructure Engineer / DevOps Consultant",
+      "url": "https://www.accenture.com/",
+      "location": "München, Deutschland",
+      "startDate": "2018-09-01",
+      "endDate": "2019-10-01",
+      "isCurrentRole": false,
+      "summary": "Erbringung von Infrastructure Engineering und DevOps Consulting Services für Accenture als externer Contractor via Catenate GmbH mit Schwerpunkt auf Modernisierung und Optimierung der BMW OpenShift Container Platform Cluster (v3.6, 3.9, 3.11). Umsetzung von Verbesserungen in Applikationsmigration, CI/CD-Pipelines und Monitoring-Lösungen zur Steigerung von Durchsatz, Stabilität und Skalierbarkeit.",
+      "keywords": [
+        "OpenShift",
+        "Kubernetes",
+        "Docker",
+        "Helm",
+        "Terraform",
+        "Ansible",
+        "Jenkins",
+        "SonarQube",
+        "Fitnesse",
+        "Prometheus",
+        "Grafana",
+        "Nexus",
+        "Artifactory",
+        "Go",
+        "Bash",
+        "Perl",
+        "Linux",
+        "CI/CD",
+        "OpenStack"
+      ],
+      "highlights": [
+        "Leitung der Migration von Anwendungen aus traditioneller Server-Infrastruktur in containerisierte Umgebungen auf OpenShift Container Platform.",
+        "Design und Implementierung von CI/CD-Pipelines und Integration von Tools wie Jenkins, SonarQube und Fitnesse zur Automatisierung von Testing, Build und Deployment-Prozessen innerhalb der OpenShift-Cluster.",
+        "Engineering eines vollständigen Monitoring-Stacks mit Prometheus, Pushgateway und Alertmanager zur Verbesserung der Observability über mehrere OpenShift-Cluster hinweg.",
+        "Management der Migration von Anwendungen und Persistent Volumes zwischen OpenShift-Versionen 3.6, 3.9 und 3.11 unter Sicherstellung minimaler Ausfallzeiten und Datenintegrität.",
+        "Deployment einer Immutable Infrastructure in der BMW OpenStack Cloud unter Einsatz von Terraform und Ansible zur Provisionierung und Konfiguration von Windows Server Instanzen.",
+        "Entwicklung von Helm-Charts und Ansible-Playbooks zur Automatisierung von Deployment und Konfiguration von Jenkins-Servern und Windows-basierten Build Agents in Kubernetes- und OpenStack-Umgebungen.",
+        "Erstellung eines Custom Go-basierten CLI-Tools zur Automatisierung von OpenID Connect Authentifizierung und Vereinfachung des Kubernetes-Cluster-Zugriffs für Entwickler."
+      ]
+    },
+    {
+      "name": "Catenate GmbH",
+      "position": "Senior Software Engineer / Software Development Lead",
+      "url": "https://catenate.com/",
+      "location": "München, Deutschland",
+      "startDate": "2018-07-01",
+      "endDate": "2019-10-01",
+      "isCurrentRole": false,
+      "summary": "Als Senior Software Engineer und Team Lead bei Catenate GmbH verantwortlich für die Leitung von Softwareentwicklungsprojekten und technische Führung bei Kundenprojekten, darunter Allianz (TUIGBM) und Aufträge wie Accenture. Mentoring von Teammitgliedern, Leitung technischer Diskussionen und Fokus auf nicht-funktionale Anforderungen wie Wartbarkeit, Skalierbarkeit und Zuverlässigkeit.",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Gradle",
+        "Quartz",
+        "Easy Batch",
+        "Angular",
+        "Jenkins",
+        "Docker",
+        "Vagrant",
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "Confluence",
+        "Jira",
+        "Bitbucket"
+      ],
+      "highlights": [
+        "Leitung des Softwareentwicklungsteams für TUIGBM, eine Datenintegrationsplattform für Allianz, die es Kundendienstteams ermöglicht, TUI-Reisevertragsdaten aus verschiedenen Backend-Datenströmen zu erhalten.",
+        "Entwicklung von Backend-Systemen mit Java, Spring Boot, Quartz und Easy Batch zur Verarbeitung und Zentralisierung von Versicherungsdaten aus verschiedenen Quellen.",
+        "Erstellung einer Vagrant-basierten lokalen Entwicklungsumgebung zur Steigerung der Entwicklerproduktivität und Vereinfachung des Testings vor Deployment.",
+        "Konfiguration von CI/CD-Pipelines mit Jenkins zur Automatisierung des Builds und der Auslieferung von Softwareartefakten in Kundenumgebungen.",
+        "Technisches Mentoring, Durchführung von Code Reviews und Pair Programming zur Förderung der Fähigkeiten von Junior-Entwicklern und Etablierung von Best Practices.",
+        "Durchführung interner Tech Talks zu Themen wie Cloud Computing, Containerisierung, Container Orchestration, DevOps-Prinzipien, Vagrant und OpenShift.",
+        "Zusammenarbeit mit technischen Leitern der Kunden zur Abstimmung von Entwicklungsprioritäten, Beseitigung von Blockern und Sicherstellung, dass Projektlieferungen technische und geschäftliche Anforderungen erfüllen."
+      ]
+    },
+    {
+      "name": "Etkon GmbH / Straumann",
+      "position": "Software Engineer, CAD/CAM",
+      "url": "https://www.straumann.com/",
+      "location": "München, Deutschland",
+      "startDate": "2016-02",
+      "endDate": "2018-06",
+      "summary": "Mitglied des CAD/CAM Softwareentwicklungsteams der Straumann Group, einem weltweit führenden Unternehmen für Dentalprothetik und Implantatlösungen. Führung von Modernisierungsinitiativen zur Integration moderner Softwareentwicklungspraktiken, DevOps-Tooling und Automatisierung in Legacy-Systeme zur Unterstützung der Dentalprothetikproduktion und 3D-Datenverarbeitung. Zusammenarbeit mit funktionsübergreifenden Teams zur Entwicklung interner Tools, REST-APIs und skalierbarer Infrastruktur-Lösungen unter Einsatz von Containerisierung und Orchestrierungstechnologien.",
+      "keywords": [
+        "Perl",
+        "PHP",
+        "Go",
+        "Symfony",
+        "Doctrine DBAL",
+        "MySQL",
+        "Redis",
+        "Docker",
+        "Kubernetes",
+        "Ansible",
+        "GitLab CI",
+        "Swagger",
+        "Mojolicious",
+        "Flask",
+        "CI/CD",
+        "Microservices",
+        "Infrastructure as Code",
+        "Automation",
+        "DevOps"
+      ],
+      "highlights": [
+        "Einführung und Integration moderner Entwicklungsmethoden wie TDD (PHPUnit), automatisierte Akzeptanztests (Selenium), Dependency Injection und Composer/Packagist in Legacy-PHP-Systeme.",
+        "Refactoring des Legacy-PHP-Codes zur Nutzung von Symfony-Komponenten und Doctrine DBAL, Ersetzung veralteter PEAR-Pakete zur Verbesserung von Wartbarkeit und Performance.",
+        "Design und Implementierung von RESTful APIs mit Mojolicious (Perl) und Flask (Python), dokumentiert mit Swagger (OpenAPI), zur Integration mit CNC-Maschinen und internen Systemen.",
+        "Aufbau von GitLab CI-Pipelines mit benutzerdefinierten GitLab Runners zur automatisierten Erstellung, dem Testen und Deployment von REST-Services, Steigerung der Codequalität und Releasegeschwindigkeit.",
+        "Deployment eines internen Docker-Registries via GitLab zur Vereinfachung des Container-Image-Managements und Beschleunigung von Entwicklungsprozessen.",
+        "Orchestrierung der Infrastruktur-Provisionierung mit Ansible zur Automatisierung von CI/CD-Umgebungen auf Debian- und CoreOS-Servern für Entwicklungs- und Produktionsumgebungen.",
+        "Einleitung der Transition zu Containerisierung mit Docker und Start der Einführung von Kubernetes-Clustern (Staging und Produktion) zur Verbesserung von Skalierbarkeit und Zuverlässigkeit.",
+        "Implementierung von Frontend-Build-Automatisierung mit Grunt für CSS- und JavaScript-Minifizierung, -Kombination und -Bundling zur Optimierung der Client-Performance.",
+        "Durchführung interner technischer Workshops zu PHP Best Practices, automatisierten Tests, ACL-Implementierungen und modernen DevOps-Workflows zur Weiterbildung des Entwicklungsteams.",
+        "Fungierte als Mentor und Knowledge Leader innerhalb des Teams, um die Einführung neuer Tools, Prozesse und Entwicklungsstandards zu fördern."
+      ]
+    },
+    {
+      "name": "Travian Games GmbH",
+      "position": "Senior Developer",
+      "url": "https://www.traviangames.com",
+      "location": "München, Deutschland",
+      "startDate": "2013-03",
+      "endDate": "2016-01",
+      "summary": "Senior Software Developer mit nachweislicher Expertise in der Entwicklung von Tools und Kommunikationsschichten für groß angelegte Online-Spiele, Beitrag zum Erfolg von Travian 5. Leitung der Migration von Gitorious zu Stash zur Verbesserung der Versionskontrollprozesse. Optimierung von Entwicklungsworkflows durch Automatisierung und Mentoring. Bereitstellung neuer Features und Optimierung bestehender Systeme in einer agilen Umgebung mit konstant hoher Codequalität.",
+      "keywords": [
+        "Agile",
+        "PHP",
+        "Zend Framework",
+        "JavaScript",
+        "AngularJS",
+        "Node.js",
+        "Git",
+        "Stash",
+        "SourceTree",
+        "Jira",
+        "Confluence",
+        "Bamboo",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Continuous Integration",
+        "DevOps",
+        "Code Review",
+        "Mentoring",
+        "Pair Programming",
+        "API Development",
+        "Software Optimization"
+      ],
+      "highlights": [
+        "Entwicklung und Wartung kritischer Tools für Travian 5 zur Verbesserung der Integration mit Drittanbieterdiensten und Reduzierung manueller Prozesse.",
+        "Erfolgreiche Leitung der Migration des Entwicklerteams von Gitorious zu Stash, Steigerung der Effizienz des Repository-Managements und 100%ige Adoption.",
+        "Durchführung von Code Reviews zur Sicherstellung hoher Codequalität und Einhaltung von Best Practices.",
+        "Mentoring von Junior-Entwicklern durch Pair Programming und technische Schulungen, Förderung einer Kultur des Wissenstransfers und kontinuierlicher Verbesserung.",
+        "Implementierung von Prozessverbesserungen, Verkürzung der Sprint-Lieferzeiten um 10% durch optimierte Workflows.",
+        "Entwicklung und Refactoring skalierbarer Backend-Funktionalitäten in PHP, Zend Framework und Node.js zur Gewährleistung der Systemstabilität für eine globale Nutzerbasis.",
+        "Teilnahme an agilen Zeremonien, Bereitstellung präziser Sprint-Schätzungen und Beitrag zur kontinuierlichen Teamverbesserung.",
+        "Implementierung und Wartung von CI/CD-Pipelines mit Bamboo zur Automatisierung der Deployment-Prozesse und Reduzierung der Release-Zeiten um 20%."
+      ]
+    },
+    {
+      "name": "Central European Media Enterprises Ltd.",
+      "position": "Senior Developer",
+      "url": "https://www.cme.net",
+      "location": "Ljubljana, Slowenien",
+      "startDate": "2011-01",
+      "endDate": "2013-02",
+      "summary": "Beitrag zur Entwicklung, Integration und Bereitstellung digitaler Medienplattformen, darunter Voyo, ein führender Video-on-Demand-Dienst, sowie die CME Common Content Platform. Zusammenarbeit mit funktionsübergreifenden zentralen und lokalen Teams zur Einführung neuer Features für Web, Mobile und Smart TV.",
+      "keywords": [
+        "PHP",
+        "Zend Framework",
+        "JavaScript",
+        "jQuery",
+        "Android",
+        "Widevine",
+        "MySQL",
+        "Doctrine",
+        "Video Streaming",
+        "API Development",
+        "Digital Rights Management"
+      ],
+      "highlights": [
+        "Entwicklung und Wartung von Voyo, einer Multi-Model-Video-on-Demand-Plattform mit Unterstützung für TVOD, AVOD, SVOD, EST, PPV und Live-Streaming.",
+        "Implementierung der CME Common Content Platform mit Zend Framework zur Standardisierung des Content-Managements über Regionen hinweg.",
+        "Erstellung von RESTful- und JSON-RPC-APIs zur Integration mit mobilen Apps, Smart TVs und Set-Top-Boxen.",
+        "Entwicklung von Android-Anwendungen für Smartphones, Tablets und Set-Top-Boxen mit Video-Playback- und Content-Delivery-Funktionalität.",
+        "Entwicklung kundenspezifischer Module für Wowza Media Server zur Unterstützung von Streaming-Workflows.",
+        "Integration von Google Widevine DRM in Transcoding-Workflows zur sicheren Inhaltsbereitstellung."
+      ]
+    },
+    {
+      "name": "AV studio d.o.o.",
+      "position": "Web Developer",
+      "url": "https://www.av-studio.si",
+      "location": "Ljubljana, Slowenien",
+      "startDate": "2000-09",
+      "endDate": "2008-11",
+      "summary": "Entwicklung individueller Webanwendungen und Wartung von AV SiteKit, einem proprietären Content-Management-System, zur Bereitstellung maßgeschneiderter Lösungen für verschiedene Kunden. Unterstützung der Netzwerk- und Systemadministration für die interne Infrastruktur.",
+      "keywords": [
+        "ASP",
+        "MSSQL",
+        "JavaScript",
+        "XHTML",
+        "CSS",
+        "Content Management",
+        "Web Development",
+        "Systems Administration"
+      ],
+      "highlights": [
+        "Entwicklung dynamischer Webanwendungen mit ASP, MSSQL, JavaScript, XHTML und CSS innerhalb der AV SiteKit CMS-Plattform.",
+        "Wartung und Erweiterung des AV SiteKit CMS zur Unterstützung kundenspezifischer Funktionalitäten und Integrationen.",
+        "Bereitstellung von Netzwerk- und Systemadministration zur Gewährleistung von Plattformstabilität und -sicherheit."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "RockOnNet",
+      "position": "Entwickler / Administrator / Redakteur",
+      "url": "https://web.archive.org/web/*/http://www.rockonnet.com",
+      "location": "Ljubljana, Slowenien",
+      "startDate": "2001-01",
+      "endDate": "2016-01",
+      "summary": "Gründer und Leiter von RockOnNet, einem Online-Musikmagazin, das zu einer Plattform für aufstrebende Fotografen und Autoren wurde, um Musikrezensionen und Kommentare zu teilen. Leitung der Full-Stack-Entwicklung, Site-Administration und redaktionellen Abläufe über mehr als ein Jahrzehnt. Migration der Plattform von einem benutzerdefinierten CMS zu WordPress zur Verbesserung des Content-Managements und der Skalierbarkeit. Entwicklung einer REST-API zur Integration von Inhalten in die Android-App 'KjeSeRoka', die den 4.–10. Platz im Si.mobil Izzivamo Ideje-Wettbewerb belegte. Obwohl die Website nicht mehr aktiv ist, sind die Inhalte über die Wayback Machine archiviert.",
+      "keywords": [
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "Apache",
+        "Linux",
+        "CMS Development",
+        "WordPress Migration",
+        "REST API",
+        "Android Integration",
+        "Content Management",
+        "Editorial Management",
+        "Mobile App Integration",
+        "Photography",
+        "Community Building"
+      ],
+      "highlights": [
+        "Entwicklung und Wartung eines benutzerdefinierten CMS mit PHP, JavaScript und MySQL zur Verwaltung von Artikeln, Medien und Nutzerbeiträgen.",
+        "Erfolgreiche Migration der Plattform von einem Eigenbau-CMS zu WordPress, Verbesserung der Benutzerfreundlichkeit, der Content-Workflows und der Skalierbarkeit.",
+        "Erstellung einer REST-API zur Echtzeitübertragung von Inhalten an die Android-App 'KjeSeRoka', die als Top-4–10-Finalist beim Wettbewerb Si.mobil Izzivamo Ideje ausgezeichnet wurde.",
+        "Administration von Linux-basierten Webservern (Apache), Sicherstellung von Verfügbarkeit, Sicherheit und Performance-Optimierung.",
+        "Leitung redaktioneller Prozesse, Koordination eines ehrenamtlichen Teams von Autoren und Fotografen zur regelmäßigen Veröffentlichung von Musik-Inhalten.",
+        "Aufbau und Pflege einer Online-Community-Plattform für Musikliebhaber, Förderung der Nutzerinteraktion und des Content-Sharings.",
+        "Management von Website-Relaunches und Plattform-Upgrades zur Verbesserung der Benutzererfahrung und Inhaltszugänglichkeit."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Fakultät für Informatik und Informationswissenschaften",
+      "studyType": "Software Engineering",
+      "startDate": "1994-10",
+      "endDate": "1999-07"
+    },
+    {
+      "institution": "Gimnazija Murska Sobota",
+      "studyType": "Abitur",
+      "startDate": "1990-09",
+      "endDate": "1994-06"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Top 4–10 Finalist, Izzivamo Ideje Wettbewerb",
+      "date": "2010-09",
+      "awarder": "Si.mobil",
+      "summary": "Auszeichnung als Top-4–10-Finalist beim nationalen Innovationswettbewerb 'Izzivamo Ideje' von Si.mobil für die Entwicklung der Android-App 'KjeSeRoka', die Nutzer mit Live-Musikveranstaltungen verbindet."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cloud",
+      "keywords": ["AWS", "Azure", "Google Cloud", "OpenStack", "VMware Private Cloud"]
+    },
+    {
+      "name": "Programmiersprachen",
+      "keywords": ["Bash", "Python", "Java", "Go", "Node.js", "PHP", "Perl", "C#", "JavaScript"]
+    },
+    { "name": "Messaging & Event Streaming", "keywords": ["Kafka", "Webhooks"] },
+    {
+      "name": "Container & Orchestrierung",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "OpenShift",
+        "Helm",
+        "Istio Service Mesh",
+        "ArgoCD",
+        "Argo Workflows",
+        "Red Hat Advanced Cluster Management"
+      ]
+    },
+    {
+      "name": "Monitoring & Sicherheit",
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "ELK Stack",
+        "SonarQube",
+        "Ansible Vault",
+        "Nagios",
+        "PKI Validation",
+        "Splunk"
+      ]
+    },
+    {
+      "name": "IaC & Automatisierung",
+      "keywords": ["Terraform", "Ansible", "Ansible Automation Platform (AAP)", "Packer", "Vagrant"]
+    },
+    {
+      "name": "CI/CD-Tools",
+      "keywords": ["Jenkins", "GitLab CI", "Bamboo", "GitHub Actions", "CircleCI", "Azure DevOps"]
+    },
+    { "name": "Datenbanken", "keywords": ["MySQL", "PostgreSQL", "MSSQL", "Redis", "MongoDB"] },
+    {
+      "name": "Repositories & Paketmanager",
+      "keywords": ["Git", "Nexus", "JFrog Artifactory"]
+    },
+    {
+      "name": "Zusammenarbeit & Projektmanagement",
+      "keywords": ["Jira", "Confluence", "Slack", "Trello", "Agile methodologies"]
+    },
+    {
+      "name": "Soft Skills",
+      "keywords": [
+        "Kommunikation",
+        "Kundenorientierung",
+        "Agile & Remote Collaboration",
+        "Mentoring",
+        "Teamführung",
+        "Problemlösung",
+        "Anforderungsanalyse",
+        "Strategisches Denken",
+        "Anpassungsfähigkeit",
+        "Lebenslanges Lernen"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Slowenisch",
+      "fluency": "native"
+    },
+    {
+      "language": "Englisch",
+      "fluency": "fluent"
+    },
+    {
+      "language": "Deutsch",
+      "fluency": "fluent"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Cloud DevOps Engineer",
+      "date": "2021-03-25",
+      "issuer": "Udacity",
+      "url": "https://graduation.udacity.com/confirm/YP6JRDKY"
+    },
+    {
+      "name": "CKAD: Certified Kubernetes Application Developer",
+      "date": "2020-09-17",
+      "issuer": "The Linux Foundation",
+      "url": "https://www.credly.com/badges/8da32134-2aad-428d-a1e7-27034885c7f5?source=linked_in_profile"
+    },
+    {
+      "name": "CKA: Certified Kubernetes Administrator",
+      "date": "2020-08-12",
+      "issuer": "The Linux Foundation",
+      "url": "https://www.credly.com/badges/17e50e2e-6f95-4afe-8204-faccea515805?source=linked_in_profile"
+    },
+    {
+      "name": "Architecting with Google Kubernetes Engine",
+      "date": "2019-07-25",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/QX4SJ3STA2U6"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Lesen",
+      "keywords": ["Epic Fantasy", "Science Fiction", "Fantasy"]
+    },
+    {
+      "name": "Fotografie",
+      "keywords": ["Analog", "Concert", "Black & White"]
+    },
+    {
+      "name": "Kochen | Backen",
+      "keywords": ["Homemade", "Made With Love", "Sourdough"]
+    }
+  ]
+}

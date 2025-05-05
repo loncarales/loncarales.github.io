@@ -5,10 +5,11 @@
     "image": "picture.png",
     "label": "Senior Cloud & DevOps Engineer, Platform Engineer, Infrastructure Automation Specialist",
     "summary": "Accomplished freelance Cloud and DevOps Engineer with 20+ years of experience delivering production-grade, cloud-native, containerized, and automated solutions. Specializes in infrastructure as code, CI/CD pipelines, platform engineering, and DevSecOps practices to streamline deployment, enhance security, and improve developer experience. Combines a software engineering mindset with deep DevOps expertise to architect and implement scalable, secure, and resilient platforms. Passionate about automation, continuous improvement, and mentoring teams in modern engineering practices.",
-    "headline": "Freelance Cloud & DevOps Engineer | Platform Engineering | Infrastructure as Code | CI/CD | Kubernetes | DevSecOps",
+    "headline": "Freelance Cloud & DevOps Engineer | Platform Engineer | Kubernetes | CI/CD | DevSecOps",
+    "keywords": ["Cloud", "DevOps", "Platform Engineering", "Infrastructure as Code", "CI/CD", "Kubernetes", "AWS", "Azure", "Terraform", "Ansible", "Monitoring", "Automation"],
     "website": "https://loncar.net/",
     "blog": null,
-    "yearsOfExperience": 20,
+    "yearsOfExperience": 25,
     "id": "c3dd9d7f-955a-45b8-b8ce-d74a2e20a57e",
     "username": "loncarales",
     "email": "ales.loncar@gmail.com",
@@ -107,7 +108,7 @@
         "Security"
       ],
       "highlights": [
-        "Architected, designed, and implemented a greenfield backend application using Node.js and Python, delivering a scalable and maintainable solution tailored to business needs.",
+        "Architected and implemented a greenfield backend application using Node.js and Python, delivering a scalable, maintainable solution tailored to business needs.",
         "Ensured high performance, availability, and security by designing robust REST APIs, integrating security best practices, and enforcing API standards.",
         "Advocated and implemented a testing strategy that increased code coverage across all projects to over 80% within 3 months, aligning with quality benchmarks.",
         "Led initiatives to remove sensitive data from Git repositories, cleaning commit history and preventing credential leaks using BFG Repo-Cleaner and git filter-repo.",
@@ -598,15 +599,15 @@
   "languages": [
     {
       "language": "Slovenian",
-      "fluency": "Native speaker"
+      "fluency": "native"
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "fluent"
     },
     {
       "language": "German",
-      "fluency": "Fluent"
+      "fluency": "fluent"
     }
   ],
   "certificates": [
@@ -688,6 +689,77 @@
         "Built a CI/CD pipeline in CircleCI automating build, linting, testing, security scanning (Snyk), containerization, and deployment, reducing manual deployment effort by 80%.",
         "Configured Traefik as a reverse proxy and load balancer with automatic SSL certificate management via ACME DNS challenge using Cloudflare.",
         "Integrated Sentry to automate application monitoring and error reporting, enabling faster identification and resolution of production issues."
+      ],
+      "keywords": [
+        "Angular 11",
+        "Tailwind CSS",
+        "Microservices",
+        "Java",
+        "Spring Boot",
+        "Node.js",
+        "Express.js",
+        "MongoDB Atlas",
+        "Docker",
+        "CI/CD",
+        "CircleCI",
+        "Terraform",
+        "Ansible",
+        "Packer",
+        "Infrastructure as Code",
+        "Traefik",
+        "ACME DNS",
+        "Cloudflare",
+        "Sentry",
+        "DevOps",
+        "Reverse Proxy",
+        "Load Balancing",
+        "Monitoring",
+        "Container Security"
+      ],
+      "startDate": "2021-05-01",
+      "url": "https://filmido.com/",
+      "roles": ["Software Architect", "Lead Developer", "DevOps Engineer"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "#WhatWeValue Kampagnen-Infrastruktur für Deutsche Telekom",
+      "description": "Bereitstellung von Infrastruktur-Engineering und DevOps-Support für die #WhatWeValue-Kampagne der Deutschen Telekom, mit der Lieferung einer sicheren, skalierbaren Infrastruktur und Deployment-Pipelines auf der Deutsche Telekom Cloud (Azure-basiert), um eine Managed-Kubernetes-Anwendung zu betreiben.",
+      "highlights": [
+        "Entwurf und Bereitstellung von Entwicklungs-, Test- und Produktionsumgebungen auf der Deutsche Telekom Cloud (Azure-basiert) zur Unterstützung der hochkarätigen #WhatWeValue-Kampagne.",
+        "Implementierung einer sicheren Anwendungsbereitstellung in einem verwalteten Kubernetes-Cluster, einschließlich Konfiguration des nginx-ingress-controllers und PKI-Validierung für TLS/SSL-Zertifikate.",
+        "Entwicklung von CI/CD-Pipelines in Azure DevOps zur Automatisierung von Build-, Test- und Veröffentlichungsprozessen, um einen optimierten und zuverlässigen Deployment-Workflow zu gewährleisten.",
+        "Integration von Sicherheitsbest Practices während des gesamten Infrastruktur-Setups und Deployment-Prozesses in Übereinstimmung mit den Sicherheitsanforderungen des Unternehmens.",
+        "Enge Zusammenarbeit mit Projektbeteiligten, um die Infrastruktur innerhalb enger Zeitvorgaben produktionsreif bereitzustellen."
+      ],
+      "keywords": [
+        "Azure",
+        "Azure DevOps",
+        "Kubernetes",
+        "Managed Kubernetes",
+        "nginx-ingress-controller",
+        "PKI Validation",
+        "CI/CD",
+        "Infrastructure as Code",
+        "DevOps",
+        "Security Best Practices",
+        "Cloud Infrastructure",
+        "Pipeline Automation"
+      ],
+      "startDate": "2022-04-01",
+      "endDate": "2022-06-30",
+      "url": "https://www.telekom.com/en/media/media-information/archive/whatwevalue-supports-gen-z-1009888",
+      "roles": ["Infrastructure Engineer", "DevOps Engineer"]
+    },
+    {
+      "name": "Filmido.com",
+      "description": "Eine Online-Plattform, die Kunden mit erstklassigen Hochzeitsfotografen und -videografen zu erschwinglichen Preisen verbindet.",
+      "highlights": [
+        "Entwicklung und Leitung der End-to-End-Architektur für eine skalierbare, containerisierte Microservices-Plattform, die auf Scaleway Cloud bereitgestellt wurde.",
+        "Implementierung von Infrastructure as Code (IaC) mit Terraform, Ansible und Packer zur Automatisierung der Bereitstellung von Entwicklungs-, Staging- und Produktionsumgebungen.",
+        "Erstellung einer CI/CD-Pipeline in CircleCI zur Automatisierung von Build, Linting, Testing, Sicherheitsscans (Snyk), Containerisierung und Deployment, wodurch der manuelle Deploy-Aufwand um 80 % reduziert wurde.",
+        "Konfiguration von Traefik als Reverse Proxy und Load Balancer mit automatischem SSL-Zertifikatsmanagement via ACME DNS-Challenge unter Verwendung von Cloudflare.",
+        "Integration von Sentry zur Automatisierung von Anwendungs-Monitoring und Fehlerberichterstattung, wodurch eine schnellere Identifizierung und Behebung von Produktionsproblemen ermöglicht wurde."
       ],
       "keywords": [
         "Angular 11",
