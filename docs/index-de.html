@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+      <html lang="de">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ales Loncar</title>
+        <style>/* Markdown styling */
+
+.markdown {
+  color: var(--color-text);
+}
+
+.markdown p {
+  margin-bottom: 0.75rem;
+}
+
+.markdown p:last-child {
+  margin-bottom: 0px;
+}
+
+.markdown a {
+  color: var(--color-brand);
+}
+
+.markdown a:hover {
+  text-decoration-line: underline;
+}
+
+.markdown ul {
+  margin-left: 1.25rem;
+  margin-bottom: 0.75rem;
+  list-style-type: disc;
+}
+
+.markdown ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0.75rem;
+  list-style-type: decimal;
+}
+
+.markdown li {
+  margin-bottom: 0.25rem;
+}
+
+.markdown h1 {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.markdown h2 {
+  margin-bottom: 0.5rem;
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.markdown h3 {
+  margin-bottom: 0.25rem;
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.markdown h4 {
+  margin-bottom: 0.25rem;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+
+.markdown code {
+  background-color: var(--color-bg-secondary);
+  border-radius: 0.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.markdown pre {
+  background-color: var(--color-bg-secondary);
+  margin-bottom: 0.75rem;
+  overflow-x: auto;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+}
+
+.markdown pre code {
+  background-color: transparent;
+  padding: 0px;
+}
+
+.markdown blockquote {
+  border-color: var(--color-border);
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-left-width: 4px;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+.markdown hr {
+  border-color: var(--color-border);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.markdown strong {
+  font-weight: 600;
+}
+
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+:root {
+    /* Modern Minimalist Theme - Light Mode */
+    --color-brand: #3b82f6; /* More sophisticated blue accent */
+    --color-brand-light: #60a5fa; /* Lighter blue for hover */
+    --color-brand-dark: #1d4ed8; /* Darker blue for active */
+
+    /* Text Colors - Refined monochromatic scale */
+    --color-text: #1f2937; /* Near-black text for headings */
+    --color-text-secondary: #4b5563; /* Medium gray text for body */
+    --color-text-tertiary: #6b7280; /* Light gray text for captions */
+    --color-text-muted: #6b7178; /* Muted text for less important content */
+
+    /* Background Colors */
+    --color-bg: #ffffff; /* Pure white background */
+    --color-bg-secondary: #f8fafc; /* Very subtle off-white for cards */
+    --color-bg-accent: #eff6ff; /* Very light blue accent background */
+
+    /* Border Colors */
+    --color-border: #e5e7eb; /* Light gray border */
+
+    /* Accent colors */
+    --color-accent-primary: #10b981; /* Emerald green for success/positive */
+    --color-accent-secondary: #f59e0b; /* Amber for warnings/neutral */
+    --color-accent-danger: #ef4444; /* Red for errors/negative */
+  }
+
+html {
+  background-color: var(--color-bg);
+  font-size: 13px;
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    color-adjust: exact;
+    font-family:
+      'Helvetica Neue',
+      system-ui,
+      -apple-system,
+      'Segoe UI',
+      Roboto,
+      'Helvetica Neue',
+      Arial,
+      sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-brand-dark);
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+a:hover {
+  color: var(--color-brand);
+  text-decoration-line: underline;
+}
+
+h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  margin: 0px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--color-text);
+}
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.text-brand {
+  color: var(--color-brand);
+}
+
+.text-text {
+  color: var(--color-text);
+}
+
+.bg-color {
+  background-color: var(--color-bg);
+}
+
+.bg-color-secondary {
+  background-color: var(--color-bg-secondary);
+}
+
+.border-color {
+  border-color: var(--color-border);
+}
+
+.relative {
+  position: relative;
+}
+
+.float-right {
+  float: right;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-1\.5 {
+  margin-left: 0.375rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mt-0\.5 {
+  margin-top: 0.125rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-1\.5 {
+  margin-top: 0.375rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-1\.5 {
+  gap: 0.375rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+.space-y-1\.5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.375rem * var(--tw-space-y-reverse));
+}
+
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-transparent {
+  border-color: transparent;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-opacity-5 {
+  --tw-bg-opacity: 0.05;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.leading-none {
+  line-height: 1;
+}
+
+.leading-normal {
+  line-height: 1.5;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.leading-snug {
+  line-height: 1.375;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.text-foreground {
+  color: var(--color-text);
+}
+
+.text-foreground-muted {
+  color: var(--color-text-muted);
+}
+
+.text-foreground-secondary {
+  color: var(--color-text-secondary);
+}
+
+.text-foreground-tertiary {
+  color: var(--color-text-tertiary);
+}
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-shadow {
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Basic print adjustments that are hard to do with Tailwind classes */
+
+@media print {
+  html {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  a[href]:after {
+    content: none !important;
+  }
+
+  @page {
+    margin: 0.7cm 0.5cm;
+    size: auto;
+  }
+}
+
+.hover\:text-brand:hover {
+  color: var(--color-brand);
+}
+
+.hover\:border-color:hover {
+  border-color: var(--color-border);
+}
+
+@media print {
+
+  .print\:border-color {
+    border-color: var(--color-border);
+  }
+}
+
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:left-0::before {
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.before\:top-0::before {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.before\:h-full::before {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.before\:w-px::before {
+  content: var(--tw-content);
+  width: 1px;
+}
+
+.hover\:text-foreground-muted:hover {
+  color: var(--color-text-muted);
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:shadow-sm:hover {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 640px) {
+
+  .sm\:h-32 {
+    height: 8rem;
+  }
+
+  .sm\:w-32 {
+    width: 8rem;
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:space-y-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .lg\:w-1\/3 {
+    width: 33.333333%;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .lg\:w-\[960px\] {
+    width: 960px;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+}
+
+@media print {
+
+  .print\:float-none {
+    float: none;
+  }
+
+  .print\:m-0 {
+    margin: 0px;
+  }
+
+  .print\:mx-0\.5 {
+    margin-left: 0.125rem;
+    margin-right: 0.125rem;
+  }
+
+  .print\:my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .print\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .print\:mb-0\.5 {
+    margin-bottom: 0.125rem;
+  }
+
+  .print\:mb-1 {
+    margin-bottom: 0.25rem;
+  }
+
+  .print\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .print\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .print\:ml-1 {
+    margin-left: 0.25rem;
+  }
+
+  .print\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .print\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .print\:mt-0\.5 {
+    margin-top: 0.125rem;
+  }
+
+  .print\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .print\:flex {
+    display: flex;
+  }
+
+  .print\:hidden {
+    display: none;
+  }
+
+  .print\:h-24 {
+    height: 6rem;
+  }
+
+  .print\:h-3 {
+    height: 0.75rem;
+  }
+
+  .print\:h-4 {
+    height: 1rem;
+  }
+
+  .print\:w-24 {
+    width: 6rem;
+  }
+
+  .print\:w-3 {
+    width: 0.75rem;
+  }
+
+  .print\:w-4 {
+    width: 1rem;
+  }
+
+  .print\:w-\[28\%\] {
+    width: 28%;
+  }
+
+  .print\:w-\[72\%\] {
+    width: 72%;
+  }
+
+  .print\:w-full {
+    width: 100%;
+  }
+
+  .print\:max-w-full {
+    max-width: 100%;
+  }
+
+  .print\:list-disc {
+    list-style-type: disc;
+  }
+
+  .print\:flex-row {
+    flex-direction: row;
+  }
+
+  .print\:gap-0\.5 {
+    gap: 0.125rem;
+  }
+
+  .print\:gap-1 {
+    gap: 0.25rem;
+  }
+
+  .print\:gap-3 {
+    gap: 0.75rem;
+  }
+
+  .print\:space-y-1 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+  }
+
+  .print\:space-y-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+  }
+
+  .print\:rounded-md {
+    border-radius: 0.375rem;
+  }
+
+  .print\:rounded-sm {
+    border-radius: 0.125rem;
+  }
+
+  .print\:border-b {
+    border-bottom-width: 1px;
+  }
+
+  .print\:border-l-0 {
+    border-left-width: 0px;
+  }
+
+  .print\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .print\:p-0 {
+    padding: 0px;
+  }
+
+  .print\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .print\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .print\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .print\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .print\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .print\:pb-1 {
+    padding-bottom: 0.25rem;
+  }
+
+  .print\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .print\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .print\:align-middle {
+    vertical-align: middle;
+  }
+
+  .print\:text-\[0\.65rem\] {
+    font-size: 0.65rem;
+  }
+
+  .print\:text-\[10px\] {
+    font-size: 10px;
+  }
+
+  .print\:text-\[11px\] {
+    font-size: 11px;
+  }
+
+  .print\:text-\[16px\] {
+    font-size: 16px;
+  }
+
+  .print\:text-\[32px\] {
+    font-size: 32px;
+  }
+
+  .print\:text-\[8px\] {
+    font-size: 8px;
+  }
+
+  .print\:text-\[9px\] {
+    font-size: 9px;
+  }
+
+  .print\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .print\:hover\:border-transparent:hover {
+    border-color: transparent;
+  }
+
+  .print\:hover\:shadow-none:hover {
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+}
+</style>
+      </head>
+      <body>
+        <div id="root"><div class="container p-3 mx-auto lg:w-[960px] bg-color text-text print:max-w-full print:p-0 print:w-full print:px-6"><header class="relative mb-2 print:mb-0 print:p-0"><img src="picture.png" alt="Headshot of Ales Loncar" class="float-right object-cover mb-2 ml-4 w-28 h-28 rounded-full sm:w-32 sm:h-32 print:w-24 print:h-24 print:rounded-md print:float-none print:m-0" aria-hidden="true"/><div><div><h1 class="mb-1 text-5xl font-light text-foreground-muted print:mb-0.5 print:text-[32px]">Ales Loncar</h1><h2 class="mb-2 text-xl font-normal text-foreground print:mb-1 print:text-[16px]">Senior Cloud &amp; DevOps Engineer, Platform Engineer, Infrastructure Automation Specialist</h2></div><div class="flex gap-2 items-center print:gap-1" role="contentinfo" aria-label="Location"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" style="color:#6c6c6c" class="w-4 h-4 text-brand print:w-3 print:h-3" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>München, Bayern</div><div class="flex flex-wrap gap-6 mt-4 text-sm text-foreground-tertiary print:mt-0 print:align-middle" role="contentinfo" aria-label="Kontaktinformationen"><a href="mailto:ales.loncar@gmail.com" class="flex gap-2 items-center transition-colors hover:text-brand print:gap-1" aria-label="E-Mail: ales.loncar@gmail.com"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" style="color:#6c6c6c" class="w-4 h-4 text-brand print:w-3 print:h-3" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path></svg>ales.loncar@gmail.com</a></div><div class="mt-2 print:mt-1"><div class="flex flex-wrap gap-3"><a href="https://www.linkedin.com/in/loncarales/" target="_blank" rel="noopener noreferrer" class="inline-flex gap-1 items-center text-sm hover:text-foreground-muted" title="LinkedIn Profil"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" style="color:#0077B5" class="w-4 h-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg><span class="hover:underline">LinkedIn</span></a><a href="https://github.com/loncarales" target="_blank" rel="noopener noreferrer" class="inline-flex gap-1 items-center text-sm hover:text-foreground-muted" title="GitHub Profil"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" style="color:#333333" class="w-4 h-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><span class="hover:underline">GitHub</span></a></div></div><div class="mt-6 leading-relaxed text-foreground-secondary print:my-2 print:py-2"><h2 class="flex items-center mt-2 mb-1 font-semibold uppercase text-base text-brand print:text-sm print:mt-0 print:mb-0.5"><span>Über Mich</span><span class="flex-grow ml-1 border-b border-brand print:hidden"></span></h2><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-describedby="summary-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div class="flex flex-wrap items-center gap-1 print:gap-0.5"></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erfahrener freiberuflicher Cloud- und DevOps-Engineer mit über 20 Jahren Erfahrung in der Bereitstellung produktionsreifer, cloud-nativer, containerisierter und automatisierter Lösungen. Spezialisiert auf Infrastructure as Code, CI/CD-Pipelines, Platform Engineering und DevSecOps-Praktiken, um Deployment-Prozesse zu optimieren, die Sicherheit zu erhöhen und die Developer Experience zu verbessern. Verbindet Softwareentwickler-Denken mit tiefem DevOps-Fachwissen, um skalierbare, sichere und robuste Plattformen zu entwerfen und zu implementieren. Leidenschaftlich engagiert für Automatisierung, kontinuierliche Verbesserung und Mentoring in modernen Engineering-Methoden.</p></div></div></div></div></div></div></header><div class="flex flex-col gap-6 lg:flex-row print:flex-row print:gap-3"><div class="lg:w-2/3 print:w-[72%]"><section class="my-2 print:m-0 print:mb-4" role="region" aria-labelledby="section-title-sections.work"><h2 class="flex items-center mt-2 mb-1 font-semibold uppercase text-base text-brand print:text-sm print:mt-0 print:mb-0.5"><span>Berufserfahrung</span><span class="flex-grow ml-1 border-b border-brand print:hidden"></span></h2><div class="relative before:absolute before:left-0 before:top-0 before:h-full before:w-px before:bg-border"><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Apr. 2024 - März 2025</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 11 Monate">(<!-- -->11 Monate<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Senior DevOps Consultant (Freelance)<span class="text-foreground-secondary"> bei <!-- -->European Union Agency (via IBM)</span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"><div class="flex items-center text-sm text-foreground-secondary print:text-[9px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-1 w-3 h-3" style="color:#6c6c6c" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>Straßburg, Frankreich</div></div><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Ansible">Ansible</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Ansible Tower">Ansible Tower</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Ansible Automation Platform (AAP)">Ansible Automation Platform (AAP)</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="GitOps">GitOps</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="OpenShift">OpenShift</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Red Hat Advanced Cluster Management">Red Hat Advanced Cluster Management</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="ArgoCD">ArgoCD</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Helm">Helm</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Kafka">Kafka</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Bash">Bash</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Python">Python</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="YAML">YAML</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="JFrog Artifactory">JFrog Artifactory</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Red Hat Enterprise Linux (RHEL)">Red Hat Enterprise Linux (RHEL)</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Istio">Istio</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Air-Gapped Network">Air-Gapped Network</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="CI/CD">CI/CD</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Infrastructure as Code">Infrastructure as Code</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Automation">Automation</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="DevOps">DevOps</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Private Cloud">Private Cloud</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Configuration as Code">Configuration as Code</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Security Compliance">Security Compliance</span></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Freiberuflicher Senior DevOps Consultant vor Ort bei IBM für eine Agentur der Europäischen Union. Tätigkeit in einer hochsicheren, abgeschotteten Umgebung mit Verwaltung klassifizierter Systeme. Leitung von Automatisierungs- und DevOps-Initiativen für eine großskalige OpenShift-Plattform (&gt;400 Nodes), Verbesserung der Deployment-Effizienz, Implementierung von GitOps und Automatisierung mit Ansible, Python und Bash unter Einhaltung strenger Sicherheitsvorgaben.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Automatisierung der Release- und Deployment-Workflows in einer privaten Cloud mit über 400 OpenShift-Nodes, wodurch die Deployment-Geschwindigkeit und Zuverlässigkeit signifikant verbessert wurden.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Migration bestehender Playbooks, Rollen und Templates von Ansible Tower zur Ansible Automation Platform (AAP), inklusive Umsetzung von Fully-Qualified Collection Names (FQCN) und Erstellung benutzerdefinierter Execution Environments (EE) für containerisierte Automatisierung.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Implementierung eines GitOps-Agents für die AAP Controller Configuration as Code, um die automatische Synchronisierung (CRUD) von Ansible Controller-Objekten basierend auf Repository-Konfigurationsdateien zu ermöglichen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwurf und Automatisierung komplexer mehrstufiger Betriebs-Workflows, darunter Environment Cleanup, Wiederherstellung von Helix-Cluster-Komponenten, Kafka-Topic-Management und Verwaltung von OpenShift-Objekten in ca. 100 Umgebungen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Reduzierung mehrtägiger manueller Abläufe auf wenige Stunden durch Automatisierungsverbesserungen über mehrere AAP-Cluster und OpenShift-Umgebungen hinweg.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Integration der Ansible Automation Platform mit Thycotic (Delinea) Secret Server mittels Lookup-Plugin zur sicheren Verwaltung von Zugangsdaten in automatisierten Prozessen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Übernahme von Deployment-Aufgaben, Fehlerbehebung in der Plattform und Istio-Netzwerkkonfigurationen unter Einhaltung strenger Sicherheits- und Compliance-Standards der EU PSC.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Zusammenarbeit mit Infrastruktur- und Applikationsteams zur Optimierung von Deployment-Prozessen, Entwicklung von Namenskonventionen und kontinuierlicher Erweiterung der Automatisierungsabdeckung in einer abgeschotteten, klassifizierten Umgebung.</p></div></li></ul></div></div></div></div><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Jan. 2023 - Jan. 2024</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 1 Jahr">(<!-- -->1 Jahr<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Senior Back End Developer (Freelance)<span class="text-foreground-secondary"> bei <a href="https://www.themarcomengine.de/" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">The Marcom Engine</a></span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"><div class="flex items-center text-sm text-foreground-secondary print:text-[9px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-1 w-3 h-3" style="color:#6c6c6c" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>München, Deutschland</div></div><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Node.js">Node.js</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Python">Python</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="REST API">REST API</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Microservices">Microservices</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Docker">Docker</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Kubernetes">Kubernetes</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="AWS">AWS</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Jenkins">Jenkins</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="SonarQube">SonarQube</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Nexus">Nexus</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="CI/CD">CI/CD</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Unit Testing">Unit Testing</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="End-to-End Testing">End-to-End Testing</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Code Coverage">Code Coverage</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Dependency Injection">Dependency Injection</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Software Documentation">Software Documentation</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Code Review">Code Review</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Mentorship">Mentorship</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Git">Git</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Security">Security</span></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Freiberuflicher Senior Back End Developer bei The Marcom Engine, verantwortlich für Design, Entwicklung und Wartung skalierbarer Backend-Services mit Node.js, Python und Microservices-Architektur. Aufbau einer Greenfield-Backend-Plattform von Grund auf. Förderung von Software-Qualität, Testing-Best-Practices und sicheren Coding-Standards über mehrere Projekte hinweg. Zusammenarbeit mit DevOps-Teams und Stakeholdern zur Verbesserung von CI/CD-Pipelines, Dokumentation und Code-Review-Prozessen.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Architektur und Implementierung einer Greenfield-Backend-Applikation mit Node.js und Python, Bereitstellung einer skalierbaren, wartbaren Lösung maßgeschneidert für Geschäftsanforderungen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Sicherstellung hoher Performance, Verfügbarkeit und Sicherheit durch robustes REST API-Design, Integration von Sicherheitspraktiken und Einhaltung von API-Standards.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Implementierung einer Teststrategie, die die Codeabdeckung innerhalb von 3 Monaten auf über 80% steigerte, in Einklang mit Qualitätszielen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Leitung von Initiativen zur Entfernung sensibler Daten aus Git-Repositories, inklusive Cleaning der Commit-Historie mit BFG Repo-Cleaner und git filter-repo.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Etablierung und Durchsetzung von Code-Review-Richtlinien und Best Practices zur Standardisierung der Codequalität und Förderung von Wissensaustausch.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Zusammenarbeit mit DevOps-Teams zur Optimierung der CI/CD-Pipelines mit Jenkins, SonarQube und Nexus, Gewährleistung kontinuierlicher Qualitätskontrolle und effizienter Deployments.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Integration von Drittanbieter-Services und APIs in enger Zusammenarbeit mit Partnern für nahtlose Backend-Integration.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erstellung und Pflege umfassender technischer Dokumentation zur Unterstützung von Wartung, Troubleshooting und Onboarding.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Mentoring von Junior-Entwicklern durch Code Reviews, Pair Programming und technische Beratung zur Förderung von Skill-Wachstum und Engineering Excellence.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Verbesserung der Developer-Umgebung durch Setup-Guides und Empfehlungen zu Tools, Sicherheit und Development-Best-Practices.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Aktive Mitarbeit an internen Wissensdatenbanken, u.a. Confluence-Dokumentation zu Developer-Prozessen, Code-Standards und Testing-Methoden.</p></div></li></ul></div></div></div></div><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Okt. 2021 - Dez. 2022</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 1 Jahr, 2 Monate">(<!-- -->1 Jahr, 2 Monate<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Cloud Engineer (Freelance)<span class="text-foreground-secondary"> bei <a href="https://www.graylog.org/" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">Graylog</a></span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"><div class="flex items-center text-sm text-foreground-secondary print:text-[9px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-1 w-3 h-3" style="color:#6c6c6c" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>Remote</div></div><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="AWS">AWS</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Terraform">Terraform</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Ansible">Ansible</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Infrastructure as Code">Infrastructure as Code</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Prometheus">Prometheus</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Grafana">Grafana</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="OpenSearch">OpenSearch</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Elasticsearch">Elasticsearch</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Kubernetes">Kubernetes</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Argo Workflows">Argo Workflows</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Go">Go</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Python">Python</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Bash">Bash</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="GitHub Actions">GitHub Actions</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Monitoring">Monitoring</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="CI/CD">CI/CD</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="DevOps">DevOps</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Cloud Security">Cloud Security</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Distributed Systems">Distributed Systems</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="MongoDB">MongoDB</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Automation">Automation</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Okta">Okta</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Identity Management">Identity Management</span></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Freiberuflicher Cloud Engineer bei Graylog, mitverantwortlich für die Transformation von Graylog zu einer skalierbaren, cloud-nativen Plattform. Mitglied des internationalen Cloud Engineering Teams mit Fokus auf Design, Automatisierung, Security und Optimierung der Infrastruktur und Operations in AWS, Kubernetes und verteilten Systemen. Leitung von DevOps-Automatisierung, Monitoring-Lösungen und Infrastruktur-Hardening zur Unterstützung eines zuverlässigen, sicheren und effizienten Servicebetriebs.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Architektur und Implementierung von Infrastructure-as-Code-Lösungen mit Terraform und Ansible zur Provisionierung und Verwaltung von AWS-Cloud-Ressourcen, um Wiederholbarkeit, Skalierbarkeit und Compliance sicherzustellen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung von Ansible-Automatisierungen für OpenSearch (Amazon Elasticsearch) Snapshot-Management, Shard-Replication-Monitoring und kritische Datensicherungs-Workflows.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung von Monitoring- und Alerting-Lösungen mit Prometheus und Grafana, inklusive Überwachung von Elasticsearch/OpenSearch-Metriken und automatischer Erkennung kritischer Konfigurationsprobleme.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Leitung von Maßnahmen zur Behebung von Sicherheitslücken, u.a. Log4j2-Remote-Code-Execution (RCE)-Mitigation und Prüfung potenzieller Exploits.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Upgrade eines MongoDB (Percona Fork) Replica-Set-Clusters von Version 3.6 auf 4.4 mit einem maßgeschneiderten Ansible-Playbook für gestaffelte, inplace Upgrades mit Zero Downtime.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erweiterung der CI/CD-Automatisierung durch Implementierung von GitHub Actions Workflows zur Orchestrierung von Ansible-Deployments, Ablösung der Docker-basierten Ansible-Umgebung durch Poetry-Management.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Beitrag zur Migration der Graylog Cloud-Infrastruktur von AWS EC2 auf Kubernetes-basierte Deployments mit Argo Workflows zur Verbesserung von Skalierbarkeit und Deployment-Konsistenz.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Implementierung, Konfiguration und Deployment eines vorhandenen Okta-Terraform-Moduls zur automatischen Provisionierung von Okta OAuth-Applikationen, Benutzergruppen, API-Usern und Initial-Admin-Usern zur Integration von Identity Management in Graylog-Instanzen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Vereinfachung der Zugriffskontrolle und Absicherung der Monitoring-Infrastruktur durch Reverse Proxy-Konfiguration, ELB/ALB-Hardening und verbessertes Token-Management mittels GitHub Apps Credentials.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Reduzierung des Betriebsaufwands durch Ausphasung von Legacy Jenkins und APT-Repositories, Migration zu direkter Deb-Paket-Bereitstellung über AWS S3 und GitHub Assets.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Automatisierung der Garbage Collection leerer Indizes in nicht genutzten Index-Sets zur Kostensenkung und Verbesserung der Indexverwaltung.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Implementierung von Alert-Deduplikation und Custom-Alert-Logik in Alertmanager zur Reduzierung von Alarmrauschen und Priorisierung relevanter Incidents.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erstellung von Dokumentationen zu Designs, implementierten Lösungen sowie fachlichem Mentoring und Peer Reviews im Engineering Team.</p></div></li></ul></div></div></div></div><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Nov. 2020 - Sep. 2021</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 10 Monate">(<!-- -->10 Monate<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Java Architect (Freelance)<span class="text-foreground-secondary"> bei <a href="https://www.publicissapient.com/" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">Publicis Sapient</a></span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"><div class="flex items-center text-sm text-foreground-secondary print:text-[9px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-1 w-3 h-3" style="color:#6c6c6c" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>Remote</div></div><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Java">Java</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Spring Boot">Spring Boot</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Microservices">Microservices</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Azure">Azure</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Azure Kubernetes Service (AKS)">Azure Kubernetes Service (AKS)</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Azure DevOps">Azure DevOps</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Swagger">Swagger</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="SpringFox">SpringFox</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Splunk">Splunk</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Docker">Docker</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Kubernetes">Kubernetes</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Cosmos DB">Cosmos DB</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="CI/CD">CI/CD</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="JWT">JWT</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Auth0">Auth0</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Application Security">Application Security</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="API Design">API Design</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Observability">Observability</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="DevOps">DevOps</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Cloud Native">Cloud Native</span></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Freiberuflicher Java Architect im DPDHL Freight Solutions (FS)-Projekt via Publicis Sapient, Beitrag zur digitalen Transformation des Kunden durch Modernisierung von Backendsystemen, Verbesserung von Software-Delivery-Pipelines und Stärkung der Observability. Zusammenarbeit mit cross-funktionalen Teams bei Architektur, Implementierung und Optimierung cloud-nativer Microservices auf Azure Kubernetes Service (AKS), Integration von Security, Monitoring und Data-Management Best Practices.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwurf und Implementierung einer Microservices-Architektur auf Azure Kubernetes Service (AKS) mit Spring Boot und cloud-nativen Patterns für Skalierbarkeit und Ausfallsicherheit.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Optimierung bestehender Spring Boot Microservices unter Einsatz von Domain-Driven Design (DDD), hexagonaler Architektur, asynchroner Verarbeitung, Application Events und Aspekt-orientierter Programmierung.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Integration von Distributed Tracing mit Spring Cloud Sleuth zur Verfolgung von Correlation IDs über Services hinweg für verbesserte Nachvollziehbarkeit.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Stärkung der API-Sicherheit durch Implementierung von JWT-basiertem Authentication und Migration von statischer JWT-Konfiguration zu Auth0-Integration; später Exploration eines Wechsels zu Azure Active Directory (AAD).</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung und Deployment einer Shared Maven Library zur Auth0 Audience Validation zur Standardisierung der Authentifizierung über Services hinweg.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Optimierung der CI/CD-Pipelines in Azure DevOps zur Effizienzsteigerung der Build-, Test- und Deployment-Prozesse für Microservices und Shared Libraries.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Automatisierte API-Dokumentation mit Swagger 2 via SpringFox zur Sicherstellung aktueller und konsistenter API-Spezifikationen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Implementierung von Splunk Logging in Backend-Services, Verbesserung der Log-Appender-Konfigurationen und Zusammenarbeit mit Infrastrukturteams zur Abstimmung der Produktions-Loganalyse.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung eines Watchdog-Prozesses zur Sammlung von API-Health-Metriken und automatischen Triggerung von Splunk Alerts zur proaktiven Fehlererkennung.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Architektur und Implementierung automatisierter Cosmos DB Backup-Pipelines mit Azure Data Factory zur Sicherstellung von Datenhaltung und Disaster Recovery.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Dokumentation der Softwarearchitektur und API-Designs mittels standardisierter Dokumentationspraktiken zur Unterstützung von Wissenstransfer und Onboarding.</p></div></li></ul></div></div></div></div><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Nov. 2019 - Juni 2020</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 7 Monate">(<!-- -->7 Monate<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Senior DevOps Engineer (Freelance)<span class="text-foreground-secondary"> bei <a href="https://www.publicissapient.com/" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">Publicis Sapient</a></span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"><div class="flex items-center text-sm text-foreground-secondary print:text-[9px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-1 w-3 h-3" style="color:#6c6c6c" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>München, Deutschland</div></div><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="OpenShift">OpenShift</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Docker">Docker</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Kubernetes">Kubernetes</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Azure">Azure</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Ansible">Ansible</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Terraform">Terraform</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Packer">Packer</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Jenkins">Jenkins</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="GitLab">GitLab</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="CI/CD">CI/CD</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Infrastructure as Code">Infrastructure as Code</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Bash">Bash</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Shell">Shell</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Hybrid Cloud">Hybrid Cloud</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="DevOps">DevOps</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Automation">Automation</span></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Freiberuflicher Senior DevOps Engineer im DPDHL Logistics Platform-Projekt, tätig in einer Hybrid-Cloud-Umgebung mit Private Datacenter (Prag) und Microsoft Azure. Fokus auf Automatisierung, Containerisierung und Infrastructure as Code (IaC) zur Optimierung von Infrastruktur- und Entwicklungsprozessen. Zusammenarbeit mit Development- und Infrastrukturteams zur Verbesserung der CI/CD-Pipelines, Deployment containerisierter Anwendungen und Implementierung skalierbarer, wartbarer Infrastruktur-Lösungen.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Design und Implementierung von CI/CD-Pipelines mit Jenkins, ausgeführt in OpenShift-Clustern, zur Verbesserung von Deployment-Geschwindigkeit und Konsistenz über die Hybrid-Cloud-Infrastruktur hinweg.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung von Infrastructure-as-Code-Lösungen mit Ansible und Terraform zur Provisionierung und Verwaltung der Infrastruktur in Azure und dem Private Datacenter.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Anpassung von Ansible-Automatisierungen für den Betrieb in restriktiven Umgebungen ohne Privilege Escalation, unter Einhaltung von Security- und Operational-Constraints.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung eines Custom Ansible Runners zur Unterstützung arbiträr zugewiesener User-IDs von OpenShift zur nahtlosen Ausführung von Automatisierungs-Tasks in Containern.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erstellung und Deployment von Custom Jenkins-Container-Images in OpenShift zur Förderung von Pipeline-Flexibilität und Tooling-Standardisierung.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Teilen von Expertise durch interne Knowledge-Sharing-Sessions, Pair Programming und Tech Talks, um die DevOps-Reife und Skills des Teams zu stärken.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Förderung einer DevOps-Kultur mit Fokus auf Zusammenarbeit, kontinuierliche Verbesserung und Automatisierung zur Überbrückung von Dev- und Ops-Silos.</p></div></li></ul></div></div></div></div><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Sep. 2018 - Okt. 2019</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 1 Jahr, 1 Monat">(<!-- -->1 Jahr, 1 Monat<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Infrastructure Engineer / DevOps Consultant<span class="text-foreground-secondary"> bei <a href="https://www.accenture.com/" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">Accenture (via Catenate GmbH)</a></span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"><div class="flex items-center text-sm text-foreground-secondary print:text-[9px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-1 w-3 h-3" style="color:#6c6c6c" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>München, Deutschland</div></div><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="OpenShift">OpenShift</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Kubernetes">Kubernetes</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Docker">Docker</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Helm">Helm</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Terraform">Terraform</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Ansible">Ansible</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Jenkins">Jenkins</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="SonarQube">SonarQube</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Fitnesse">Fitnesse</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Prometheus">Prometheus</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Grafana">Grafana</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Nexus">Nexus</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Artifactory">Artifactory</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Go">Go</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Bash">Bash</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Perl">Perl</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Linux">Linux</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="CI/CD">CI/CD</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="OpenStack">OpenStack</span></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erbringung von Infrastructure Engineering und DevOps Consulting Services für Accenture als externer Contractor via Catenate GmbH mit Schwerpunkt auf Modernisierung und Optimierung der BMW OpenShift Container Platform Cluster (v3.6, 3.9, 3.11). Umsetzung von Verbesserungen in Applikationsmigration, CI/CD-Pipelines und Monitoring-Lösungen zur Steigerung von Durchsatz, Stabilität und Skalierbarkeit.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Leitung der Migration von Anwendungen aus traditioneller Server-Infrastruktur in containerisierte Umgebungen auf OpenShift Container Platform.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Design und Implementierung von CI/CD-Pipelines und Integration von Tools wie Jenkins, SonarQube und Fitnesse zur Automatisierung von Testing, Build und Deployment-Prozessen innerhalb der OpenShift-Cluster.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Engineering eines vollständigen Monitoring-Stacks mit Prometheus, Pushgateway und Alertmanager zur Verbesserung der Observability über mehrere OpenShift-Cluster hinweg.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Management der Migration von Anwendungen und Persistent Volumes zwischen OpenShift-Versionen 3.6, 3.9 und 3.11 unter Sicherstellung minimaler Ausfallzeiten und Datenintegrität.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Deployment einer Immutable Infrastructure in der BMW OpenStack Cloud unter Einsatz von Terraform und Ansible zur Provisionierung und Konfiguration von Windows Server Instanzen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung von Helm-Charts und Ansible-Playbooks zur Automatisierung von Deployment und Konfiguration von Jenkins-Servern und Windows-basierten Build Agents in Kubernetes- und OpenStack-Umgebungen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erstellung eines Custom Go-basierten CLI-Tools zur Automatisierung von OpenID Connect Authentifizierung und Vereinfachung des Kubernetes-Cluster-Zugriffs für Entwickler.</p></div></li></ul></div></div></div></div><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Juli 2018 - Okt. 2019</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 1 Jahr, 3 Monate">(<!-- -->1 Jahr, 3 Monate<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Senior Software Engineer / Software Development Lead<span class="text-foreground-secondary"> bei <a href="https://catenate.com/" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">Catenate GmbH</a></span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"><div class="flex items-center text-sm text-foreground-secondary print:text-[9px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-1 w-3 h-3" style="color:#6c6c6c" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>München, Deutschland</div></div><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Java">Java</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Spring Boot">Spring Boot</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Gradle">Gradle</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Quartz">Quartz</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Easy Batch">Easy Batch</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Angular">Angular</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Jenkins">Jenkins</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Docker">Docker</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Vagrant">Vagrant</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="GitLab">GitLab</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="CI/CD">CI/CD</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="DevOps">DevOps</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Confluence">Confluence</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Jira">Jira</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Bitbucket">Bitbucket</span></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Als Senior Software Engineer und Team Lead bei Catenate GmbH verantwortlich für die Leitung von Softwareentwicklungsprojekten und technische Führung bei Kundenprojekten, darunter Allianz (TUIGBM) und Aufträge wie Accenture. Mentoring von Teammitgliedern, Leitung technischer Diskussionen und Fokus auf nicht-funktionale Anforderungen wie Wartbarkeit, Skalierbarkeit und Zuverlässigkeit.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Leitung des Softwareentwicklungsteams für TUIGBM, eine Datenintegrationsplattform für Allianz, die es Kundendienstteams ermöglicht, TUI-Reisevertragsdaten aus verschiedenen Backend-Datenströmen zu erhalten.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung von Backend-Systemen mit Java, Spring Boot, Quartz und Easy Batch zur Verarbeitung und Zentralisierung von Versicherungsdaten aus verschiedenen Quellen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erstellung einer Vagrant-basierten lokalen Entwicklungsumgebung zur Steigerung der Entwicklerproduktivität und Vereinfachung des Testings vor Deployment.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Konfiguration von CI/CD-Pipelines mit Jenkins zur Automatisierung des Builds und der Auslieferung von Softwareartefakten in Kundenumgebungen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Technisches Mentoring, Durchführung von Code Reviews und Pair Programming zur Förderung der Fähigkeiten von Junior-Entwicklern und Etablierung von Best Practices.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Durchführung interner Tech Talks zu Themen wie Cloud Computing, Containerisierung, Container Orchestration, DevOps-Prinzipien, Vagrant und OpenShift.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Zusammenarbeit mit technischen Leitern der Kunden zur Abstimmung von Entwicklungsprioritäten, Beseitigung von Blockern und Sicherstellung, dass Projektlieferungen technische und geschäftliche Anforderungen erfüllen.</p></div></li></ul></div></div></div></div><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Feb. 2016 - Juni 2018</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 2 Jahre, 4 Monate">(<!-- -->2 Jahre, 4 Monate<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Software Engineer, CAD/CAM<span class="text-foreground-secondary"> bei <a href="https://www.straumann.com/" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">Etkon GmbH / Straumann</a></span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"><div class="flex items-center text-sm text-foreground-secondary print:text-[9px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-1 w-3 h-3" style="color:#6c6c6c" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>München, Deutschland</div></div><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Perl">Perl</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="PHP">PHP</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Go">Go</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Symfony">Symfony</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Doctrine DBAL">Doctrine DBAL</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="MySQL">MySQL</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Redis">Redis</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Docker">Docker</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Kubernetes">Kubernetes</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Ansible">Ansible</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="GitLab CI">GitLab CI</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Swagger">Swagger</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Mojolicious">Mojolicious</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Flask">Flask</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="CI/CD">CI/CD</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Microservices">Microservices</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Infrastructure as Code">Infrastructure as Code</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Automation">Automation</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="DevOps">DevOps</span></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Mitglied des CAD/CAM Softwareentwicklungsteams der Straumann Group, einem weltweit führenden Unternehmen für Dentalprothetik und Implantatlösungen. Führung von Modernisierungsinitiativen zur Integration moderner Softwareentwicklungspraktiken, DevOps-Tooling und Automatisierung in Legacy-Systeme zur Unterstützung der Dentalprothetikproduktion und 3D-Datenverarbeitung. Zusammenarbeit mit funktionsübergreifenden Teams zur Entwicklung interner Tools, REST-APIs und skalierbarer Infrastruktur-Lösungen unter Einsatz von Containerisierung und Orchestrierungstechnologien.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Einführung und Integration moderner Entwicklungsmethoden wie TDD (PHPUnit), automatisierte Akzeptanztests (Selenium), Dependency Injection und Composer/Packagist in Legacy-PHP-Systeme.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Refactoring des Legacy-PHP-Codes zur Nutzung von Symfony-Komponenten und Doctrine DBAL, Ersetzung veralteter PEAR-Pakete zur Verbesserung von Wartbarkeit und Performance.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Design und Implementierung von RESTful APIs mit Mojolicious (Perl) und Flask (Python), dokumentiert mit Swagger (OpenAPI), zur Integration mit CNC-Maschinen und internen Systemen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Aufbau von GitLab CI-Pipelines mit benutzerdefinierten GitLab Runners zur automatisierten Erstellung, dem Testen und Deployment von REST-Services, Steigerung der Codequalität und Releasegeschwindigkeit.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Deployment eines internen Docker-Registries via GitLab zur Vereinfachung des Container-Image-Managements und Beschleunigung von Entwicklungsprozessen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Orchestrierung der Infrastruktur-Provisionierung mit Ansible zur Automatisierung von CI/CD-Umgebungen auf Debian- und CoreOS-Servern für Entwicklungs- und Produktionsumgebungen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Einleitung der Transition zu Containerisierung mit Docker und Start der Einführung von Kubernetes-Clustern (Staging und Produktion) zur Verbesserung von Skalierbarkeit und Zuverlässigkeit.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Implementierung von Frontend-Build-Automatisierung mit Grunt für CSS- und JavaScript-Minifizierung, -Kombination und -Bundling zur Optimierung der Client-Performance.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Durchführung interner technischer Workshops zu PHP Best Practices, automatisierten Tests, ACL-Implementierungen und modernen DevOps-Workflows zur Weiterbildung des Entwicklungsteams.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Fungierte als Mentor und Knowledge Leader innerhalb des Teams, um die Einführung neuer Tools, Prozesse und Entwicklungsstandards zu fördern.</p></div></li></ul></div></div></div></div><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">März 2013 - Jan. 2016</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 2 Jahre, 10 Monate">(<!-- -->2 Jahre, 10 Monate<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Senior Developer<span class="text-foreground-secondary"> bei <a href="https://www.traviangames.com" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">Travian Games GmbH</a></span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"><div class="flex items-center text-sm text-foreground-secondary print:text-[9px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-1 w-3 h-3" style="color:#6c6c6c" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>München, Deutschland</div></div><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Agile">Agile</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="PHP">PHP</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Zend Framework">Zend Framework</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="JavaScript">JavaScript</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="AngularJS">AngularJS</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Node.js">Node.js</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Git">Git</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Stash">Stash</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="SourceTree">SourceTree</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Jira">Jira</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Confluence">Confluence</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Bamboo">Bamboo</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="MySQL">MySQL</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="MongoDB">MongoDB</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Redis">Redis</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Continuous Integration">Continuous Integration</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="DevOps">DevOps</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Code Review">Code Review</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Mentoring">Mentoring</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Pair Programming">Pair Programming</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="API Development">API Development</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Software Optimization">Software Optimization</span></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Senior Software Developer mit nachweislicher Expertise in der Entwicklung von Tools und Kommunikationsschichten für groß angelegte Online-Spiele, Beitrag zum Erfolg von Travian 5. Leitung der Migration von Gitorious zu Stash zur Verbesserung der Versionskontrollprozesse. Optimierung von Entwicklungsworkflows durch Automatisierung und Mentoring. Bereitstellung neuer Features und Optimierung bestehender Systeme in einer agilen Umgebung mit konstant hoher Codequalität.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung und Wartung kritischer Tools für Travian 5 zur Verbesserung der Integration mit Drittanbieterdiensten und Reduzierung manueller Prozesse.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erfolgreiche Leitung der Migration des Entwicklerteams von Gitorious zu Stash, Steigerung der Effizienz des Repository-Managements und 100%ige Adoption.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Durchführung von Code Reviews zur Sicherstellung hoher Codequalität und Einhaltung von Best Practices.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Mentoring von Junior-Entwicklern durch Pair Programming und technische Schulungen, Förderung einer Kultur des Wissenstransfers und kontinuierlicher Verbesserung.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Implementierung von Prozessverbesserungen, Verkürzung der Sprint-Lieferzeiten um 10% durch optimierte Workflows.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung und Refactoring skalierbarer Backend-Funktionalitäten in PHP, Zend Framework und Node.js zur Gewährleistung der Systemstabilität für eine globale Nutzerbasis.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Teilnahme an agilen Zeremonien, Bereitstellung präziser Sprint-Schätzungen und Beitrag zur kontinuierlichen Teamverbesserung.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Implementierung und Wartung von CI/CD-Pipelines mit Bamboo zur Automatisierung der Deployment-Prozesse und Reduzierung der Release-Zeiten um 20%.</p></div></li></ul></div></div></div></div><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Jan. 2011 - Feb. 2013</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 2 Jahre, 1 Monat">(<!-- -->2 Jahre, 1 Monat<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Senior Developer<span class="text-foreground-secondary"> bei <a href="https://www.cme.net" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">Central European Media Enterprises Ltd.</a></span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"><div class="flex items-center text-sm text-foreground-secondary print:text-[9px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-1 w-3 h-3" style="color:#6c6c6c" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>Ljubljana, Slowenien</div></div><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="PHP">PHP</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Zend Framework">Zend Framework</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="JavaScript">JavaScript</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="jQuery">jQuery</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Android">Android</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Widevine">Widevine</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="MySQL">MySQL</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Doctrine">Doctrine</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Video Streaming">Video Streaming</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="API Development">API Development</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Digital Rights Management">Digital Rights Management</span></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Beitrag zur Entwicklung, Integration und Bereitstellung digitaler Medienplattformen, darunter Voyo, ein führender Video-on-Demand-Dienst, sowie die CME Common Content Platform. Zusammenarbeit mit funktionsübergreifenden zentralen und lokalen Teams zur Einführung neuer Features für Web, Mobile und Smart TV.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung und Wartung von Voyo, einer Multi-Model-Video-on-Demand-Plattform mit Unterstützung für TVOD, AVOD, SVOD, EST, PPV und Live-Streaming.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Implementierung der CME Common Content Platform mit Zend Framework zur Standardisierung des Content-Managements über Regionen hinweg.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erstellung von RESTful- und JSON-RPC-APIs zur Integration mit mobilen Apps, Smart TVs und Set-Top-Boxen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung von Android-Anwendungen für Smartphones, Tablets und Set-Top-Boxen mit Video-Playback- und Content-Delivery-Funktionalität.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung kundenspezifischer Module für Wowza Media Server zur Unterstützung von Streaming-Workflows.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Integration von Google Widevine DRM in Transcoding-Workflows zur sicheren Inhaltsbereitstellung.</p></div></li></ul></div></div></div></div><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Sep. 2000 - Nov. 2008</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 8 Jahre, 2 Monate">(<!-- -->8 Jahre, 2 Monate<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Web Developer<span class="text-foreground-secondary"> bei <a href="https://www.av-studio.si" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">AV studio d.o.o.</a></span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"><div class="flex items-center text-sm text-foreground-secondary print:text-[9px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-1 w-3 h-3" style="color:#6c6c6c" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>Ljubljana, Slowenien</div></div><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="ASP">ASP</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="MSSQL">MSSQL</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="JavaScript">JavaScript</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="XHTML">XHTML</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="CSS">CSS</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Content Management">Content Management</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Web Development">Web Development</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Systems Administration">Systems Administration</span></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung individueller Webanwendungen und Wartung von AV SiteKit, einem proprietären Content-Management-System, zur Bereitstellung maßgeschneiderter Lösungen für verschiedene Kunden. Unterstützung der Netzwerk- und Systemadministration für die interne Infrastruktur.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung dynamischer Webanwendungen mit ASP, MSSQL, JavaScript, XHTML und CSS innerhalb der AV SiteKit CMS-Plattform.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Wartung und Erweiterung des AV SiteKit CMS zur Unterstützung kundenspezifischer Funktionalitäten und Integrationen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Bereitstellung von Netzwerk- und Systemadministration zur Gewährleistung von Plattformstabilität und -sicherheit.</p></div></li></ul></div></div></div></div></div></section><section class="my-2 print:m-0 print:mb-4" role="region" aria-labelledby="section-title-sections.education"><h2 class="flex items-center mt-2 mb-1 font-semibold uppercase text-base text-brand print:text-sm print:mt-0 print:mb-0.5"><span>Ausbildung</span><span class="flex-grow ml-1 border-b border-brand print:hidden"></span></h2><div class="relative before:absolute before:left-0 before:top-0 before:h-full before:w-px before:bg-border"><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Okt. 1994 - Juli 1999</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 4 Jahre, 9 Monate">(<!-- -->4 Jahre, 9 Monate<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Software Engineering<span class="text-foreground-secondary"> bei <!-- -->Fakultät für Informatik und Informationswissenschaften</span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"></div></div></div></div><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Sep. 1990 - Juni 1994</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 3 Jahre, 9 Monate">(<!-- -->3 Jahre, 9 Monate<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Abitur<span class="text-foreground-secondary"> bei <!-- -->Gimnazija Murska Sobota</span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"></div></div></div></div></div></section><section class="my-2 print:m-0 print:mb-4" role="region" aria-labelledby="section-title-sections.volunteer"><h2 class="flex items-center mt-2 mb-1 font-semibold uppercase text-base text-brand print:text-sm print:mt-0 print:mb-0.5"><span>Ehrenamt</span><span class="flex-grow ml-1 border-b border-brand print:hidden"></span></h2><div class="relative before:absolute before:left-0 before:top-0 before:h-full before:w-px before:bg-border"><div class="mb-4 print:m-0 print:py-2 print:border-b print:border-color" role="article"><div class="mb-2 text-sm print:mb-1 print:text-[9px]"><div class="flex items-center"><span class="font-medium text-foreground" role="time">Jan. 2001 - Jan. 2016</span><span class="ml-2 text-sm text-foreground-tertiary print:ml-1" role="time" aria-label="Duration: 15 Jahre">(<!-- -->15 Jahre<!-- -->)</span></div></div><div class="p-4 rounded-lg mb-0 bg-color-secondary border border-transparent transition-shadow hover:shadow-sm hover:border-color print:bg-transparent print:hover:border-transparent print:hover:shadow-none print:p-0" role="article" aria-labelledby="title-undefined" aria-describedby="summary-undefined highlights-undefined"><div class="flex flex-col gap-1.5 print:gap-0.5"><div><h3 id="title-undefined" class="font-medium text-base">Entwickler / Administrator / Redakteur<span class="text-foreground-secondary"> bei <a href="https://web.archive.org/web/*/http://www.rockonnet.com" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">RockOnNet</a></span></h3></div><div class="flex flex-wrap items-center gap-1 print:gap-0.5"></div><div id="summary-undefined" class="text-sm text-foreground-secondary print:text-[9px]"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Gründer und Leiter von RockOnNet, einem Online-Musikmagazin, das zu einer Plattform für aufstrebende Fotografen und Autoren wurde, um Musikrezensionen und Kommentare zu teilen. Leitung der Full-Stack-Entwicklung, Site-Administration und redaktionellen Abläufe über mehr als ein Jahrzehnt. Migration der Plattform von einem benutzerdefinierten CMS zu WordPress zur Verbesserung des Content-Managements und der Skalierbarkeit. Entwicklung einer REST-API zur Integration von Inhalten in die Android-App &#x27;KjeSeRoka&#x27;, die den 4.–10. Platz im Si.mobil Izzivamo Ideje-Wettbewerb belegte. Obwohl die Website nicht mehr aktiv ist, sind die Inhalte über die Wayback Machine archiviert.</p></div></div><div id="highlights-undefined" class="print:px-4"><ul class="ml-4 text-sm list-disc text-foreground-secondary print:text-[9px] print:ml-4 print:list-disc"><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Entwicklung und Wartung eines benutzerdefinierten CMS mit PHP, JavaScript und MySQL zur Verwaltung von Artikeln, Medien und Nutzerbeiträgen.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erfolgreiche Migration der Plattform von einem Eigenbau-CMS zu WordPress, Verbesserung der Benutzerfreundlichkeit, der Content-Workflows und der Skalierbarkeit.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Erstellung einer REST-API zur Echtzeitübertragung von Inhalten an die Android-App &#x27;KjeSeRoka&#x27;, die als Top-4–10-Finalist beim Wettbewerb Si.mobil Izzivamo Ideje ausgezeichnet wurde.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Administration von Linux-basierten Webservern (Apache), Sicherstellung von Verfügbarkeit, Sicherheit und Performance-Optimierung.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Leitung redaktioneller Prozesse, Koordination eines ehrenamtlichen Teams von Autoren und Fotografen zur regelmäßigen Veröffentlichung von Musik-Inhalten.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Aufbau und Pflege einer Online-Community-Plattform für Musikliebhaber, Förderung der Nutzerinteraktion und des Content-Sharings.</p></div></li><li><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Management von Website-Relaunches und Plattform-Upgrades zur Verbesserung der Benutzererfahrung und Inhaltszugänglichkeit.</p></div></li></ul></div><a href="https://web.archive.org/web/*/http://www.rockonnet.com" target="_blank" rel="noopener noreferrer" class="mt-1 inline-flex items-center text-sm text-brand hover:underline print:hidden">Website Besuchen<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="ml-1.5 h-3 w-3" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path></svg></a></div></div></div></div></section></div><div class="lg:w-1/3 print:w-[28%]"><div class="print:space-y-2"><section class="mb-4 print:mb-2" id="section-vvmkfiecl" aria-labelledby="section-vvmkfiecl-title"><h2 id="section-vvmkfiecl-title" class="flex items-center mt-2 mb-1 font-semibold uppercase text-base text-brand print:text-sm print:mt-0 print:mb-0.5"><span>Fähigkeiten</span><span class="flex-grow ml-1 border-b border-brand print:hidden"></span></h2><div class="grid grid-cols-2 gap-4"><div><h3 class="text-base font-medium text-foreground">Cloud</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="AWS">AWS</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Azure">Azure</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Google Cloud">Google Cloud</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="OpenStack">OpenStack</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="VMware Private Cloud">VMware Private Cloud</span></div></div><div><h3 class="text-base font-medium text-foreground">Programmiersprachen</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Bash">Bash</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Python">Python</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Java">Java</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Go">Go</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Node.js">Node.js</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="PHP">PHP</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Perl">Perl</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="C#">C#</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="JavaScript">JavaScript</span></div></div><div><h3 class="text-base font-medium text-foreground">Messaging &amp; Event Streaming</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Kafka">Kafka</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Webhooks">Webhooks</span></div></div><div><h3 class="text-base font-medium text-foreground">Container &amp; Orchestrierung</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Docker">Docker</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Kubernetes">Kubernetes</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="OpenShift">OpenShift</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Helm">Helm</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Istio Service Mesh">Istio Service Mesh</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="ArgoCD">ArgoCD</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Argo Workflows">Argo Workflows</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Red Hat Advanced Cluster Management">Red Hat Advanced Cluster Management</span></div></div><div><h3 class="text-base font-medium text-foreground">Monitoring &amp; Sicherheit</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Prometheus">Prometheus</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Grafana">Grafana</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="ELK Stack">ELK Stack</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="SonarQube">SonarQube</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Ansible Vault">Ansible Vault</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Nagios">Nagios</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="PKI Validation">PKI Validation</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Splunk">Splunk</span></div></div><div><h3 class="text-base font-medium text-foreground">IaC &amp; Automatisierung</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Terraform">Terraform</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Ansible">Ansible</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Ansible Automation Platform (AAP)">Ansible Automation Platform (AAP)</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Packer">Packer</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Vagrant">Vagrant</span></div></div><div><h3 class="text-base font-medium text-foreground">CI/CD-Tools</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Jenkins">Jenkins</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="GitLab CI">GitLab CI</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Bamboo">Bamboo</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="GitHub Actions">GitHub Actions</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="CircleCI">CircleCI</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Azure DevOps">Azure DevOps</span></div></div><div><h3 class="text-base font-medium text-foreground">Datenbanken</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="MySQL">MySQL</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="PostgreSQL">PostgreSQL</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="MSSQL">MSSQL</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Redis">Redis</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="MongoDB">MongoDB</span></div></div><div><h3 class="text-base font-medium text-foreground">Repositories &amp; Paketmanager</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Git">Git</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Nexus">Nexus</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="JFrog Artifactory">JFrog Artifactory</span></div></div><div><h3 class="text-base font-medium text-foreground">Zusammenarbeit &amp; Projektmanagement</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Jira">Jira</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Confluence">Confluence</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Slack">Slack</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Trello">Trello</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Agile methodologies">Agile methodologies</span></div></div><div><h3 class="text-base font-medium text-foreground">Soft Skills</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Kommunikation">Kommunikation</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Kundenorientierung">Kundenorientierung</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Agile &amp; Remote Collaboration">Agile &amp; Remote Collaboration</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Mentoring">Mentoring</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Teamführung">Teamführung</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Problemlösung">Problemlösung</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Anforderungsanalyse">Anforderungsanalyse</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Strategisches Denken">Strategisches Denken</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Anpassungsfähigkeit">Anpassungsfähigkeit</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Lebenslanges Lernen">Lebenslanges Lernen</span></div></div></div></section><section class="mb-4 print:mb-2" id="section-7e8tqv3ui" aria-labelledby="section-7e8tqv3ui-title"><h2 id="section-7e8tqv3ui-title" class="flex items-center mt-2 mb-1 font-semibold uppercase text-base text-brand print:text-sm print:mt-0 print:mb-0.5"><span>Sprachen</span><span class="flex-grow ml-1 border-b border-brand print:hidden"></span></h2><div class="grid grid-cols-2"><div><h3 class="text-base font-medium text-foreground">Slowenisch</h3><p class="text-sm text-foreground-tertiary">Muttersprache</p></div><div><h3 class="text-base font-medium text-foreground">Englisch</h3><p class="text-sm text-foreground-tertiary">Fließend</p></div><div><h3 class="text-base font-medium text-foreground">Deutsch</h3><p class="text-sm text-foreground-tertiary">Fließend</p></div></div></section><section class="mb-4 print:mb-2" id="section-uhz6yfp4t" aria-labelledby="section-uhz6yfp4t-title"><h2 id="section-uhz6yfp4t-title" class="flex items-center mt-2 mb-1 font-semibold uppercase text-base text-brand print:text-sm print:mt-0 print:mb-0.5"><span>Zertifikate</span><span class="flex-grow ml-1 border-b border-brand print:hidden"></span></h2><div class="print:space-y-1 sm:space-y-2 space-y-3"><div class="mb-2 p-2 bg-opacity-5 rounded-md border-l-1 border-brand print:p-0 print:border-l-0 print:pl-0 print:pt-0 print:pb-1" role="region" id="sidebar-card-7i85rmt19" aria-labelledby="sidebar-card-7i85rmt19-title"><h3 id="sidebar-card-7i85rmt19-title" class="text-base font-medium text-foreground print:text-[9px]"><div class="flex items-start"><div class="mr-3 text-brand"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"></path><path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"></path></svg></div><div>Cloud DevOps Engineer</div></div></h3><div id="sidebar-card-7i85rmt19-subtitle" class="text-sm text-foreground-secondary print:text-[9px]">Ausgestellt von: Udacity</div><div class="flex flex-wrap gap-1.5 mt-0.5 text-sm print:mt-0.5 print:gap-1 print:text-[9px]"><span class="text-foreground-tertiary" role="time">Datum: März 2021</span><a href="https://graduation.udacity.com/confirm/YP6JRDKY" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline" aria-label="Zertifikat Anzeigen (opens in a new tab)">Zertifikat Anzeigen</a></div></div><div class="mb-2 p-2 bg-opacity-5 rounded-md border-l-1 border-brand print:p-0 print:border-l-0 print:pl-0 print:pt-0 print:pb-1" role="region" id="sidebar-card-afqryshbp" aria-labelledby="sidebar-card-afqryshbp-title"><h3 id="sidebar-card-afqryshbp-title" class="text-base font-medium text-foreground print:text-[9px]"><div class="flex items-start"><div class="mr-3 text-brand"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"></path><path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"></path></svg></div><div>CKAD: Certified Kubernetes Application Developer</div></div></h3><div id="sidebar-card-afqryshbp-subtitle" class="text-sm text-foreground-secondary print:text-[9px]">Ausgestellt von: The Linux Foundation</div><div class="flex flex-wrap gap-1.5 mt-0.5 text-sm print:mt-0.5 print:gap-1 print:text-[9px]"><span class="text-foreground-tertiary" role="time">Datum: Sep. 2020</span><a href="https://www.credly.com/badges/8da32134-2aad-428d-a1e7-27034885c7f5?source=linked_in_profile" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline" aria-label="Zertifikat Anzeigen (opens in a new tab)">Zertifikat Anzeigen</a></div></div><div class="mb-2 p-2 bg-opacity-5 rounded-md border-l-1 border-brand print:p-0 print:border-l-0 print:pl-0 print:pt-0 print:pb-1" role="region" id="sidebar-card-iyophw14d" aria-labelledby="sidebar-card-iyophw14d-title"><h3 id="sidebar-card-iyophw14d-title" class="text-base font-medium text-foreground print:text-[9px]"><div class="flex items-start"><div class="mr-3 text-brand"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"></path><path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"></path></svg></div><div>CKA: Certified Kubernetes Administrator</div></div></h3><div id="sidebar-card-iyophw14d-subtitle" class="text-sm text-foreground-secondary print:text-[9px]">Ausgestellt von: The Linux Foundation</div><div class="flex flex-wrap gap-1.5 mt-0.5 text-sm print:mt-0.5 print:gap-1 print:text-[9px]"><span class="text-foreground-tertiary" role="time">Datum: Aug. 2020</span><a href="https://www.credly.com/badges/17e50e2e-6f95-4afe-8204-faccea515805?source=linked_in_profile" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline" aria-label="Zertifikat Anzeigen (opens in a new tab)">Zertifikat Anzeigen</a></div></div><div class="mb-2 p-2 bg-opacity-5 rounded-md border-l-1 border-brand print:p-0 print:border-l-0 print:pl-0 print:pt-0 print:pb-1" role="region" id="sidebar-card-cyxh8ke1r" aria-labelledby="sidebar-card-cyxh8ke1r-title"><h3 id="sidebar-card-cyxh8ke1r-title" class="text-base font-medium text-foreground print:text-[9px]"><div class="flex items-start"><div class="mr-3 text-brand"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"></path><path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"></path></svg></div><div>Architecting with Google Kubernetes Engine</div></div></h3><div id="sidebar-card-cyxh8ke1r-subtitle" class="text-sm text-foreground-secondary print:text-[9px]">Ausgestellt von: Coursera</div><div class="flex flex-wrap gap-1.5 mt-0.5 text-sm print:mt-0.5 print:gap-1 print:text-[9px]"><span class="text-foreground-tertiary" role="time">Datum: Juli 2019</span><a href="https://www.coursera.org/account/accomplishments/specialization/QX4SJ3STA2U6" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline" aria-label="Zertifikat Anzeigen (opens in a new tab)">Zertifikat Anzeigen</a></div></div></div></section><section class="mb-4 print:mb-2" id="section-nm3bwh2h5" aria-labelledby="section-nm3bwh2h5-title"><h2 id="section-nm3bwh2h5-title" class="flex items-center mt-2 mb-1 font-semibold uppercase text-base text-brand print:text-sm print:mt-0 print:mb-0.5"><span>Auszeichnungen</span><span class="flex-grow ml-1 border-b border-brand print:hidden"></span></h2><div class="space-y-1.5 print:space-y-1 sm:space-y-2"><div class="mb-2 p-2 bg-opacity-5 rounded-md border-l-1 border-brand print:p-0 print:border-l-0 print:pl-0 print:pt-0 print:pb-1" role="region" id="sidebar-card-pzqmndy75" aria-labelledby="sidebar-card-pzqmndy75-title" aria-describedby="sidebar-card-pzqmndy75-content"><h3 id="sidebar-card-pzqmndy75-title" class="text-base font-medium text-foreground print:text-[9px]"><div class="flex items-start"><div class="mr-3 text-brand"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path></svg></div><div>Top 4–10 Finalist, Izzivamo Ideje Wettbewerb</div></div></h3><div id="sidebar-card-pzqmndy75-subtitle" class="text-sm text-foreground-secondary print:text-[9px]">Verliehen von: Si.mobil</div><div class="flex flex-wrap gap-1.5 mt-0.5 text-sm print:mt-0.5 print:gap-1 print:text-[9px]"><span class="text-foreground-tertiary" role="time">Datum: Sep. 2010</span></div><div id="sidebar-card-pzqmndy75-content" class="mt-1 text-sm text-foreground-secondary print:text-[9px] print:mt-0.5" role="contentinfo"><div class="markdown" role="contentinfo" aria-label="Markdown content"><p>Auszeichnung als Top-4–10-Finalist beim nationalen Innovationswettbewerb &#x27;Izzivamo Ideje&#x27; von Si.mobil für die Entwicklung der Android-App &#x27;KjeSeRoka&#x27;, die Nutzer mit Live-Musikveranstaltungen verbindet.</p></div></div></div></div></section><section class="mb-4 print:mb-2" id="section-syr2l1zc8" aria-labelledby="section-syr2l1zc8-title"><h2 id="section-syr2l1zc8-title" class="flex items-center mt-2 mb-1 font-semibold uppercase text-base text-brand print:text-sm print:mt-0 print:mb-0.5"><span>Interessen</span><span class="flex-grow ml-1 border-b border-brand print:hidden"></span></h2><div class="grid grid-cols-2 gap-4"><div><h3 class="text-base font-medium text-foreground">Lesen</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Epic Fantasy">Epic Fantasy</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Science Fiction">Science Fiction</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Fantasy">Fantasy</span></div></div><div><h3 class="text-base font-medium text-foreground">Fotografie</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Analog">Analog</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Concert">Concert</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Black &amp; White">Black &amp; White</span></div></div><div><h3 class="text-base font-medium text-foreground">Kochen | Backen</h3><div class="flex flex-wrap gap-2 mt-1"><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Homemade">Homemade</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Made With Love">Made With Love</span><span class="inline-flex items-center px-2 py-0.5 text-sm rounded-md border print:px-1 print:py-0 print:text-[9px] print:rounded-sm bg-color-secondary border-color text-foreground-secondary" role="status" aria-label="Sourdough">Sourdough</span></div></div></div></section></div></div></div></div></div>
+      </body>
+      </html>
