@@ -625,5 +625,76 @@
       "name": "Kochen | Backen",
       "keywords": ["Homemade", "Made With Love", "Sourdough"]
     }
+  ],
+  "projects": [
+    {
+      "name": "#WhatWeValue Kampagnen-Infrastruktur für Deutsche Telekom",
+      "description": "Bereitstellung von Infrastruktur-Engineering und DevOps-Support für die #WhatWeValue-Kampagne der Deutschen Telekom, mit der Lieferung einer sicheren, skalierbaren Infrastruktur und Deployment-Pipelines auf der Deutsche Telekom Cloud (Azure-basiert), um eine Managed-Kubernetes-Anwendung zu betreiben.",
+      "highlights": [
+        "Entwurf und Bereitstellung von Entwicklungs-, Test- und Produktionsumgebungen auf der Deutsche Telekom Cloud (Azure-basiert) zur Unterstützung der hochkarätigen #WhatWeValue-Kampagne.",
+        "Implementierung einer sicheren Anwendungsbereitstellung in einem verwalteten Kubernetes-Cluster, einschließlich Konfiguration des nginx-ingress-controllers und PKI-Validierung für TLS/SSL-Zertifikate.",
+        "Entwicklung von CI/CD-Pipelines in Azure DevOps zur Automatisierung von Build-, Test- und Veröffentlichungsprozessen, um einen optimierten und zuverlässigen Deployment-Workflow zu gewährleisten.",
+        "Integration von Sicherheitsbest Practices während des gesamten Infrastruktur-Setups und Deployment-Prozesses in Übereinstimmung mit den Sicherheitsanforderungen des Unternehmens.",
+        "Enge Zusammenarbeit mit Projektbeteiligten, um die Infrastruktur innerhalb enger Zeitvorgaben produktionsreif bereitzustellen."
+      ],
+      "keywords": [
+        "Azure",
+        "Azure DevOps",
+        "Kubernetes",
+        "Managed Kubernetes",
+        "nginx-ingress-controller",
+        "PKI Validation",
+        "CI/CD",
+        "Infrastructure as Code",
+        "DevOps",
+        "Security Best Practices",
+        "Cloud Infrastructure",
+        "Pipeline Automation"
+      ],
+      "startDate": "2022-04-01",
+      "endDate": "2022-06-30",
+      "url": "https://www.telekom.com/en/media/media-information/archive/whatwevalue-supports-gen-z-1009888",
+      "roles": ["Infrastructure Engineer", "DevOps Engineer"]
+    },
+    {
+      "name": "Filmido.com",
+      "description": "Eine Online-Plattform, die Kunden mit erstklassigen Hochzeitsfotografen und -videografen zu erschwinglichen Preisen verbindet.",
+      "highlights": [
+        "Entwicklung und Leitung der End-to-End-Architektur für eine skalierbare, containerisierte Microservices-Plattform, die auf Scaleway Cloud bereitgestellt wurde.",
+        "Implementierung von Infrastructure as Code (IaC) mit Terraform, Ansible und Packer zur Automatisierung der Bereitstellung von Entwicklungs-, Staging- und Produktionsumgebungen.",
+        "Erstellung einer CI/CD-Pipeline in CircleCI zur Automatisierung von Build, Linting, Testing, Sicherheitsscans (Snyk), Containerisierung und Deployment, wodurch der manuelle Deploy-Aufwand um 80 % reduziert wurde.",
+        "Konfiguration von Traefik als Reverse Proxy und Load Balancer mit automatischem SSL-Zertifikatsmanagement via ACME DNS-Challenge unter Verwendung von Cloudflare.",
+        "Integration von Sentry zur Automatisierung von Anwendungs-Monitoring und Fehlerberichterstattung, wodurch eine schnellere Identifizierung und Behebung von Produktionsproblemen ermöglicht wurde."
+      ],
+      "keywords": [
+        "Angular 11",
+        "Tailwind CSS",
+        "Microservices",
+        "Java",
+        "Spring Boot",
+        "Node.js",
+        "Express.js",
+        "MongoDB Atlas",
+        "Docker",
+        "CI/CD",
+        "CircleCI",
+        "Terraform",
+        "Ansible",
+        "Packer",
+        "Infrastructure as Code",
+        "Traefik",
+        "ACME DNS",
+        "Cloudflare",
+        "Sentry",
+        "DevOps",
+        "Reverse Proxy",
+        "Load Balancing",
+        "Monitoring",
+        "Container Security"
+      ],
+      "startDate": "2021-05-01",
+      "url": "https://filmido.com/",
+      "roles": ["Software Architect", "Lead Developer", "DevOps Engineer"]
+    }
   ]
 }
